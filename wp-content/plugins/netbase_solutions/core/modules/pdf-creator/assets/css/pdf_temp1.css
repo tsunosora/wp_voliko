@@ -1,0 +1,222 @@
+
+.col-left{
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.col-left h1{
+	color: #cd3334;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.col-right{
+    float: right;
+    max-width: 200px;
+    text-align: right;
+}
+.logo{
+	max-width: 100%;
+	margin-top: 15px;
+}
+.info{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
+	width: 241px;
+
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: ' '; }
+
+.clearfix:after {
+  clear: both; }
+  hr{
+  	border-color: #cd3334;
+  	margin-top: 60px;
+  }
+  .col-left-to{
+  	float: left;
+  	width: 33.33%;
+  }
+  .col-left-to h2{
+  	margin: 0;
+  	padding: 0;
+  	color: #cd3334;
+  	font-size: 14px;
+  }
+
+ .col-left-to p{
+  	margin: 0;
+  	padding: 0;
+  	font-size: 14px;
+  }
+  .col-left-to-wrap{
+  	width: 75%;
+  }
+   .col-right-to-wrap{
+   		width: 100%;
+   	    text-align: right;
+   }
+  .col-right-to-wrap ul{
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+  }
+
+.col-right-to-wrap .label{
+  color: #cd3334;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+      white-space: nowrap;
+}
+
+
+.col-right-to-wrap .span{
+    padding-left: 25px;
+    text-align: right;
+
+      white-space: nowrap;
+}
+.col-right-to-wrap table{
+  float: right;
+  width: 100%;
+}
+.table{
+  width: 100%;
+  margin-top: 40px;
+}
+.table thead{
+    background: #cd3334;
+    color: #fff;
+}
+.table th{
+  padding: 0px 10px 4px;
+  text-align: center;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+table{
+  border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.table>tbody>tr>td{
+  padding-left: 10px;
+      padding-bottom: 5px;
+}
+.table .qty{
+  width: 50px;
+}
+.right-table{
+  margin-top: 15px;
+}
+.right-table table{
+  float: right;
+}
+.right-table .span{
+    padding-left: 25px;
+    text-align: right;
+}
+.right-table .label{
+  font-size: 14px;
+  text-align: right;
+}
+.btn-print-pdf{
+  margin-top: 30px;
+  float: right;
+  border: 0;
+  color: #fff;
+  background: #25bce9;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none !important;
+  font-weight: 700;
+  clear: both;
+}
+.btn-print-pdf:hover{
+  background: #fbc443;
+}
+.right-table .order_total .label{
+  font-weight: 700;
+  font-size: 18px;
+}
+.right-table tbody > tr >td{
+  padding-bottom: 10px;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.padding_r10{
+  padding-right: 10px;
+}
+.preview{
+  margin: 20px auto;
+  width: 720px;
+}
+.preview .table th {
+    padding: 8px 10px 8px;
+}
+.preview .table>tbody>tr>td {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg)
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+.blockUI.blockOverlay::before {
+    height: 1em;
+    width: 1em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    content: '';
+    -webkit-animation: spin 1s ease-in-out infinite;
+    -moz-animation: spin 1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
+    background: url(../img/loader.svg) center center;
+    background-size: cover;
+    line-height: 1;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0,0,0,.75);
+}

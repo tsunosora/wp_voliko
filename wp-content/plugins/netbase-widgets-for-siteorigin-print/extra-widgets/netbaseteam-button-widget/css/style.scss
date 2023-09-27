@@ -1,0 +1,17 @@
+@import "../../../../assets/css/nsow-lib";
+input.nsow-button.nsow-with-icon, button.nsow-button.nsow-with-icon, a.nsow-button.nsow-with-icon, .nsow-button.nsow-with-icon:active, .nsow-button.nsow-with-icon:visited {
+  span, img.nsow-thumbnail {
+    margin-right: 15px;
+    }
+  span {
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 1;
+    }
+  img.nsow-thumbnail {
+    display: inline !important;
+    vertical-align: middle;
+    max-width: 50px;
+    }
+  }

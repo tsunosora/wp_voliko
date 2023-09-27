@@ -1,0 +1,145 @@
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab {
+  position: relative;
+  overflow: hidden;
+  background: #eee;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+  padding: 3px;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0 !important;
+  position: relative;
+  margin: 0 !important;
+  list-style-type: none !important;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tabs a {
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .tab_content {
+  background: #ffffff;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .tabs_item {
+  display: none;
+  padding: 15px;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .tabs_item:first-child {
+  display: block;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .current a {
+  background: #ffffff;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical {
+  position: relative;
+  overflow: hidden;
+  background: #eee;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+  padding: 3px;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs {
+  display: table-cell;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  width: 25%;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs li {
+  float: none;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0 !important;
+  position: relative;
+  margin: 0 !important;
+  list-style-type: none !important;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs a {
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tab_content {
+  display: table-cell;
+  vertical-align: top;
+  width: 75%;
+  background: #ffffff;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item {
+  display: none;
+  padding: 15px;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item h4 {
+  font-weight: bold;
+  color: #87D3B7;
+  font-size: 20px;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item:first-child {
+  display: block;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .current a {
+  background: #ffffff;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab {
+  background-color: #eeeeee;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab .soua-tabs a {
+  color: #888888;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab .current a {
+  color: #888888;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab .tab_content .tabs_item {
+  color: #888888;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical {
+  background-color: #eeeeee;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs a {
+  color: #888888;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .current a {
+  color: #888888;
+}
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tab_content .tabs_item {
+  color: #888888;
+}

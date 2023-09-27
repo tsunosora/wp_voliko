@@ -1,0 +1,40 @@
+#nbt-alert{
+	border: 1px solid #ccc;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+#nbt_alerts_submit {
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 12px;
+    transition: all 0.2s ease-out 0s;
+	color: #fff;
+	margin-bottom: 15px;
+}
+#nbt_alerts_submit:hover {
+    background: #fbc443;
+    color: #ffffff;
+    border-color: #fbc443;
+}
+#nbt_alerts_email {
+    width: 100%;
+    margin-right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+    border-image: initial;
+    padding: 8px 10px;
+	margin-bottom: 15px;
+}
+#nbt-alert .g-recaptcha{
+	margin-bottom: 15px;
+}
+#nbt_alerts_headline{
+	font-weight: 600;
+}
+.nbt-notifi-change{
+	display: block;
+	margin-top: -10px;
+	margin-bottom: 15px;
+    font-size: 13px;
+}

@@ -1,0 +1,140 @@
+.order-upload-library .media-toolbar{
+    position: static;
+}
+.order-upload-library .media-toolbar-left{
+    float: left;
+    margin: 10px 0;
+}
+.order-upload-library .media-frame .search-order{
+    margin: 0;
+    padding: 3px 5px;
+    width: 280px;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 );
+    box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 );
+    background-color: #fff;
+    color: #32373c;
+    outline: none;
+    -webkit-transition: 0.05s border-color ease-in-out;
+    transition: 0.05s border-color ease-in-out;
+}
+.order-upload-library .media-frame-content[data-columns="8"] .attachment {
+    width: 12.5% !important;
+        float: left;
+}
+.order-upload-library .media-frame.mode-grid .spinner {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+#nbt_orderupload_order .wc-order-item-name{
+    display: table;
+    text-decoration: none;
+    color: #0074A2;
+}
+#nbt_orderupload_order .wc-order-item-name img{
+    display: table-cell;
+    vertical-align: middle;
+    width: 25px;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+#nbt_orderupload_order .wc-order-item-name h3{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 13px;
+    text-decoration: none;
+    color: #0074A2;
+}
+#poststuff #nbt_orderupload_order .inside {
+    margin: 4px 0 0 0;
+}
+#nbt_orderupload_order .order-upload-item-number{
+    display: block;
+    margin: 5px 0px;
+    padding: 2px;
+    background: #F5F5F5;
+    text-align: center;
+    font-size: 10px;
+}
+.admin-lists-files{
+    font-size: 11px;
+    background: #FFF8E5;
+    padding: 5px 8px;
+}
+.admin-lists-files label{
+    display: block;
+        margin-bottom: 5px;
+}
+.admin-lists-files li{
+    border-bottom: 1px dashed #dcdcdc;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+}
+.admin-red{
+    background: #c80000 !important;
+    color: #FFF !important;
+    -webkit-box-shadow: 0 1px 0 #c80000 !important;
+    box-shadow: 0 1px 0 #c80000 !important;
+}
+.order-right{
+    float: right;
+}
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+.nbt-action{
+    margin-top: 10px;
+}
+.admin-lists-files.accept{
+   background: rgba(101, 189, 228, 0.8);
+}
+.admin-lists-files.accept li{
+    border-bottom: 1px solid #5b9dd9;
+}
+.admin-lists-files li:last-child{
+    border-bottom: 0;
+}
+.edit-attachment-frame .attachment-info, .edit-attachment-frame .attachment-details {
+    overflow: hidden !important;
+}
+.nbtou-uploaded-delete {
+    box-shadow: none !important;
+    position: relative;
+    width: 33px;
+    height: 25px !important;
+}
+.nbtou-uploaded-delete:before{
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+}
+
+#wpf_umf_uploaded_file_submit,
+.wpf-umf-select-small {
+    height: 28px;
+    line-height: 27px;
+}

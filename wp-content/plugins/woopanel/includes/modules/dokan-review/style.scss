@@ -1,0 +1,185 @@
+.dokan-single-store {
+	.dokan-store-tabs {
+		.dokan-list-inline {
+			> li.dokan-right {
+				margin: 0 4px;
+				position: relative;
+			    top: 7px;
+				
+				button {
+					margin-top: 0;
+					
+					i {
+						margin-left: 5px;
+					}
+				}
+				
+				&.dokan-review-btn-wrap {
+					border-right: 0;
+					margin-right: 8px;
+				}
+				
+				
+			}
+		}
+	}
+}
+
+#dokan-review-popup {
+	padding: 30px;
+	
+	#frmDokanReview {
+	
+		> .woopanel-row {
+			margin-bottom: 15px;
+			
+			label {
+				margin-bottom: 3px;
+				display: block;
+				font-weight: 600;
+				color: #444;
+				font-size: 14px;
+			}
+			
+			.woopanel-input {
+				input, select {
+					height: 40px;
+				}
+				
+				input, textarea, select {
+					width: 100%;
+					padding: 5px 10px;
+					font-size: 14px;
+					border-radius: 0;
+					border-color: #e1e1e1;
+				}
+			}
+			
+			.btn-review-now {
+				color: #ffffff;
+				background-color: #dd3b0f;
+				border-color: #ca360e;
+				border: 0;
+				padding: 5px 50px;
+				font-weight: 400;
+				text-transform: capitalize;
+				font-size: 14px;
+				height: 35px;
+				letter-spacing: 1px;
+				
+				&:hover {
+					background-color: #ed4a1e;
+					border-color: #ed4a1e;
+				}
+			}
+			
+	
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.store-review-wrap {
+	.commentlist {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li {
+			margin-bottom: 30px;
+			
+			.review_comment_container {
+				position: relative;
+				display: flex;
+				
+				.dokan-review-author-img {
+					flex-basis: 80px;
+					
+					.avatar {
+						border: 1px solid #ccc8c8;
+						padding: 1px;
+						border-radius: 0;
+					}
+				}
+				
+				.comment-text {
+					margin-left: 20px;
+					border: 1px solid #ccc;
+					width: 100%;
+					border-radius: 5px;
+					padding: 10px 15px;
+					
+					.comment-info {
+						margin-bottom: 0;
+					}
+					
+					.description {
+						h5 {
+							margin: 0 0 5px 0;
+							font-size: 18px;
+						}
+						
+						p {
+							margin: 0;
+						}
+					}
+					
+					.woopanel-dokan-ratingstar {
+					    position: absolute;
+						right: 5px;
+						top: 10px;
+						
+						
+						.star-rating {
+							overflow: hidden;
+							position: relative;
+							height: 1em;
+							line-height: 1;
+							font-family: 'printcart-ico';
+							margin-bottom: 10px;
+						    width: 90px;
+							
+							&:before {
+								content: '\e9d7\e9d7\e9d7\e9d7\e9d7';
+								float: left;
+								top: 0;
+								left: 0;
+								position: absolute;
+								color: #f05025;
+							}
+							
+							span {
+								overflow: hidden;
+								float: left;
+								top: 0;
+								left: 0;
+								position: absolute;
+								padding-top: 1.5em;
+							    color: #f05025;
+								
+								&:before {
+									content: "\e9d9\e9d9\e9d9\e9d9\e9d9";
+									top: 0;
+									position: absolute;
+									left: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#dokan-content {
+	#reviews {
+		margin-top: 10px;
+		
+		.headline {
+			font-weight: 700;
+		}
+	}
+}

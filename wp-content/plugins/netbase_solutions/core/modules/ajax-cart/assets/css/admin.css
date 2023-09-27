@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'ajaxcart';
+  src: url('../fonts/ajaxcart.eot?67450357');
+  src: url('../fonts/ajaxcart.eot?67450357#iefix') format('embedded-opentype'),
+       url('../fonts/ajaxcart.woff?67450357') format('woff'),
+       url('../fonts/ajaxcart.ttf?67450357') format('truetype'),
+       url('../fonts/ajaxcart.svg?67450357#ajaxcart') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="ajaxcart-icon-"]:before, [class*=" ajaxcart-icon-"]:before {
+  font-family: "ajaxcart";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+
+.ajaxcart-icon-delete_forever:before {
+  content: "\e400";
+}
+.ajaxcart-icon-basket:before {
+  content: "\e800";
+}
+.ajaxcart-icon-basket-1:before {
+  content: "\e801";
+}
+.ajaxcart-icon-basket-alt:before {
+  content: "\e802";
+}
+.ajaxcart-icon-cancel-circled:before {
+  content: "\e803";
+}
+.ajaxcart-icon-basket-2:before {
+  content: "\e804";
+}
+.ajaxcart-icon-basket-3:before {
+  content: "\e805";
+}
+.ajaxcart-icon-basket-4:before {
+  content: "\e806";
+}
+.ajaxcart-icon-right-thin:before {
+  content: "\e807";
+}
+.ajaxcart-icon-ok-circled:before {
+  content: "\e808";
+}
+.ajaxcart-icon-shopping-basket:before {
+  content: "\f291";
+}
+
+
+.wc_ajax_cart_icon li{
+    border: 1px solid #b9b9b9;
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+}
+.wc_ajax_cart_icon li.active, .wc_ajax_cart_icon li:hover{
+    cursor: pointer;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+}
+.wc_ajax_cart_icon li i{
+    font-size: 20px;
+    color: #0085ba;
+}
+.wc_ajax_cart_icon li.active i, .wc_ajax_cart_icon li:hover i{
+    color: #fff;
+}
+.wc_ajax_cart_icon li i.icon-shopping-basket{
+    position: relative;
+    top: -2px;
+    left: -1px;
+}
+.wc_ajax_cart_icon li input[type="radio"]{
+    display: none;
+}

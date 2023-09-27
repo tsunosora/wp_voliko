@@ -1,0 +1,3394 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Blank WordPress Pot "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2019-09-06 16:15+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.2.3\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: api/data.php:288
+msgid "Unknown"
+msgstr ""
+
+#: api/data.php:304
+msgid "Other"
+msgstr ""
+
+#: core/core.php:324
+msgid ""
+"Your data has been "
+"successfully saved!"
+msgstr ""
+
+#: core/modules/ajax-cart/ajax-cart.php:68
+#: core/modules/price-matrix/nbt-price-matrix.php:86
+#: core/modules/price-matrix/price-matrix.php:86
+msgid "Configure"
+msgstr ""
+
+#: core/modules/ajax-cart/ajax-cart.php:69
+#: core/modules/price-matrix/nbt-price-matrix.php:87
+#: core/modules/price-matrix/price-matrix.php:87
+msgid "Docs"
+msgstr ""
+
+#: core/modules/ajax-cart/ajax-cart.php:70
+#: core/modules/price-matrix/nbt-price-matrix.php:88
+#: core/modules/price-matrix/price-matrix.php:88
+msgid "Support"
+msgstr ""
+
+#: core/modules/ajax-cart/ajax-cart.php:83
+#: core/modules/price-matrix/inc/admin.php:121
+#: core/modules/price-matrix/nbt-price-matrix.php:101
+#: core/modules/price-matrix/price-matrix.php:101
+msgid ""
+"WooCommerce plugin is "
+"not activated. Please "
+"install and activate it "
+"to use for plugin "
+"<strong>Ajax Drop Down "
+"Cart for WooCommerce "
+"Wordpress</strong>."
+msgstr ""
+
+#: core/modules/ajax-cart/inc/frontend.php:233
+msgid "View cart"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/frontend.php:234
+msgid ""
+"has been added to your "
+"cart."
+msgstr ""
+
+#: core/modules/ajax-cart/inc/functions.php:33
+#: core/modules/ajax-cart/inc/functions.php:35
+#, php-format
+msgid "%d item"
+msgid_plural "%d item"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/modules/ajax-cart/inc/functions.php:54
+#: core/modules/one-step-checkout/templates/order.php:5
+#: core/modules/one-step-checkout/templates/order.php:6
+#: core/modules/pdf-creator/inc/template.php:132
+#: core/modules/pdf-creator/inc/template.php:228
+#: core/modules/pdf-creator/inc/template.php:353
+msgid "Subtotal"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/functions.php:63
+msgid ""
+"No products in the cart."
+msgstr ""
+
+#: core/modules/ajax-cart/inc/functions.php:101
+#: core/modules/ajax-search/inc/frontend.php:60
+msgid "Rated 0.00 out of 5"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/functions.php:101
+#: core/modules/ajax-search/inc/frontend.php:60
+msgid "out of"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/functions.php:114
+#: core/modules/one-step-checkout/templates/cart.php:96
+msgid "Remove this item"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/metabox.php:204
+#: core/modules/ajax-search/inc/metabox.php:171
+#: core/modules/brands/inc/metabox.php:163
+#: core/modules/color-swatches/inc/admin.php:266
+#: core/modules/color-swatches/inc/admin.php:299
+#: core/modules/metabox/metabox.php:216
+#: core/modules/price-matrix/inc/metabox.php:204
+msgid "Upload/Add image"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/metabox.php:205
+#: core/modules/ajax-search/inc/metabox.php:172
+#: core/modules/brands/inc/metabox.php:164
+#: core/modules/color-swatches/inc/admin.php:267
+#: core/modules/color-swatches/inc/admin.php:300
+#: core/modules/metabox/metabox.php:217
+#: core/modules/price-matrix/inc/metabox.php:205
+msgid "Remove image"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:21
+msgid "Cart Icons"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:23
+msgid ""
+"Choose your cart icon"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:30
+msgid "Color Icons"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:31
+msgid "Cart icon color"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:37
+msgid "Count: Background"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:38
+msgid ""
+"Background color for "
+"cart count number"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:44
+msgid "Count: Text Color"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:45
+msgid ""
+"Text color for cart "
+"count number."
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:51
+msgid "Count: Border Color"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:52
+msgid ""
+"Border color for cart "
+"count"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:58
+msgid "Popup Primary Color"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:59
+msgid ""
+"Cart popup background "
+"color"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:65
+msgid "Background Button"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:66
+msgid ""
+"Cart popup background "
+"button color"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:72
+msgid ""
+"Background Button: Hover"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:73
+msgid ""
+"Cart popup background "
+"button color when hover"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:79
+msgid "Top Notification"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:80
+msgid ""
+"Notification Popup "
+"position: position from "
+"top of the page"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:89
+msgid "Top Popup Cart"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/settings.php:90
+msgid ""
+"Cart popup position: "
+"position from top of the "
+"page"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/widgets.php:6
+msgid ""
+"NBT WooCommerce Ajax Cart"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/widgets.php:9
+#: core/modules/ajax-search/inc/widgets.php:9
+#: core/modules/brands/inc/widgets.php:9
+#: core/modules/brands/inc/widgets.php:105
+#: core/modules/live-chat/inc/widgets.php:9
+msgid ""
+"Enter a custom "
+"description for your new "
+"widget"
+msgstr ""
+
+#: core/modules/ajax-cart/inc/widgets.php:20
+#: core/modules/brands/inc/widgets.php:19
+#: core/modules/brands/inc/widgets.php:114
+#: core/modules/live-chat/inc/widgets.php:21
+#: core/modules/wc-currency-switcher/inc/widgets.php:63
+msgid "Title:"
+msgstr ""
+
+#: core/modules/ajax-cart/tpl/admin.php:2
+msgid "Ajax Cart"
+msgstr ""
+
+#: core/modules/ajax-cart/tpl/settings.php:16
+#: core/modules/ajax-search/tpl/settings.php:17
+#: core/modules/price-matrix/tpl/admin/settings.php:20
+#: templates/tpl/settings.php:5
+msgid "Settings Saved"
+msgstr ""
+
+#: core/modules/ajax-cart/tpl/settings.php:33
+#: core/modules/ajax-search/tpl/settings.php:34
+#: core/modules/price-matrix/tpl/admin/settings.php:37
+#: core/modules/settings.php:101
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:974
+#: templates/tpl/settings.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: core/modules/ajax-search/ajax-search.php:65
+#: core/modules/color-swatches/color-swatches.php:82
+#: dashboard.php:22
+msgid ""
+"WooCommerce plugin is "
+"not activated. Please "
+"install and activate it "
+"to use for plugin "
+"<strong>NBT WooCommerce "
+"Price Matrix</strong>."
+msgstr ""
+
+#: core/modules/ajax-search/inc/admin.php:26
+#: core/modules/ajax-search/inc/admin.php:27
+#: core/modules/ajax-search/tpl/admin.php:2
+msgid "Ajax Search"
+msgstr ""
+
+#: core/modules/ajax-search/inc/frontend.php:80
+msgid "No results."
+msgstr ""
+
+#: core/modules/ajax-search/inc/functions.init.php:40
+msgid "Search here..."
+msgstr ""
+
+#: core/modules/ajax-search/inc/settings.php:20
+msgid "Layout Search"
+msgstr ""
+
+#: core/modules/ajax-search/inc/settings.php:21
+msgid ""
+"Choose the layout for "
+"search form"
+msgstr ""
+
+#: core/modules/ajax-search/inc/settings.php:27
+msgid ""
+"Display search icon with "
+"popup"
+msgstr ""
+
+#: core/modules/ajax-search/inc/settings.php:28
+msgid ""
+"Display search input "
+"with Icon"
+msgstr ""
+
+#: core/modules/ajax-search/inc/settings.php:33
+msgid "Color of Icon"
+msgstr ""
+
+#: core/modules/ajax-search/inc/settings.php:37
+msgid "Search icon color"
+msgstr ""
+
+#: core/modules/ajax-search/inc/widgets.php:6
+msgid ""
+"NB-Solution: Ajax Search"
+msgstr ""
+
+#: core/modules/ajax-search/inc/widgets.php:18
+#: core/modules/faqs/tpl/admin/data.php:136
+#: core/modules/faqs/tpl/admin/product_faqs.php:121
+#: core/modules/faqs/tpl/admin/repeater.php:31
+#: core/modules/faqs/tpl/admin/repeater.php:90
+#: core/modules/wc-currency-switcher/inc/widgets.php:150
+#: core/modules/wc-currency-switcher/inc/widgets.php:217
+msgid "Title"
+msgstr ""
+
+#: core/modules/ajax-search/tpl/search-input.php:4
+#: core/modules/ajax-search/tpl/search-popup.php:13
+msgid "Search for"
+msgstr ""
+
+#: core/modules/ajax-search/tpl/search-input.php:5
+#: core/modules/ajax-search/tpl/search-popup.php:14
+msgid "Search"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:62
+#: core/modules/brands/inc/metabox.php:69
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:70
+#: core/modules/price-matrix/inc/functions.init.php:4
+#: core/modules/price-matrix/inc/settings.php:25
+msgid "Default"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:63
+#: core/modules/brands/inc/metabox.php:121
+#: core/modules/brands/inc/metabox.php:202
+msgid "URL"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:70
+msgid ""
+"Open a new window or new "
+"tab"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:79
+msgid "Brands"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:97
+#: core/modules/brands/inc/metabox.php:172
+#: core/modules/brands/inc/metabox.php:257
+#: core/modules/faqs/tpl/admin/data.php:7
+#: core/modules/faqs/tpl/admin/data.php:77
+#: core/modules/faqs/tpl/admin/product_faqs.php:40
+#: core/modules/faqs/tpl/admin/product_faqs.php:91
+msgid "Type"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:109
+#: core/modules/brands/inc/metabox.php:187
+msgid "Target"
+msgstr ""
+
+#: core/modules/brands/inc/metabox.php:150
+#: core/modules/pdf-creator/inc/settings.php:30
+msgid "Logo"
+msgstr ""
+
+#: core/modules/brands/inc/widgets.php:6
+msgid ""
+"NBT Brands Thumbnail"
+msgstr ""
+
+#: core/modules/brands/inc/widgets.php:25
+msgid "Show title"
+msgstr ""
+
+#: core/modules/brands/inc/widgets.php:29
+msgid "Limit of items:"
+msgstr ""
+
+#: core/modules/brands/inc/widgets.php:102
+msgid "NBT Brands Slider"
+msgstr ""
+
+#: core/modules/brands/inc/widgets.php:119
+msgid "Limit of items"
+msgstr ""
+
+#: core/modules/color-swatches/color-swatches.php:47
+msgid "Color"
+msgstr ""
+
+#: core/modules/color-swatches/color-swatches.php:48
+msgid "Image"
+msgstr ""
+
+#: core/modules/color-swatches/color-swatches.php:49
+msgid "Radio"
+msgstr ""
+
+#: core/modules/color-swatches/color-swatches.php:50
+msgid "Label"
+msgstr ""
+
+#: core/modules/color-swatches/color-swatches.php:134
+msgid "Square"
+msgstr ""
+
+#: core/modules/color-swatches/color-swatches.php:135
+msgid "Circle"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:58
+#: core/modules/color-swatches/inc/admin.php:82
+msgid "Style"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:114
+#: core/modules/color-swatches/inc/admin.php:165
+msgid "Color Swatches"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:166
+#: core/modules/order-upload/inc/admin.php:40
+#: core/modules/price-matrix/inc/admin.php:207
+msgid ""
+"Replace front-end "
+"dropdowns with a price "
+"matrix. This option "
+"limits \"Used for "
+"varations\" to 2."
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:198
+#: core/modules/pluggable/pluggable.php:109
+#: core/modules/pluggable/pluggable.php:145
+msgid "Choose an image"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:199
+#: core/modules/pluggable/pluggable.php:110
+#: core/modules/pluggable/pluggable.php:146
+msgid "Use image"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:345
+msgid "Select terms"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:356
+msgid "Select all"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:357
+msgid "Select none"
+msgstr ""
+
+#: core/modules/color-swatches/inc/admin.php:358
+msgid "Add new"
+msgstr ""
+
+#: core/modules/color-swatches/inc/settings.php:20
+#: core/modules/wc-currency-switcher/inc/widgets.php:68
+msgid "Width"
+msgstr ""
+
+#: core/modules/color-swatches/tpl/admin/tabs.php:6
+msgid ""
+"Before you can use Color "
+"Swatch (NB Solution), "
+"you need add minimum of "
+"two variation attributes "
+"on the "
+"<strong>Attributes</"
+"strong> tab."
+msgstr ""
+
+#: core/modules/color-swatches/tpl/admin/tabs.php:7
+#: core/modules/order-upload/tpl/admin/tabs.php:7
+#: core/modules/price-matrix/tpl/admin/row-repeater-empty.php:3
+msgid "Learn more"
+msgstr ""
+
+#: core/modules/faqs/faqs.php:60
+#: core/modules/frequently-bought-together/frequently-bought-together.php:54
+#: core/modules/live-chat/live-chat.php:64
+#: core/modules/order-delivery-note/order-delivery-note.php:68
+#: core/modules/order-upload/order-upload.php:200
+#: core/modules/smtp/smtp.php:71
+msgid ""
+"WooCommerce plugin is "
+"not activated. Please "
+"install and activate it "
+"to use for plugin "
+"<strong>NBT Order "
+"Upload</strong>."
+msgstr ""
+
+#: core/modules/faqs/faqs.php:70
+#: core/modules/order-upload/order-upload.php:211
+msgid ""
+"Uploads folder not "
+"writable. Please create "
+"a new folder as name "
+"<strong>nbt-order-"
+"uploads</strong> in path "
+"wp-content/uploads"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:27
+msgid "Shortcode"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:44
+#: core/modules/faqs/inc/admin.php:45
+msgctxt "nbt-solution"
+msgid "FAQs"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:46
+msgctxt "nbt-solution"
+msgid "Add New"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:47
+msgid "Add New FAQ"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:48
+msgid "Edit FAQ"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:49
+msgid "New FAQ"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:50
+msgid "All FAQs"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:51
+msgid "View FAQs"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:52
+msgid "Search FAQs"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:53
+msgid "No FAQ found"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:54
+msgid ""
+"No FAQ found in the Trash"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:70
+msgid "Lists FAQs"
+msgstr ""
+
+#: core/modules/faqs/inc/admin.php:71
+#: core/modules/faqs/inc/frontend.php:23
+msgid "Product FAQs"
+msgstr ""
+
+#: core/modules/faqs/tpl/admin/data.php:29
+#: core/modules/faqs/tpl/admin/data.php:99
+#: core/modules/faqs/tpl/admin/product_faqs.php:62
+#: core/modules/faqs/tpl/admin/product_faqs.php:113
+msgid "Global FAQs"
+msgstr ""
+
+#: core/modules/faqs/tpl/admin/data.php:54
+#: core/modules/faqs/tpl/admin/product_faqs.php:68
+#: core/modules/faqs/tpl/admin/repeater.php:10
+#: core/modules/faqs/tpl/admin/repeater.php:132
+msgid "Heading"
+msgstr ""
+
+#: core/modules/faqs/tpl/admin/data.php:142
+#: core/modules/faqs/tpl/admin/product_faqs.php:125
+#: core/modules/faqs/tpl/admin/repeater.php:37
+#: core/modules/faqs/tpl/admin/repeater.php:94
+msgid "Content"
+msgstr ""
+
+#: core/modules/faqs/tpl/admin/product_faqs.php:29
+#: core/modules/faqs/tpl/admin/repeater.php:74
+msgid "Add heading"
+msgstr ""
+
+#: core/modules/faqs/tpl/admin/product_faqs.php:30
+#: core/modules/faqs/tpl/admin/repeater.php:75
+msgid "Add row"
+msgstr ""
+
+#: core/modules/frequently-bought-together/tpl/nbt-fbt-form.php:14
+msgid ""
+"Frequently Bought "
+"Together"
+msgstr ""
+
+#: core/modules/frequently-bought-together/tpl/nbt-fbt-form.php:40
+msgid "Total price"
+msgstr ""
+
+#: core/modules/frequently-bought-together/tpl/nbt-fbt-form.php:48
+msgid "Add all to cart"
+msgstr ""
+
+#: core/modules/gallery-slider/inc/settings.php:20
+msgid "Gallery Layout"
+msgstr ""
+
+#: core/modules/live-chat/inc/settings.php:20
+msgid "Embed code"
+msgstr ""
+
+#: core/modules/live-chat/inc/settings.php:21
+msgid ""
+"<p>Enter your Live Chat "
+"embed code here.</"
+"p><p><strong>Recommend:</"
+"strong> <a href="
+"\"https://dashboard.tawk."
+"to/signup\" target="
+"\"_blank\">Click here</"
+"a> to register a new "
+"account with Tawk.to.</p>"
+msgstr ""
+
+#: core/modules/live-chat/inc/settings.php:40
+msgid "Visibility Options"
+msgstr ""
+
+#: core/modules/live-chat/inc/settings.php:41
+msgid ""
+"Allow Live chat Widget "
+"visible on all pages"
+msgstr ""
+
+#: core/modules/live-chat/inc/settings.php:48
+msgid ""
+"Exclude on specific url"
+msgstr ""
+
+#: core/modules/live-chat/inc/widgets.php:6
+msgid ""
+"NBT Currency Switcher"
+msgstr ""
+
+#: core/modules/modules.php:91
+msgid ""
+"Change the default "
+"behavior of Add To Cart "
+"buttons of WooCommerce "
+"and improve user "
+"experience when "
+"purchasing products."
+msgstr ""
+
+#: core/modules/modules.php:96
+msgid ""
+"Improve user experience "
+"by make customers find "
+"his/her products more "
+"easily."
+msgstr ""
+
+#: core/modules/modules.php:101
+msgid ""
+"Make your site use "
+"multiple currencies at "
+"the same time."
+msgstr ""
+
+#: core/modules/modules.php:106
+msgid ""
+"Change default select "
+"box of attributes to "
+"something more "
+"intuitive: Radio images, "
+"Radio buttons, Color, "
+"etc."
+msgstr ""
+
+#: core/modules/modules.php:111
+msgid ""
+"Order Delivery Date."
+msgstr ""
+
+#: core/modules/modules.php:116
+msgid ""
+"Allow customers to ask "
+"question or seek answer "
+"about products before "
+"purchase"
+msgstr ""
+
+#: core/modules/modules.php:121
+#: core/modules/modules.php:176
+msgid ""
+"Allow customers easy "
+"enter price for "
+"variation product."
+msgstr ""
+
+#: core/modules/modules.php:126
+msgid ""
+"Embeds Tawk.to live chat "
+"widget to your site."
+msgstr ""
+
+#: core/modules/modules.php:131
+msgid ""
+"Reduce the checkout "
+"process by offering the "
+"entire purchase process "
+"on a single page"
+msgstr ""
+
+#: core/modules/modules.php:136
+msgid ""
+"Allow customers print "
+"their orders in beatiful "
+"PDF format"
+msgstr ""
+
+#: core/modules/modules.php:141
+msgid ""
+"Customers can register "
+"so they will be notified "
+"if your products are in "
+"stock or not"
+msgstr ""
+
+#: core/modules/modules.php:146
+msgid "Social Login."
+msgstr ""
+
+#: core/modules/modules.php:151
+msgid ""
+"Assign products to a "
+"brand and let customers "
+"filter products by those "
+"brands."
+msgstr ""
+
+#: core/modules/modules.php:181
+msgid ""
+"Function for your "
+"customers now can upload "
+"file(s) and attach it to "
+"the order."
+msgstr ""
+
+#: core/modules/one-step-checkout/inc/frontend.php:106
+#: core/modules/one-step-checkout/inc/frontend.php:127
+#: core/modules/one-step-checkout/inc/frontend.php:185
+#, php-format
+msgctxt ""
+"Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: core/modules/one-step-checkout/inc/frontend.php:107
+#, php-format
+msgid "%s restore."
+msgstr ""
+
+#: core/modules/one-step-checkout/inc/frontend.php:127
+#: core/modules/one-step-checkout/inc/frontend.php:185
+msgid "Item"
+msgstr ""
+
+#: core/modules/one-step-checkout/inc/frontend.php:132
+#: core/modules/one-step-checkout/inc/frontend.php:136
+#: core/modules/one-step-checkout/inc/frontend.php:190
+#: core/modules/one-step-checkout/inc/frontend.php:194
+#, php-format
+msgid "%s removed."
+msgstr ""
+
+#: core/modules/one-step-checkout/inc/frontend.php:191
+msgid "Undo?"
+msgstr ""
+
+#: core/modules/one-step-checkout/inc/template.php:63
+msgid ""
+"NB One Checkout Page"
+msgstr ""
+
+#: core/modules/one-step-checkout/one-step-checkout.php:56
+msgctxt "Page slug"
+msgid "nb-checkout"
+msgstr ""
+
+#: core/modules/one-step-checkout/one-step-checkout.php:57
+msgctxt "Page title"
+msgid "One Page Checkout"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:7
+#: core/modules/one-step-checkout/templates/cart.php:41
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:73
+msgid "Product"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:8
+#: core/modules/one-step-checkout/templates/cart.php:61
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:74
+#: core/modules/pdf-creator/inc/template.php:96
+#: core/modules/pdf-creator/inc/template.php:209
+#: core/modules/pdf-creator/inc/template.php:332
+msgid "Price"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:9
+#: core/modules/one-step-checkout/templates/cart.php:67
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:75
+msgid "Quantity"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:10
+#: core/modules/one-step-checkout/templates/cart.php:85
+#: core/modules/one-step-checkout/templates/order.php:64
+#: core/modules/one-step-checkout/templates/order.php:65
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:76
+#: core/modules/pdf-creator/inc/template.php:99
+#: core/modules/pdf-creator/inc/template.php:143
+#: core/modules/pdf-creator/inc/template.php:210
+#: core/modules/pdf-creator/inc/template.php:237
+#: core/modules/pdf-creator/inc/template.php:333
+#: core/modules/pdf-creator/inc/template.php:362
+#: core/modules/price-matrix/inc/frontend.php:64
+#: core/modules/price-matrix/tpl/frontend/price-matrix-4.php:94
+#: core/modules/price-matrix/tpl/frontend/price-matrix-horizontal-3.php:83
+#: core/modules/price-matrix/tpl/frontend/price-matrix-vertical-3.php:73
+#: core/modules/price-matrix/tpl/frontend/price-matrix.php:61
+msgid "Total"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:56
+msgid ""
+"Available on backorder"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:115
+msgid "Coupon:"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:115
+msgid "Coupon code"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/cart.php:115
+msgid "Apply coupon"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/checkout.php:42
+#: core/modules/order-upload/inc/frontend.php:449
+msgid "Cart"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/order.php:2
+msgid "Summary Order"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/order.php:27
+#: core/modules/one-step-checkout/templates/order.php:28
+msgid "Shipping"
+msgstr ""
+
+#: core/modules/one-step-checkout/templates/order.php:43
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: core/modules/order-delivery-date/class-view-holidays.php:42
+msgid "holiday"
+msgstr ""
+
+#: core/modules/order-delivery-date/class-view-holidays.php:43
+msgid "holidays"
+msgstr ""
+
+#: core/modules/order-delivery-date/class-view-holidays.php:56
+msgid "Delete"
+msgstr ""
+
+#: core/modules/order-delivery-date/class-view-holidays.php:102
+#: core/modules/order-delivery-date/inc/settings.php:244
+msgid "Name"
+msgstr ""
+
+#: core/modules/order-delivery-date/class-view-holidays.php:103
+#: core/modules/order-delivery-date/inc/settings.php:236
+#: core/modules/pdf-creator/inc/template.php:194
+#: core/modules/pdf-creator/inc/template.php:279
+msgid "Date"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:21
+msgid ""
+"Enable Delivery Date?"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:29
+msgid ""
+"Delivery Days: Sunday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:36
+msgid ""
+"Delivery Days: Monday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:43
+msgid ""
+"Delivery Days: Tuesday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:50
+msgid ""
+"Delivery Days: Wednesday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:57
+msgid ""
+"Delivery Days: Thursday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:64
+msgid ""
+"Delivery Days: Friday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:71
+msgid ""
+"Delivery Days: Saturday"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:87
+msgid ""
+"Number of dates to "
+"choose:"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:96
+msgid "Mandatory field?"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:105
+msgid ""
+"Lockout date after X "
+"orders"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:113
+msgid ""
+"Sort on WooCommerce "
+"Orders Page?"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:121
+msgid ""
+"Auto-populate first "
+"available Delivery date?"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:129
+msgid ""
+"Apply Minimum Delivery "
+"Time for non working "
+"weekdays?"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:147
+msgid "Date Format"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:155
+msgid "First Day of Week"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:164
+msgid "Field Label"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:172
+msgid ""
+"Field Placeholder Text"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:181
+msgid "Field Note Text"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:188
+msgid "Number of Month"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:194
+msgid "1"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:195
+msgid "2"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:200
+msgid ""
+"Field placement on the "
+"Checkout page"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:206
+msgid "In Billing Section"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:207
+msgid "In Shipping Section"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:208
+msgid "Before Order Notes"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:209
+msgid "After Order Notes "
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:214
+msgid ""
+"Delivery Date field on "
+"Cart page"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:222
+msgid "Calendar theme"
+msgstr ""
+
+#: core/modules/order-delivery-date/inc/settings.php:230
+#: core/modules/order-delivery-date/order-delivery-date.php:724
+msgid "Holiday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:142
+msgid "Sunday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:143
+msgid "Monday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:144
+msgid "Tuesday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:145
+msgid "Wednesday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:146
+msgid "Thursday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:147
+msgid "Friday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-config.php:148
+msgid "Saturday"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-privacy.php:37
+msgid "Delivery Date"
+msgstr ""
+
+#: core/modules/order-delivery-date/nbtodd-process.php:380
+msgid ""
+"is a required field."
+msgstr ""
+
+#: core/modules/order-delivery-date/order-delivery-date.php:321
+msgid ""
+"Order Delivery Date for "
+"WooCommerce plugin "
+"requires WooCommerce "
+"installed and activate."
+msgstr ""
+
+#: core/modules/order-delivery-date/order-delivery-date.php:723
+msgid "Clear"
+msgstr ""
+
+#: core/modules/order-delivery-date/order-delivery-date.php:725
+msgid "Booked"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:45
+msgid "Shop Logo"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:50
+msgid ""
+"A shop logo representing "
+"your business. When the "
+"image is printed, its "
+"pixel density will "
+"automatically be eight "
+"times higher than the "
+"original. This means, 1 "
+"printed inch will "
+"correspond to about 288 "
+"pixels on the screen."
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:54
+msgid "Shop Name"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:59
+msgid ""
+"The shop name. Leave "
+"blank to use the default "
+"Website or Blog title "
+"defined in WordPress "
+"settings. The name will "
+"be ignored when a Logo "
+"is set."
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:63
+msgid "Shop Address"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:64
+msgid ""
+"The postal address of "
+"the shop or even e-mail "
+"or telephone."
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:71
+msgid "Complimentary Close"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:72
+msgid ""
+"Add a personal close, "
+"notes or season "
+"greetings."
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:79
+msgid "Policies"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:80
+msgid ""
+"Add the shop policies, "
+"conditions, etc."
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:87
+msgid "Footer"
+msgstr ""
+
+#: core/modules/order-delivery-note/inc/settings.php:88
+msgid ""
+"Add a footer imprint, "
+"instructions, copyright "
+"notes, e-mail, "
+"telephone, etc."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:59
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:66
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:241
+msgid ""
+"I can't differentiate "
+"between Invoice, "
+"Delivery Notes & "
+"Receipt. The templates "
+"are the same. "
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:247
+msgid ""
+"The invoice sent through "
+"mail can't be downloaded "
+"as PDF directly."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:253
+msgid ""
+"The plugin is not "
+"compatible with another "
+"plugin."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:259
+msgid ""
+"This plugin is not "
+"useful to me."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:319
+msgid ""
+"Go to the settings page"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_extra.php:319
+#: core/modules/settings.php:2
+msgid "Settings"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:130
+#: core/modules/order-delivery-note/nbt_delivery_note_theme.php:57
+#: core/modules/order-delivery-note/nbt_delivery_note_theme.php:94
+msgid "Print"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:244
+msgid "Invoice Number"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:251
+msgid "Invoice Date"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:257
+msgid "Order Number"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:262
+msgid "Order Date"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:267
+msgid "Payment Method"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:273
+msgid "Email"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:280
+msgid "Telephone"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:313
+msgid "SKU:"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:407
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:411
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:427
+msgid "Refund"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_functions.php:439
+msgid "Order Subtotal"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:39
+msgid "Delivery Note"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:40
+msgid "Delivery Notes"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:41
+msgid "Print Delivery Note"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:42
+msgid ""
+"Print Delivery Notes"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:43
+msgid ""
+"Delivery Note created."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:44
+msgid ""
+"Delivery Notes created."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:45
+msgid ""
+"Show \"Print Delivery "
+"Note\" button"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:55
+msgid "Order"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:56
+msgid "Orders"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:57
+msgid "Print Order"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_print.php:58
+msgid "Print Orders"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_theme.php:112
+msgid "Print your order"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_theme.php:119
+msgid "Print:"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_theme.php:119
+msgid ""
+"Open print view in "
+"browser"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:54
+#, php-format
+msgid ""
+"Welcome to WooCommerce "
+"Print Invoice & Delivery "
+"Note %s"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:55
+msgid ""
+"Welcome to WooCommerce "
+"Print Invoice & Delivery "
+"Note"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:99
+msgid ""
+"Thank you for activating "
+"or updating to the "
+"latest version of "
+"WooCommerce Print "
+"Invoice & Delivery Note! "
+"If you're a first time "
+"user, welcome! You're "
+"well on your way to "
+"explore the print "
+"functionality for your "
+"WooCommerce orders."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:109
+msgid ""
+"Get Started with "
+"WooCommerce Print "
+"Invoice & Delivery Note"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:113
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:142
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:148
+msgid ""
+"WooCommerce Print "
+"Invoice & Delivery Note"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:117
+msgid "Add settings"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:119
+msgid ""
+"To enable the print "
+"functionality for your "
+"invoices, delivery notes "
+"& receipts, you just "
+"need to set it up under "
+"WooCommerce -> Settings -"
+"> Print page. Here you "
+"can also setup the "
+"Company Logo that will "
+"appear on the printed "
+"items, Company Address & "
+"other information."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:121
+msgid ""
+"Click Here to go to "
+"Print page"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:132
+msgid ""
+"Enable Print button for "
+"Customers."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:134
+msgid ""
+"Allow customers to print "
+"the WooCommerce order "
+"invoice from the "
+"customer notification "
+"email, from the My "
+"Account page or from the "
+"View Order page under My "
+"Account."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:136
+msgid ""
+"Click Here to Enable "
+"Print button for "
+"Customers"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:152
+msgid ""
+"Enable Invoice Numbering"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:154
+msgid ""
+"f you want to change the "
+"default invoice numbers "
+"& set some numbering "
+"scheme of your own, then "
+"you can set it here with "
+"a starting invoice "
+"number, a prefix & "
+"suffix. For example, you "
+"could set it as: "
+"TS/001/17-18."
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:156
+msgid ""
+"Click Here to Enable "
+"Invoice Numbering"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:167
+msgid ""
+"Getting to Know Tyche "
+"Softwares"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:170
+msgid ""
+"Visit the Tyche "
+"Softwares Website"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:171
+msgid ""
+"View all Premium Plugins"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:180
+msgid "Meet the team"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:186
+msgid "Current Offers"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_welcome.php:231
+#, php-format
+msgid "Follow %s"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_writepanel.php:218
+msgid "Print now"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_writepanel.php:232
+msgid "Order Printing"
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_writepanel.php:260
+msgid "Invoice number: "
+msgstr ""
+
+#: core/modules/order-delivery-note/nbt_delivery_note_writepanel.php:261
+msgid "Invoice date: "
+msgstr ""
+
+#: core/modules/order-delivery-note/order-delivery-note.php:62
+msgid ""
+"Do you really want to "
+"reset the counter to "
+"zero? This process can't "
+"be undone."
+msgstr ""
+
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:30
+msgid "Billing Address"
+msgstr ""
+
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:33
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:42
+msgid "N/A"
+msgstr ""
+
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:39
+msgid "Shipping Address"
+msgstr ""
+
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:164
+msgid "Download:"
+msgstr ""
+
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:165
+#, php-format
+msgid "%s Files"
+msgstr ""
+
+#: core/modules/order-delivery-note/templates/print-order/print-content.php:220
+msgid "Customer Note"
+msgstr ""
+
+#: core/modules/order-upload/inc/admin.php:20
+#: core/modules/order-upload/inc/admin.php:39
+#: core/modules/order-upload/inc/frontend.php:130
+#: core/modules/order-upload/inc/frontend.php:192
+msgid "Order Upload"
+msgstr ""
+
+#: core/modules/order-upload/inc/admin.php:98
+msgid "Download"
+msgstr ""
+
+#: core/modules/order-upload/inc/admin.php:100
+msgid "View File"
+msgstr ""
+
+#: core/modules/order-upload/inc/admin.php:143
+msgid "No file attached."
+msgstr ""
+
+#: core/modules/order-upload/inc/admin.php:174
+msgid ""
+"Sorry, you are not "
+"allowed to upload files."
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:182
+msgid ""
+"ERROR: There is no "
+"error, the file uploaded "
+"with success"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:183
+msgid ""
+"ERROR: The uploaded file "
+"exceeds the "
+"upload_max_files in "
+"server settings"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:184
+msgid ""
+"ERROR: The uploaded file "
+"exceeds the "
+"MAX_FILE_SIZE from html "
+"form"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:185
+msgid ""
+"ERROR: The uploaded file "
+"uploaded only partially"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:186
+msgid ""
+"ERROR: No file was "
+"uploaded"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:187
+msgid ""
+"ERROR: Missing a "
+"temporary folder"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:188
+msgid ""
+"ERROR: Failed to write "
+"file to disk"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:189
+msgid ""
+"ERROR: A PHP extension "
+"stoped file to upload"
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:237
+#: core/modules/order-upload/inc/ajax.php:249
+msgid ""
+"ERROR: File already "
+"exists."
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:310
+msgid ""
+"ERROR: Upload Failed."
+msgstr ""
+
+#: core/modules/order-upload/inc/ajax.php:314
+msgid ""
+"ERROR: File is too "
+"large. Max file size is"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:193
+msgid ""
+"Choose your files to "
+"upload"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:196
+msgid "Your Computer"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:197
+msgid "Online Services"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:207
+msgid ""
+"Drop your file(s) here "
+"or click to add one!"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:358
+#: core/modules/order-upload/inc/frontend.php:422
+#, php-format
+msgid "%d File"
+msgid_plural "%d Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/modules/order-upload/inc/frontend.php:364
+msgid "Upload Files"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:451
+msgid "Checkout"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:493
+#, php-format
+msgid ""
+"Restrict Allowed File "
+"Types %s"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:494
+#, php-format
+msgid ""
+"You only upload number "
+"of files is %s"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:495
+msgid ""
+"Please choose product "
+"options&hellip;"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:543
+msgid "Drive"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:548
+#: core/modules/order-upload/inc/frontend.php:586
+msgid "Dropbox"
+msgstr ""
+
+#: core/modules/order-upload/inc/frontend.php:553
+msgid "Box.com"
+msgstr ""
+
+#: core/modules/order-upload/inc/popup.php:11
+msgid "API Key not found!"
+msgstr ""
+
+#: core/modules/order-upload/inc/popup.php:13
+#, php-format
+msgid ""
+"<p>You need to configure "
+"the API key in <a href="
+"\"%1$s\" target=\"_blank"
+"\">settings page</a>\n"
+"                first </"
+"p>"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:21
+msgid ""
+"Upload Form Position"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:22
+msgid ""
+"Choose the position "
+"which you want the "
+"upload form to appear"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:28
+msgid ""
+"Single Product Summary"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:29
+msgid "Before Cart Form"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:30
+msgid ""
+"Before Add to Cart button"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:34
+msgid ""
+"Choose variations before "
+"\"Upload files\" is "
+"required"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:41
+msgid ""
+"\"Upload files\" is "
+"required before click "
+"Add to Cart"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:48
+msgid "File Extension"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:49
+msgid ""
+"Enter the file "
+"extensions allowed for "
+"upload, separate by a "
+"comma. Example: jpg, zip"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:56
+msgid "Limit of Files"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:57
+msgid ""
+"Number of files allowed "
+"for upload"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:64
+msgid ""
+"Limit of filesize "
+"(upload max filesize: "
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:65
+msgid "File size limit"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:72
+msgid ""
+"Enable Dropbox Button"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:73
+msgid ""
+"All the uploaded files "
+"will be store in Dropbox"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:80
+msgid "Dropbox API Key"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:87
+msgid "Enable Box Button"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:88
+msgid ""
+"All the uploaded files "
+"will be store in Box"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:95
+msgid "Box API Key"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:102
+msgid ""
+"Enable Google Drive "
+"Button"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:103
+msgid ""
+"All the uploaded files "
+"will be store in Google "
+"Drive"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:110
+msgid ""
+"Google Drive API Key"
+msgstr ""
+
+#: core/modules/order-upload/inc/settings.php:118
+msgid ""
+"Google Drive Client ID"
+msgstr ""
+
+#: core/modules/order-upload/tpl/admin/admin-media.php:158
+msgid "&laquo;"
+msgstr ""
+
+#: core/modules/order-upload/tpl/admin/admin-media.php:159
+msgid "&raquo;"
+msgstr ""
+
+#: core/modules/order-upload/tpl/admin/tabs.php:6
+#: core/modules/price-matrix/tpl/admin/row-repeater-empty.php:2
+msgid ""
+"Before you can use Price "
+"Matrix, you need add "
+"minimum of two variation "
+"attributes on the "
+"<strong>Attributes</"
+"strong> tab."
+msgstr ""
+
+#: core/modules/pdf-creator/inc/admin.php:40
+msgid "PDF Invoice"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/admin.php:58
+msgid ""
+"You are not authorized "
+"to access this page"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/admin.php:71
+msgid ""
+"Please login to download "
+"this PDF Invoice!"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/admin.php:84
+msgid ""
+"This order not found, "
+"please check again."
+msgstr ""
+
+#: core/modules/pdf-creator/inc/admin.php:105
+#: core/modules/pdf-creator/preview.php:26
+#, php-format
+msgid ""
+"Callback function %s not "
+"exists!"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/frontend.php:27
+msgid ""
+"View or Print PDF Invoice"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/preview.php:17
+msgid "PDF Preview"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:22
+msgid "PDF Templates"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:23
+msgid "Pick your template"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:31
+msgid ""
+"Change the invoice logo"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:37
+msgid "Brand Name"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:44
+msgid "Address"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:51
+msgid "Language"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:52
+#: core/modules/pdf-creator/inc/settings.php:66
+msgid ""
+"Choose the font for PDF"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:65
+msgid "Page orientation"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:77
+msgid "Primary Color"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:84
+msgid "Secondary Color"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/settings.php:91
+msgid "Text Color"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:33
+msgid "Bill to:"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:40
+#: core/modules/pdf-creator/inc/template.php:173
+#: core/modules/pdf-creator/inc/template.php:299
+msgid "Address:"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:40
+#: core/modules/pdf-creator/inc/template.php:173
+#: core/modules/pdf-creator/inc/template.php:299
+msgid ""
+"No billing address set."
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:45
+msgid "Ship to:"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:60
+msgid "Order Number:"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:65
+msgid "Invoice Date:"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:71
+msgid "Payment"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:90
+#: core/modules/pdf-creator/inc/template.php:207
+#: core/modules/pdf-creator/inc/template.php:330
+msgid "Product Name"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:93
+#: core/modules/pdf-creator/inc/template.php:208
+#: core/modules/pdf-creator/inc/template.php:331
+msgid "Qty"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:165
+#: core/modules/pdf-creator/inc/template.php:289
+msgid "Bill to"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:192
+#: core/modules/pdf-creator/inc/template.php:193
+#: core/modules/pdf-creator/inc/template.php:268
+#: core/modules/pdf-creator/inc/template.php:279
+msgid "Invoice"
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:247
+#: core/modules/pdf-creator/inc/template.php:372
+msgid ""
+"Thank you for your "
+"business<br />payment is "
+"due max 7 days after "
+"invoice without "
+"deduction."
+msgstr ""
+
+#: core/modules/pdf-creator/inc/template.php:304
+msgid "Ship to"
+msgstr ""
+
+#: core/modules/pdf-creator/preview.php:12
+msgid ""
+"Please login to view "
+"this PDF Invoice!"
+msgstr ""
+
+#: core/modules/pluggable/pluggable.php:70
+msgid "NBT Solutions"
+msgstr ""
+
+#: core/modules/price-matrix/inc/admin.php:61
+#: core/modules/price-matrix/inc/admin.php:62
+#: core/modules/price-matrix/inc/admin.php:206
+#: core/modules/price-matrix/inc/admin.php:459
+#: core/modules/price-matrix/tpl/admin/admin.php:2
+msgid "Price Matrix"
+msgstr ""
+
+#: core/modules/price-matrix/inc/frontend.php:263
+msgid "Choose an option"
+msgstr ""
+
+#: core/modules/price-matrix/inc/functions.init.php:5
+#: core/modules/price-matrix/inc/settings.php:26
+msgid "Before Tab"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:20
+msgid ""
+"Price matrix table "
+"position"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:31
+msgid ""
+"Hide Additional "
+"information"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:35
+msgid ""
+"Hide Additional "
+"information tab in "
+"Product Details"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:38
+msgid ""
+"Show calculator text"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:42
+msgid ""
+"Show calculator text "
+"after Add to cart button"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:45
+msgid "Enable heading"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:49
+msgid ""
+"Turn on heading before "
+"Price Matrix table"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:52
+msgid "Heading title"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:59
+msgid ""
+"Scroll when select price"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:63
+msgid ""
+"Scroll the screen to the "
+"Price Matrix table when "
+"user choose attributes"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:66
+msgid ""
+"Display regular & sale "
+"price"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:71
+msgid ""
+"Display the sale price "
+"in the Price Matrix table"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:77
+msgid ""
+"Background color of "
+"price matrix table"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:84
+msgid "Table Text color"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:91
+msgid "Table Border color"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:101
+msgid ""
+"Tooltips background color"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:108
+msgid "Tooltips text color"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:115
+msgid ""
+"Tooltips border color"
+msgstr ""
+
+#: core/modules/price-matrix/inc/settings.php:122
+msgid "Font Size"
+msgstr ""
+
+#: core/modules/price-matrix/tpl/admin/price-matrix-product.php:20
+#: core/modules/price-matrix/tpl/admin/row-repeater.php:14
+msgid "Attributes"
+msgstr ""
+
+#: core/modules/price-matrix/tpl/admin/price-matrix-product.php:21
+#: core/modules/price-matrix/tpl/admin/row-repeater.php:15
+msgid "Direction"
+msgstr ""
+
+#: core/modules/price-matrix/tpl/admin/row-repeater.php:6
+msgid ""
+"Currently, Price Matrix "
+"only support display "
+"maximum is 4 attributes "
+"to price matrix table"
+msgstr ""
+
+#: core/modules/price-matrix/tpl/admin/row-repeater.php:7
+msgid ""
+"By default, attribute at "
+"the bottom will not be "
+"displayed to the table, "
+"it will just show in "
+"selection mode. You can "
+"choose which attribute "
+"to be shown in the table "
+"by click Show/hide next "
+"to it"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:24
+msgid ""
+"EMAIL SETTINGS - Email "
+"Sender"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:31
+msgid "Email From"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:38
+msgid "Email Subject"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:45
+msgid "Email Message"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:54
+msgid ""
+"FORM SETTINGS - Input "
+"placeholder"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:61
+msgid "Button label"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:69
+msgid "Description"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:77
+msgid "Error Message"
+msgstr ""
+
+#: core/modules/product-notification/inc/settings.php:85
+msgid "Success Message"
+msgstr ""
+
+#: core/modules/social-login/inc/admin.php:28
+#: core/modules/social-login/inc/admin.php:29
+msgid "Social Login"
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_check.php:23
+msgid ""
+"The Facebook SDK "
+"requires PHP version 5.4 "
+"or higher. Please notify "
+"about this error to site "
+"admin."
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_check.php:817
+msgid ""
+"<strong>ERROR</strong>: "
+"Cookies are blocked or "
+"not supported by your "
+"browser. You must <a "
+"href='http://www.google."
+"com/cookies.html'>enable "
+"cookies</a> to use "
+"WordPress."
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_integration.php:37
+#: core/modules/social-login/inc/frontend/login_integration.php:44
+#: core/modules/social-login/inc/frontend/shortcode.php:69
+#: core/modules/social-login/inc/frontend/shortcode.php:74
+msgid ""
+"You have Access Denied. "
+"Please authorize the app "
+"to login."
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_integration.php:55
+#: core/modules/social-login/inc/frontend/login_integration.php:61
+#: core/modules/social-login/inc/frontend/shortcode.php:84
+#: core/modules/social-login/inc/frontend/shortcode.php:90
+msgid "Login with facebook"
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_integration.php:60
+#: core/modules/social-login/inc/frontend/login_integration.php:78
+#: core/modules/social-login/inc/frontend/login_integration.php:96
+#: core/modules/social-login/inc/frontend/shortcode.php:89
+#: core/modules/social-login/inc/frontend/shortcode.php:107
+#: core/modules/social-login/inc/frontend/shortcode.php:125
+msgid "Login"
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_integration.php:73
+#: core/modules/social-login/inc/frontend/login_integration.php:79
+#: core/modules/social-login/inc/frontend/shortcode.php:102
+#: core/modules/social-login/inc/frontend/shortcode.php:108
+msgid "Login with twitter"
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/login_integration.php:91
+#: core/modules/social-login/inc/frontend/login_integration.php:97
+#: core/modules/social-login/inc/frontend/shortcode.php:120
+#: core/modules/social-login/inc/frontend/shortcode.php:126
+msgid "Login with google"
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/shortcode.php:31
+msgid "Welcome"
+msgstr ""
+
+#: core/modules/social-login/inc/frontend/shortcode.php:31
+msgid "Logout"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:20
+msgid "Facebook"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:26
+#: core/modules/social-login/inc/settings.php:68
+#: core/modules/social-login/inc/settings.php:96
+msgid "Enable?"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:33
+msgid "Facebook App ID:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:41
+msgid ""
+"Facebook App Secret:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:63
+msgid "Twitter"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:75
+msgid "Twitter Api Key:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:83
+msgid "Twitter Api Secret:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:91
+msgid "Google"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:103
+msgid "Client ID:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:111
+msgid "Client Secret:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:119
+msgid "Other Settings"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:125
+msgid "Login text:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:151
+msgid "Login redirect link"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:157
+msgid "Home page"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:158
+msgid "Current page"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:159
+msgid "Custom page"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:164
+msgid ""
+"Login redirect Custom "
+"page:"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:172
+msgid "User avatar"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:178
+msgid ""
+"Use wordpress default "
+"avatar"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:179
+msgid ""
+"Use the profile picture "
+"from social media where "
+"available"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:185
+msgid "Display Login Form?"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:194
+msgid ""
+"Display Register Form?"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:202
+msgid ""
+"Display Comment Form?"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:210
+msgid ""
+"Display woocommerce "
+"Login?"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:218
+msgid "Icon Template"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:247
+msgid ""
+"Send Email Notification"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:253
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:65
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:78
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:171
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:197
+msgid "Yes"
+msgstr ""
+
+#: core/modules/social-login/inc/settings.php:254
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:64
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:77
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:170
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:196
+msgid "No"
+msgstr ""
+
+#: core/modules/social-login/inc/widgets.php:10
+msgid "NB - Social Login"
+msgstr ""
+
+#: core/modules/social-login/inc/widgets.php:11
+msgid "Social Login Widget"
+msgstr ""
+
+#: core/modules/social-login/inc/widgets.php:35
+msgid "Title: "
+msgstr ""
+
+#: core/modules/social-login/inc/widgets.php:40
+msgid "Login Text: "
+msgstr ""
+
+#: core/modules/social-login/social-login.php:51
+#: core/modules/social-login/social-login.php:96
+#, php-format
+msgid ""
+"New user registration on "
+"your site %s:"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:52
+#: core/modules/social-login/social-login.php:75
+#: core/modules/social-login/social-login.php:97
+#: core/modules/social-login/social-login.php:110
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:53
+#: core/modules/social-login/social-login.php:98
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:55
+#: core/modules/social-login/social-login.php:102
+#, php-format
+msgid ""
+"[%s] New User "
+"Registration"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:76
+msgid ""
+"To set your password, "
+"visit the following "
+"address:"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:80
+#, php-format
+msgid ""
+"If you have any "
+"problems, please contact "
+"us at %s."
+msgstr ""
+
+#: core/modules/social-login/social-login.php:81
+msgid "Adios!"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:83
+#, php-format
+msgid ""
+"[%s] Your username and "
+"password info"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:99
+#: core/modules/social-login/social-login.php:113
+msgid "Thanks!"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:107
+msgid "Hi there,"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:108
+#, php-format
+msgid ""
+"Welcome to %s! Here's "
+"how to log in:"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:111
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: core/modules/social-login/social-login.php:112
+#, php-format
+msgid ""
+"If you have any "
+"problems, please contact "
+"me at %s."
+msgstr ""
+
+#: core/modules/social-login/social-login.php:117
+#, php-format
+msgid ""
+"[%s] Your username and "
+"password"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/fixed/fixed_shipping.php:28
+#, php-format
+msgid "Fixed cost %s"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/fixed/fixed_shipping.php:30
+#: core/modules/wc-currency-switcher/inc/fixed/fixed_shipping_free.php:30
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:13
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:12
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:16
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:14
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:20
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:44
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:50
+msgid "auto"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/fixed/fixed_shipping_free.php:28
+#, php-format
+msgid ""
+"Minimum order amount in "
+"%s"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:645
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:646
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:654
+msgid ""
+"NBTWCCS - recalculate "
+"orders"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:663
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:674
+msgid "NBTWCCS Order Info"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:665
+msgid ""
+"WC Currency Switcher"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:796
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:775
+msgid "loading"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:842
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:824
+msgid "Currency"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1529
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1567
+msgid ""
+"Current currency is:"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1566
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1604
+#, php-format
+msgid ""
+"Your country is: <b>%s</"
+"b>. <br /><i style="
+"\"color:black; font-"
+"size:11px; font-weight:"
+"normal;\">(defined by "
+"woocommerce GeoIP "
+"functionality)</i>"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1568
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1606
+msgid ""
+"Your country is not "
+"defined! Troubles with "
+"GeoIp service."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1641
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1675
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1688
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1692
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1710
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1725
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1742
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1747
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1784
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1801
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1807
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1838
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1851
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1857
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1878
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1882
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1679
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1716
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1729
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1735
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1755
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1776
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1793
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1799
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1836
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1853
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1859
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1892
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1905
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1911
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1933
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:1939
+#, php-format
+msgid "no data for %s"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:1962
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:2034
+msgid ""
+"Total in basic currency: "
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:2333
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:2355
+#, php-format
+msgid ""
+"The maximum spend for "
+"this coupon is %s."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:2338
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:2360
+#, php-format
+msgid ""
+"The minimum spend for "
+"this coupon is %s."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:3294
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:3439
+#, php-format
+msgid "(Approx. %s)"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_after_33.php:3647
+msgid ""
+"change the rate and this "
+"description to the right "
+"values"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/nbtwccs_before_33.php:655
+msgid ""
+"NBTWCCS -  recalculate "
+"orders"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:6
+msgid ""
+"NB - WooCommerce "
+"Currency Switcher"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:9
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:206
+msgid ""
+"WooCommerce Currency "
+"Switcher"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:70
+msgid ""
+"Examples: 300px,100%,auto"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:73
+msgid ""
+"Drop-down options text "
+"type"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:76
+msgid "code"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:77
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:598
+msgid "description"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:95
+msgid ""
+"NB - WooCommerce "
+"Currency Converter"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:98
+msgid ""
+"WooCommerce Currency "
+"Converter"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:154
+#: core/modules/wc-currency-switcher/inc/widgets.php:221
+msgid ""
+"Currencies excluding "
+"from view"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:156
+#: core/modules/wc-currency-switcher/inc/widgets.php:223
+msgid ""
+"Examples: EUR,GBP,UAH"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:159
+#: core/modules/wc-currency-switcher/inc/widgets.php:226
+msgid "Precision"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:161
+#: core/modules/wc-currency-switcher/inc/widgets.php:228
+msgid ""
+"Count of digits after "
+"point"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:173
+msgid ""
+"NB - WooCommerce "
+"Currency Rates"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/inc/widgets.php:176
+#: core/modules/wc-currency-switcher/inc/widgets.php:210
+msgid ""
+"WooCommerce Currency "
+"Rates"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:12
+msgid "Coupon amount"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:18
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:21
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:25
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:55
+msgid "Remove"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:30
+msgid ""
+"The coupon fixed amount "
+"rules"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:37
+msgid ""
+"NBTWCCS - the coupon "
+"<b>fixed</b> amount"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:37
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:45
+msgid ""
+"Here you can set FIXED "
+"amount for the coupon "
+"for any currency you "
+"want. In the case of "
+"empty amount field "
+"recounting by rate will "
+"work!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:49
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:56
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:110
+msgid "Add"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_data.php:50
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:57
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:111
+msgid "Add all"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:11
+msgid "Minimum spend"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:15
+msgid "Maximum spend"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:35
+msgid ""
+"The coupon fixed Minimum "
+"and Maximum spend rules"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_coupon_restriction_data.php:45
+msgid ""
+"NBTWCCS - the <b>fixed</"
+"b> Minimum and Maximum "
+"spend "
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:13
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:43
+msgid "Regular price"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:19
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:49
+msgid "Sale price"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:61
+msgid ""
+"select some countries"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:80
+msgid ""
+"The product fixed prices "
+"rules"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:84
+msgid ""
+"The product custom GeoIP "
+"rules"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:98
+msgid ""
+"NBTWCCS - the product "
+"<b>fixed</b> prices"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:98
+msgid ""
+"Here you can set FIXED "
+"price for the product "
+"for any currency you "
+"want. In the case of "
+"empty price field "
+"recounting by rate will "
+"work!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:136
+msgid ""
+"NBTWCCS - the product "
+"custom GeoIP rules"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:136
+msgid ""
+"Here you can set prices "
+"in the basic currency "
+"for different countries, "
+"and recount will be done "
+"relatively of this "
+"values. ATTENTION: fixed "
+"price for currencies has "
+"higher priority!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/fixed/product_price_data.php:138
+msgid "Add group"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:13
+msgid "Order currency"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:21
+msgid ""
+"Currency in which the "
+"customer paid."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:21
+#, php-format
+msgid ""
+"THIS order currency is "
+"changed manually %s!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:22
+msgid "Base currency"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:23
+msgid "Order currency rate"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:23
+msgid ""
+"Currency rate when the "
+"customer paid "
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:24
+msgid "Total amount"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:30
+msgid ""
+"Change order currency"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:30
+msgid ""
+"For new manual order "
+"ONLY!!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:31
+msgid "cancel"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:36
+msgid "Recalculate order"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/nbtwccs_order_metabox.php:36
+msgid ""
+"Recalculate current "
+"order with basic "
+"currency. Recommended "
+"test this option on the "
+"clone of your site! Read "
+"the documentation of the "
+"plugin about it!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:31
+msgid "Drop-down view"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:32
+msgid ""
+"How to display currency "
+"switcher drop-down on "
+"the front of your site"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:38
+msgid "simple drop-down"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:39
+msgid "show as flags"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:57
+msgid "Show money signs"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:58
+msgid ""
+"Show/hide money signs on "
+"the front drop-down"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:70
+msgid "Is multiple allowed"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:71
+msgid ""
+"Customer will pay with "
+"selected currency (Yes) "
+"or with default currency "
+"(No)."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:96
+msgid "Welcome currency"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:97
+msgid ""
+"In wich currency show "
+"prices for first visit "
+"of your customer on your "
+"site"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:106
+msgid "Currency aggregator"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:107
+msgid ""
+"Currency aggregators"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:126
+msgid "Currency storage"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:127
+msgid ""
+"In some servers there is "
+"troubles with sessions, "
+"and after currency "
+"selecting its reset to "
+"welcome currency or geo "
+"ip currency. In such "
+"case use transient!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:133
+msgid "session"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:135
+msgid "transient"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:140
+msgid "Rate auto update"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:141
+msgid ""
+"Currencies rate auto "
+"update by wp cron. Use "
+"it for your own risk!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:147
+msgid "no auto update"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:148
+msgid "hourly"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:149
+msgid "twicedaily"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:150
+msgid "daily"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:151
+msgid "weekly"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:152
+msgid "monthly"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:153
+msgid ""
+"special: each minute"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:154
+msgid ""
+"special: each 5 minutes"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:155
+msgid ""
+"special: each 15 minutes"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:156
+msgid ""
+"special: each 30 minutes"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:157
+msgid ""
+"special: each 45 minutes"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:163
+msgid ""
+"Hide switcher on "
+"checkout page"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:164
+msgid ""
+"Hide switcher on "
+"checkout page for any of "
+"your reason. Better "
+"restrike for users "
+"change currency on "
+"checkout page in "
+"multiple mode."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:189
+msgid ""
+"I am using cache plugin "
+"on my site"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:190
+msgid ""
+"Set Yes here ONLY if you "
+"are REALLY use cache "
+"plugin for your site, "
+"for example like Super "
+"cache or Hiper cache "
+"(doesn matter). + Set "
+"\"Custom price format\", "
+"for example: __PRICE__ "
+"(__CODE__). After "
+"enabling this feature - "
+"clean your cache to make "
+"it works. It will allow "
+"show prices in selected "
+"currency on all pages of "
+"site. Fee for this "
+"feature - additional "
+"AJAX queries for "
+"products prices "
+"redrawing."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:210
+#, php-format
+msgid ""
+"Your version of "
+"WooCommerce plugin is "
+"too obsolete. Update "
+"minimum to %s version to "
+"avoid malfunctionality!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:219
+msgid "Currencies"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:224
+msgid "Options"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:242
+msgid "Add Currency"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:271
+msgid ""
+"Read wiki about Currency "
+"Active codes"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:290
+msgid ""
+"GeoIP works from v.2.3 "
+"of the WooCommerce "
+"plugin and no with minor "
+"versions of WooCommerce!!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:296
+msgid ""
+"WooCommerce GeoIP "
+"functionality doesn't "
+"work on your site. Maybe "
+"<a href='https://"
+"wordpress.org/support/"
+"topic/geolocation-not-"
+"working-1/?replies=10' "
+"target='_blank'>this</a> "
+"will help you."
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:542
+msgid ""
+"Set etalon main "
+"currency. This should be "
+"the currency in which "
+"the price of goods "
+"exhibited!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:544
+msgid "Exmpl.: USD,EUR"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:551
+msgid ""
+"Select symbol position"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:559
+msgid "Decimals"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:578
+msgid "exchange rate"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:579
+msgid ""
+"Press this button if you "
+"want get currency rate "
+"from the selected "
+"aggregator above!"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:579
+msgid "finance"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:583
+msgid "Show cents on front"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:584
+msgid "Hide cents on front"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:607
+msgid ""
+"Click to select the flag"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:607
+msgid "Flag"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:608
+msgid "remove"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:609
+msgid "drag and drope"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/plugin_options.php:609
+msgid "move"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs.php:6
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_converter.php:5
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_rates.php:4
+msgid ""
+"Warning: Woocommerce is "
+"not activated"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_converter.php:24
+msgid "enter amount"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_converter.php:39
+msgid "to"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_converter.php:53
+msgid "results"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_converter.php:54
+msgid "Convert"
+msgstr ""
+
+#: core/modules/wc-currency-switcher/tpl/shortcodes/nbtwccs_rates.php:38
+#, php-format
+msgid "1 %s is"
+msgstr ""
+
+#: dashboard.php:29
+msgid "Dashboard"
+msgstr ""
+
+#: dashboard.php:29
+msgid "Solution Dashboard"
+msgstr ""
+
+#: templates/tpl/settings.php:2
+msgid "NBT Solutions Core"
+msgstr ""
+
+#: templates/tpl/settings.php:22
+msgid "Export Settings"
+msgstr ""
+
+#: templates/tpl/settings.php:23
+msgid "Generator PHP"
+msgstr ""

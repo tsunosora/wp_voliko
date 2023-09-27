@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+input.nsow-button.nsow-with-icon span, input.nsow-button.nsow-with-icon img.nsow-thumbnail, button.nsow-button.nsow-with-icon span, button.nsow-button.nsow-with-icon img.nsow-thumbnail, a.nsow-button.nsow-with-icon span, a.nsow-button.nsow-with-icon img.nsow-thumbnail, .nsow-button.nsow-with-icon:active span, .nsow-button.nsow-with-icon:active img.nsow-thumbnail, .nsow-button.nsow-with-icon:visited span, .nsow-button.nsow-with-icon:visited img.nsow-thumbnail {
+  margin-right: 15px; }
+input.nsow-button.nsow-with-icon span, button.nsow-button.nsow-with-icon span, a.nsow-button.nsow-with-icon span, .nsow-button.nsow-with-icon:active span, .nsow-button.nsow-with-icon:visited span {
+  color: #fff;
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 1; }
+input.nsow-button.nsow-with-icon img.nsow-thumbnail, button.nsow-button.nsow-with-icon img.nsow-thumbnail, a.nsow-button.nsow-with-icon img.nsow-thumbnail, .nsow-button.nsow-with-icon:active img.nsow-thumbnail, .nsow-button.nsow-with-icon:visited img.nsow-thumbnail {
+  display: inline !important;
+  vertical-align: middle;
+  max-width: 50px; }
+
+/*# sourceMappingURL=style.css.map */

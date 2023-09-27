@@ -1,0 +1,83 @@
+.nbcs-section {
+    float: left;
+    width: 100%;
+}
+
+.nbcs-form ul.nbcs-list-images {
+    padding-left: 0;
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: nowrap; /* Safari 6.1+ */
+}
+
+.nbcs-form ul.nbcs-list-images li{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.nbcs-form ul.nbcs-list-images li img{
+    width: 100px;
+}
+
+.nbcs-form ul.nbcs-list-images li.nbcs-plus-icon {
+    font-weight: bold;
+}
+
+.nbcs-form .nbcs-price-box {
+    display: block;
+}
+
+.nbcs-form .nbcs-price-box.clear-price-box {
+    clear: both;
+}
+
+.nbcs-form .nbcs-list-items {
+    clear: both;
+}
+
+.nbcs-form .nbcs-list-items ul {
+    padding-left: 0;
+}
+
+.nbcs-form .nbcs-list-items li.nbcs-item {
+    list-style: none;
+    font-size: 14px;
+}
+
+.nbcs-form .nbcs-list-items li.nbcs-item label {
+    font-weight: unset;
+}
+
+.nbcs-form .nbcs-list-items li.unchecked *:not(input) {
+    opacity: 0.8;
+}
+
+.nbcs-form .nbcs-list-items li.nbcs-item span.nbcs-item-name a {
+    color: rgba(0, 122, 204, 1);
+}
+
+.nbcs-form .nbcs-list-items li.nbcs-item span.nbcs-item-name a:hover {
+    color: rgba(104, 104, 104, 1);
+}
+
+.nbcs_this_text {
+    font-weight: bold;
+}
+.nbcs-add-to-cart-button {
+    margin-bottom: 20px;
+}
+
+.nbcs-add-to-cart-button input {
+    min-height: 40px;
+    border: 0;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+}

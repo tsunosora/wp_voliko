@@ -1,0 +1,55 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 26/09/2017 10:15
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-trash:before { content: "\f100"; }
+.flaticon-upload:before { content: "\f101"; }
+.flaticon-snow:before { content: "\f102"; }
+.flaticon-partly-cloudy-day:before { content: "\f103"; }
+.flaticon-cloudy:before { content: "\f104"; }
+.flaticon-partly-cloudy-night:before { content: "\f105"; }
+.flaticon-tornado:before { content: "\f106"; }
+.flaticon-clear-night:before { content: "\f107"; }
+.flaticon-fog:before { content: "\f108"; }
+.flaticon-thunderstorm:before { content: "\f109"; }
+.flaticon-hail:before { content: "\f10a"; }
+.flaticon-money-1:before { content: "\f10b"; }
+.flaticon-humidity:before { content: "\f10c"; }
+.flaticon-rain:before { content: "\f10d"; }
+.flaticon-clear-day:before { content: "\f10e"; }
+.flaticon-wind:before { content: "\f10f"; }
+.flaticon-interface-2:before { content: "\f110"; }
+.flaticon-interface-1:before { content: "\f111"; }
+.flaticon-interface:before { content: "\f112"; }
+.flaticon-money:before { content: "\f113"; }
+.flaticon-folder:before { content: "\f114"; }
+.flaticon-wind-speed:before { content: "\f115"; }
+.flaticon-sleet:before { content: "\f116"; }
+.flaticon-identification:before { content: "\f117"; }

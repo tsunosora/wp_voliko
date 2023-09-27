@@ -1,0 +1,15 @@
+2023-09-22T02:28:40+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\Connection::get_status Server error: `GET https://api-vipgo.woocommerce.com/google/connection/google-mc` resulted in a `503 Service Temporarily Unavailable` response:
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Una (truncated...)
+
+2023-09-22T02:28:40+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\Notes\NoteInitializer::add_notes Error retrieving status
+2023-09-22T02:28:40+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\Notes\NoteInitializer::add_notes <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+.nbt-page-loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 9999;
+}
+.nbt-loading-svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	text-indent: -9999px;
+	width: 100px;
+	height: 100px;
+	background: url(../img/loading.svg);
+	background-size: 100px 100px;
+	margin-top: -2%;
+	margin-left: -2%;
+}
+.nbtcs-w-wrapper .selected:after{ 
+   content: '\e80b';
+   font-family: "nbt-fonts";
+   font-weight: normal;
+   font-style: normal;
+   margin:0px 0px 0px 10px;
+   text-decoration:none;
+} 
+
+.nbtcs-w-wrapper .selected.active:after{ 
+   content: '\e80e';
+
+}
+.nbt-currency-switcher .nbtcs-w-title{
+	float: left;
+}
+.nbt-currency-switcher .widget-title{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #fff;
+	line-height: 50px;
+}
+.nbt-currency-switcher .nbt-right-cs{
+	float: right;
+	position: relative;
+		margin-left: 7px;
+}
+.nbtcs-select{
+	display: none;
+	background: #fff;
+	position: absolute;
+	top:50px;
+	font-size: 13px;
+	line-height: 19px;
+	z-index: 9999;
+}
+.nbtcs-select a{
+	padding: 3px 20px 3px 10px;
+	display: block;
+	white-space: nowrap;
+	color: #444 !important;
+	text-decoration: none !important;
+}
+.nbtcs-select a:hover{
+	background-color: rgba(37, 188, 233, 0.75);
+	color: #fff !important;
+}
+.nbtcs-w-wrapper .selected{
+	cursor: pointer;
+	margin-top: 1px;
+	display: block;
+}

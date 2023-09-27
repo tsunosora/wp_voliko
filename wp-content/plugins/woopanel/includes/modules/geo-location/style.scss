@@ -1,0 +1,96 @@
+.woopanel-geolocation-advanced {
+	.woopanel-geolocation-row {
+		@include clearfix;
+		margin: 0 -15px;
+		
+		.woopanel-geolocation-col {
+			float: left;
+			padding: 0 15px;
+			
+			.wpl-form-control {
+				width: 100%;
+				margin-bottom: 0;
+				height: 45px;
+				padding-left: 15px;
+			    border: 1px solid #ccc;
+				
+				
+			}
+			
+			select {
+				appearance: menulist;	
+			}
+			
+			.woopanel-geolocation-searchlocal {
+				position: relative;
+				
+				.wpl-icon-searchlocal {
+					margin-top: -7px;
+					position: absolute;
+					top: 50%;
+					right: 10px;
+				    width: 15px;
+					height: 15px;
+					background-image: url('../images/icon-gps.png');
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.woopanel-geolocation-address {
+    font-style: italic;
+}
+
+.woopanel-geolocation-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 30px 0;
+	background-color: #f9f9f9;
+	height: 300px;
+}
+
+
+.woopanel-shop-geolocation {
+    display: flex;
+    width: 100%;
+	
+	.woopanel-geolocation-wrapper {
+		width: 100%;
+	}
+}
+
+.archive.woocommerce .shop-main {
+	width: 100%;
+}
+
+.map-loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.woopanel-wrapper.empty-vendor {
+	#dokan-seller-listing-wrap {
+		margin: 0;
+	}
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

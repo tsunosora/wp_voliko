@@ -1,0 +1,223 @@
+.wpas-table-replies {
+	width: 100%;
+	
+	.wpas-table-row.wpas-read {
+	    border-top: 1px solid #f1f1f1;
+		
+		td {
+			vertical-align: top;
+			padding: 15px 10px;
+			position: relative;
+			
+			&.col1 {
+				padding-left: 0;
+			}
+			
+			.avatar-64 {
+				border-radius: 3px;
+			}
+			
+			.wpas-reply-meta {
+				display: flex;
+				align-items: center;
+				margin-bottom: 5px;
+				
+				.wpas-reply-time {
+					margin-left: auto;
+				}
+				
+				.wpas-human-date,
+				.wpas-profilerole,
+				.wpas-ticket-controls {
+					opacity: 0;
+					transition: opacity .25s ease;
+				}
+			}
+			
+			.wpas-content {
+				p {
+					margin-bottom: 5px;
+					
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		
+
+		&:hover {
+			.wpas-human-date,
+			.wpas-profilerole,
+			.wpas-ticket-controls {
+				opacity: 1 !important;
+			}
+		}
+		
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+	
+	tr.wpas-ticket-history>td {
+		padding-top: .75em;
+		padding-bottom: .75em;
+		text-align: center;
+		border: 1px solid #dedede;
+		color: #555;
+		background-color: #f5f5f5;
+		
+		.wpas-content {
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+
+.ticket-main {
+	padding-top: 0 !important;
+	
+	.ticket-title {
+		font-size: 21px;
+		margin-top: 10px;
+	}
+	
+	.ticket-content {
+		p {
+			font-size: 13px;
+			line-height: 23px;
+			margin: 1em 0;
+			
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.wpas-row {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+	
+	.wpas-col {
+		display: table-cell;
+		
+		strong {
+			display: block;
+			margin-bottom: 5px;
+		}
+		
+
+	}
+}
+
+		.wpas-label {
+			display: inline-block;
+			padding: 2px 8px;
+			font-weight: 700;
+			color: #fff;
+			vertical-align: baseline;
+			background-color: #999;
+			border-radius: 3px;
+		}
+		
+#wpas-statusdate {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+	
+	.wpas-col {
+		padding: 20px 10px;
+		text-align: center;
+		
+		&:last-child {
+			border-left: 1px solid #eee;
+		}
+	}
+	
+	&.no-border {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.m-portlet-ticket {
+	.m-portlet__body {
+	    padding: 15px 0;
+	}
+}
+
+#wpas-up {
+	.wpas-up-contact-details {
+		
+		.wpas-up-contact-img {
+			float: left;
+			margin: 0 1.5em 0 0;
+			border-radius: 80px;
+		}
+		
+		.wpas-detail-right {
+			.wpas-up-contact-name {
+				font-size: 18px;
+				font-weight: 600;
+			}
+			
+			.wpas-up-contact-role {
+				margin: .5em 0;
+			}
+		}
+	}
+	
+
+
+	
+	.wpas-up-stats {
+		margin: 1em 0;
+		padding: 1em 0;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		text-align: center;
+		
+		strong {
+			display: block;
+			font-size: 21px;
+			margin-bottom: 0;
+		}
+	}
+	
+	.wpas-up-tickets {
+		ul {
+			margin: 0 0 15px;
+			padding: 0;
+			list-style: none;
+			
+			li {
+				margin-bottom: 3px;
+				
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+			
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.wpas-cf:after, .wpas-cf:before {
+    content: " ";
+    display: table;
+}
+
+.wpas-cf:after, .wpas-reply-meta:after {
+    clear: both;
+}
+
+.m-portlet-user-profile {
+
+}

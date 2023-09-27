@@ -1,0 +1,11 @@
+2023-09-08T12:17:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u407432345/domains/volikoprint.com/public_html/wp-content/plugins/crm-for-contact-form-7/includes/cloodo_core.php:230
+Stack trace:
+#0 /home/u407432345/domains/volikoprint.com/public_html/wp-includes/class-wp-hook.php(310): {closure}('')
+#1 /home/u407432345/domains/volikoprint.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u407432345/domains/volikoprint.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u407432345/domains/volikoprint.com/public_html/wp-settings.php(632): do_action('init')
+#4 /home/u407432345/domains/volikoprint.com/public_html/wp-config.php(96): require_once('/home/u40743234...')
+#5 /home/u407432345/domains/volikoprint.com/public_html/wp-load.php(50): require_once('/home/u40743234...')
+#6 /home/u407432345/domains/volikoprint.com/public_html/wp-blog-header.php(13): require_once('/home/u40743234...')
+#7 /home/u407432345/domains/volikoprint.com/public di /home/u407432345/domains/volikoprint.com/public_html/wp-content/plugins/crm-for-contact-form-7/includes/cloodo_core.php pada baris 230
+

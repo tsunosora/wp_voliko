@@ -1,0 +1,199 @@
+.nbtodd-days-fieldset {
+	border: 1px solid #DCDBDA;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-top: 0;
+	width:150px;
+}
+
+.days-fieldset label{
+	float: left;
+	font-weight: none;
+	padding: 0px;
+	width: auto;	
+}
+/*
+input[type="checkbox"] {
+  float: left !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 1px;
+}*/
+
+.form-table .nbtodd_fieldset_padding {
+	 padding: 0.5px 0.5px;
+}
+
+#nbtodd_minimumOrderDays, #nbtodd_number_of_dates, #nbtodd_lockout_date_after_orders {
+	 width: 75px;
+}
+
+#nbtodd_delivery_date_field_note {
+	 width: 290px;
+}
+
+.nbtodd_no_fields_for_product_type{
+	float:left;
+}
+
+.form-table .nbtodd_holidays_list{
+	width: 360px;
+	vertical-align: top;
+	text-align: center;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+table.wp-list-table .column-holidays {
+	width:7%;
+}
+
+#nbtodd_holidays_list {
+	width: 500px;
+}
+
+#holidays_table_head {
+	margin-bottom: 0px;
+}
+
+/*nbtodd_pm_repeater*/
+.nbtodd_pm_repeater {
+    border: #DFDFDF solid 1px;
+    margin: 0 0 8px;
+    background: #F9F9F9;
+    border-spacing: 0;
+    border-radius: 0;
+    table-layout: auto;
+    padding: 0;
+    width: 100%;
+    clear: both;
+}
+.nbtodd_pm_repeater th.pm-row-zero:before {
+    content: "";
+    width: 16px;
+    display: block;
+    height: 1px;
+}
+.nbtodd_pm_repeater > thead > tr > th:first-child {
+    border-left-width: 0;
+}
+.nbtodd_pm_repeater > thead .pm-th{
+    font-weight: 700;
+}
+.nbtodd_pm_repeater > tbody > tr > th, .nbtodd_pm_repeater > thead > tr > th, .nbtodd_pm_repeater > tbody > tr > td, .nbtodd_pm_repeater > thead > tr > td {
+    padding: 8px;
+    vertical-align: top;
+    background: #fff;
+    text-align: left;
+    border-style: solid;
+    font-weight: normal;
+}
+.nbtodd_pm_repeater > tbody > tr > th, .nbtodd_pm_repeater > thead > tr > th {
+    position: relative;
+    color: #333333;
+}
+.nbtodd_pm_repeater > thead > tr > th {
+    border-color: #E1E1E1;
+    border-width: 0 0 1px 1px;
+}
+.nbtodd_pm_repeater .pm-row-zero {
+    width: 16px;
+    text-align: center !important;
+    vertical-align: middle !important;
+    position: relative;
+}
+.nbtodd_pm_repeater > tbody > tr {
+    z-index: 1;
+}
+.nbtodd_pm_repeater > tbody > tr > td {
+    border-color: #EDEDED;
+    border-width: 1px 0 0 1px;
+}
+.nbtodd_pm_repeater > tbody > tr > td:first-child {
+    border-left-width: 0;
+}
+.nbtodd_pm_repeater > tbody > tr:first-child > td {
+    border-top-width: 0;
+}
+.nbtodd_pm_repeater .pm-row-zero.order {
+    background: #f4f4f4;
+    cursor: move;
+    color: #aaa;
+    text-shadow: #fff 0 1px 0;
+}
+.nbtodd_pm_repeater .pm-row-zero {
+    background: #F9F9F9;
+    border-left-color: #DFDFDF;
+}
+.pm-icon {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    border: transparent solid 1px;
+    border-radius: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+a.pm-icon {
+    color: #999;
+    border-color: #BBB;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: none;
+}
+a.pm-icon:hover {
+    background: #b4b9be none repeat scroll 0 0;
+    border-color: transparent;
+    color: #fff;
+}
+.pm-icon.small {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+a.pm-icon.-minus:hover, a.pm-icon.-cancel:hover {
+    background-color: #f55e4f;
+}
+
+.pm-icon:before {
+    
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.nbtodd_pm_repeater .pm-row-zero .pm-icon.-minus {
+    top: 50%;
+}
+.pm-icon:before{
+    position: relative;
+    top: 0px;
+}
+.pm-icon.-plus:before {
+    content: '+';
+}
+.pm-icon.-minus:before {
+    content: '-';
+}
+.nbtodd_pm_repeater .pm-row:hover > .pm-row-zero .pm-icon {
+    display: block;
+}
+

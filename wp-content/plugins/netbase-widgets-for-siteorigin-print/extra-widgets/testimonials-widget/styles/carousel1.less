@@ -1,0 +1,129 @@
+@import "../../../base/less/mixins";
+
+.ow-pt-columns-atom {
+	.clearfix();
+	padding-top: 20px;
+
+	.ow-pt-column {
+		float: left; border: 1px solid #e1e1e1;     margin-right: 1%;
+
+		.ow-pt-title {
+			
+			padding: 20px 0;
+			text-align: center;
+			
+			border-bottom: 0;
+			.border-radius(5px, 0, 0, 5px);
+			
+			
+		}
+
+		.ow-pt-details {
+			
+			position: relative;
+			text-align: center;
+
+			.ow-pt-price {
+				
+			
+			}
+
+			.ow-pt-per {
+				
+			}
+		}
+
+		.ow-pt-image {
+			line-height: 0;
+
+			img {
+				display: block;
+				max-width: 100%;
+				height: auto;
+				.rounded(0);
+			}
+		}
+
+		.ow-pt-features {
+				.ow-pt-feature {
+				padding: 15px 20px;
+				background: #ffffff;
+
+				.sow-feature-icon {
+					display: table-cell;
+					vertical-align: middle;
+					padding-right: 10px;
+				}
+
+				.sow-feature-icon + .sow-feature-text {
+					display: table-cell;
+					vertical-align: middle;
+				}
+
+				
+
+				&.ow-pt-feature-odd {
+					
+				}
+
+				text-shadow: 0 1px 0 #FFFFFF;
+
+				strong {
+					font-weight: 500;
+				}
+
+				p {
+					margin: 0;
+				  	display: inline-block;
+				}
+
+				[class^="sow-icon-"] {
+					display: inline-block;
+					margin-right: 0.5em;
+				}
+
+				&:last-child {
+					border-bottom-width: 0;
+				}
+			}
+		}
+
+		.ow-pt-button {
+
+			display: block;
+			padding: 15px;
+			text-align: center;
+
+			a.ow-pt-link {
+				display: inline-block;
+				text-decoration: none;
+				margin: 0;
+			}
+
+		}
+
+		&.ow-pt-featured {
+			margin-top: -20px;
+
+		}
+	}
+}
+
+@media (max-width:680px) {
+	.ow-pt-columns-atom {
+
+		padding-top: 0;
+
+		.ow-pt-column {
+			float: none;
+			width: auto !important;
+			margin-bottom: 20px;
+
+			&.ow-pt-featured {
+				margin-top: 0;
+			}
+
+
+		}
+	}
+}

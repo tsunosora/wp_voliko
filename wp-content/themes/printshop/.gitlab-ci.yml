@@ -1,0 +1,89 @@
+image: tetraweb/php
+
+before_script:
+ - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+ - eval $(ssh-agent -s)
+ - mkdir -p ~/.ssh
+ - chmod 700 ~/.ssh
+ - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+deploy_stage:
+  when: manual
+  only:
+    - master
+  script:
+    - ssh-add <(echo "$PRIVATE_KEY")
+    - ssh $CLIENT_ADDRESS "mkdir public_html/wp_printstore/solution1/wp-content/themes/__tmp"
+    - scp -P22 -r $CI_PROJECT_DIR/* $CLIENT_ADDRESS:public_html/wp_printstore/solution1/wp-content/themes/__tmp
+    
+    - ssh $CLIENT_ADDRESS "rm -rf public_html/wp_printstore/solution1/wp-content/themes/_old"
+    - ssh -p22 $CLIENT_ADDRESS "mv public_html/wp_printstore/solution1/wp-content/themes/printshop public_html/wp_printstore/solution1/wp-content/themes/_old"
+    - ssh -p22 $CLIENT_ADDRESS "mv public_html/wp_printstore/solution1/wp-content/themes/__tmp public_html/wp_printstore/solution1/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution2/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution2/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution3/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution3/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution4/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution4/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution5/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution5/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution6/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution6/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution7/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution7/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution8/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution8/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution9/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution9/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution10/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution10/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printstore/solution11/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printstore/solution1/wp-content/themes/printshop/. public_html/wp_printstore/solution11/wp-content/themes/printshop"
+
+deploy_stage_tf:
+  when: manual
+  only:
+    - printshop_TF
+  script:
+
+    - ssh-add <(echo "$PRIVATE_KEY")
+    - ssh $CLIENT_ADDRESS "mkdir public_html/wp_printshop/printshop_boxed/wp-content/themes/__tmp"
+    - scp -P22 -r $CI_PROJECT_DIR/* $CLIENT_ADDRESS:public_html/wp_printshop/printshop_boxed/wp-content/themes/__tmp
+    
+    - ssh $CLIENT_ADDRESS "rm -rf public_html/wp_printshop/printshop_boxed/wp-content/themes/_old"
+    - ssh -p22 $CLIENT_ADDRESS "mv public_html/wp_printshop/printshop_boxed/wp-content/themes/printshop public_html/wp_printshop/printshop_boxed/wp-content/themes/_old"
+    - ssh -p22 $CLIENT_ADDRESS "mv public_html/wp_printshop/printshop_boxed/wp-content/themes/__tmp public_html/wp_printshop/printshop_boxed/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printshop/printshop_header_boxed/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printshop/printshop_boxed/wp-content/themes/printshop/. public_html/wp_printshop/printshop_header_boxed/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printshop/printshop_parallax/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printshop/printshop_boxed/wp-content/themes/printshop/. public_html/wp_printshop/printshop_parallax/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printshop/printshop_printcards/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printshop/printshop_boxed/wp-content/themes/printshop/. public_html/wp_printshop/printshop_printcards/wp-content/themes/printshop"
+
+    - ssh $CLIENT_ADDRESS "rm -r public_html/wp_printshop/printshop_slider/wp-content/themes/printshop/*"
+    - ssh $CLIENT_ADDRESS "cp -a public_html/wp_printshop/printshop_boxed/wp-content/themes/printshop/. public_html/wp_printshop/printshop_slider/wp-content/themes/printshop"
+
+#release_stage:
+#  only:
+#    - tags
+#  artifacts:
+#    name: "$CI_PROJECT_NAME"
+#    paths:
+#      - "$CI_PROJECT_NAME"
+#  script:
+#      - cd $CI_PROJECT_DIR
+#      - mkdir $CI_PROJECT_NAME
+#      - rsync -av --progress . $CI_PROJECT_NAME --exclude .git --exclude assets/gulpfile.js --exclude assets/package.json --exclude assets/package-lock.json --exclude assets/src --exclude $CI_PROJECT_NAME --exclude .gitignore --exclude .gitlab-ci.yml

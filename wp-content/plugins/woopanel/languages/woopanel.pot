@@ -1,0 +1,4332 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blank WordPress Pot v1.0.0\n"
+"POT-Creation-Date: 2020-03-25 16:14+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-options.php:28
+msgid "Dashboard page"
+msgstr ""
+
+#: admin/admin-options.php:38
+msgid "Dashboard Logo"
+msgstr ""
+
+#: admin/admin-options.php:45
+msgid "Background Image Login"
+msgstr ""
+
+#: admin/admin-options.php:52
+msgid "Background Color Login"
+msgstr ""
+
+#: admin/admin-options.php:57
+msgid "Allow User to Customize Dashboard"
+msgstr ""
+
+#: admin/admin-options.php:64
+#, php-format
+msgid "Block %s Access for Non-Admins"
+msgstr ""
+
+#: admin/admin-options.php:71
+msgid "Enable Modules"
+msgstr ""
+
+#: admin/admin-options.php:79
+#: includes/modules/loading-effect/loading-effect.php:141
+msgid "Show Loading Effect"
+msgstr ""
+
+#: admin/admin-options.php:86
+msgid "Show Loading Closed"
+msgstr ""
+
+#: admin/admin-options.php:93
+#: includes/modules/loading-effect/loading-effect.php:157
+msgid "Show Loading Icon"
+msgstr ""
+
+#: admin/admin-options.php:104
+#: includes/modules/loading-effect/loading-effect.php:165
+msgid "Loading"
+msgstr ""
+
+#: admin/admin-options.php:171 admin/admin-options.php:322
+#: views/settings.php:18
+msgid "WooCommerce Dashboard Settings"
+msgstr ""
+
+#: admin/admin-options.php:172 includes/classes/class-shortcodes.php:450
+msgid "WooCommerce Dashboard"
+msgstr ""
+
+#: admin/admin-options.php:260
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: admin/admin-options.php:335 templates/orders/edit.php:723
+#: templates/orders/edit.php:910 templates/orders/edit.php:1049
+#: views/metaboxes/product/html-product-data-variations.php:80
+msgid "Save changes"
+msgstr ""
+
+#: admin/admin-options.php:392
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: admin/admin-options.php:393
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: admin/admin-options.php:394
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: admin/admin-options.php:395
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: admin/admin-options.php:396
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: admin/admin-options.php:397
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: admin/admin-options.php:398
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: admin/admin-options.php:399
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: admin/admin-options.php:400
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: admin/admin-options.php:401
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: admin/admin-options.php:442
+msgid "Upload"
+msgstr ""
+
+#: includes/ajax.php:168 includes/ajax.php:220
+#: includes/classes/class-shortcodes.php:167
+msgid "You do not have permission for this action!"
+msgstr ""
+
+#: includes/ajax.php:182
+msgid "Sorry, you are not allowed to access this action."
+msgstr ""
+
+#: includes/ajax.php:188
+msgid "Please enter a category name."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:78
+#: includes/helper/list-table.php:381 includes/pages/comment.php:272
+msgid "Restore"
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:79
+#: includes/helper/list-table.php:396 includes/pages/comment.php:276
+#: templates/orders/edit.php:599 views/edit.php:240
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:81
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:109
+#: includes/classes/class-shortcodes.php:289 includes/pages/customer.php:868
+#: includes/pages/customer.php:949 includes/pages/product.php:347
+#: templates/comment/edit.php:117 templates/orders/edit.php:596
+#: views/attribute-child.php:68 views/attribute-parent.php:81
+#: views/customize.php:19 views/customize.php:78 views/settings.php:24
+#: views/settings.php:91 views/taxonomy-edit.php:77 views/withdraw.php:95
+msgid "Update"
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:130
+#: includes/helper/post-function.php:268
+msgid "You can not access this post."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:164
+msgid "Publish"
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:167
+#, php-format
+msgid "Create %s"
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:208
+msgid "The item you are trying to move to the Trash no longer exists."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:211
+#: includes/classes/class-list-post-table.php:234
+#: includes/classes/class-list-post-table.php:252
+msgid "Invalid post type."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:214
+#: includes/classes/class-list-post-table.php:372
+msgid "Sorry, you are not allowed to move this item to the Trash."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:218
+#, php-format
+msgid "You cannot move this item to the Trash. %s is currently editing."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:222
+#: includes/classes/class-list-post-table.php:380
+msgid "Error in moving to Trash."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:231
+msgid "The item you are trying to restore from the Trash no longer exists."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:237
+#: includes/classes/class-list-post-table.php:391
+msgid "Sorry, you are not allowed to restore this item from the Trash."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:240
+#: includes/classes/class-list-post-table.php:394
+msgid "Error in restoring from Trash."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:249
+msgid "This item has already been deleted."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:255
+#: includes/classes/class-list-post-table.php:406
+msgid "Sorry, you are not allowed to delete this item."
+msgstr ""
+
+#: includes/classes/class-list-post-table.php:260
+#: includes/classes/class-list-post-table.php:263
+#: includes/classes/class-list-post-table.php:410
+#: includes/classes/class-list-post-table.php:413
+msgid "Error in deleting."
+msgstr ""
+
+#: includes/classes/class-list-table.php:248
+#: includes/classes/class-taxonomy.php:299
+#: includes/pages/product-attributes.php:392
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: includes/classes/class-list-table.php:412
+#: includes/classes/class-taxonomy.php:429 includes/helper/list-table.php:211
+#: includes/pages/comment.php:611 includes/pages/customer.php:331
+#: includes/pages/product-attributes.php:545
+#: views/metaboxes/product/html-product-data-variations.php:83
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/classes/class-list-table.php:479
+#: includes/classes/class-taxonomy.php:454 includes/pages/comment.php:650
+#: includes/pages/customer.php:371 includes/pages/product-attributes.php:570
+msgid "Filter"
+msgstr ""
+
+#: includes/classes/class-list-table.php:650
+#: includes/classes/class-taxonomy.php:573 includes/helper/list-table.php:339
+#: includes/pages/product-attributes.php:424
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/classes/class-list-table.php:660
+#: includes/classes/class-taxonomy.php:583 includes/helper/list-table.php:348
+#: includes/pages/product-attributes.php:434
+msgid "Apply"
+msgstr ""
+
+#: includes/classes/class-list-table.php:674
+#: includes/classes/class-taxonomy.php:597
+#: includes/pages/product-attributes.php:411
+#, php-format
+msgid "Selected %s:"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:84 templates/global/form-login.php:73
+#: templates/global/form-login.php:89
+msgid "Login"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:165
+#: includes/classes/dashboard/class-dashboard-report-order.php:102
+#: includes/pages/customer.php:533 includes/pages/order.php:20
+#: templates/dashboard/recent-order.php:40
+msgid "Order"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:166
+#: includes/classes/class-shortcodes.php:425
+#: includes/classes/dashboard/class-dashboard-report-order.php:102
+#: includes/pages/customer.php:33 includes/woocommerce.php:22
+msgid "Orders"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:168
+#: includes/modules/color-swatches/color-swatches.php:38
+#: includes/pages/product-categories.php:17
+msgid "Image"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:169
+#: includes/helper/post-function.php:22
+msgid "Set Image"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:170
+#: includes/classes/class-shortcodes.php:172 views/edit.php:188
+msgid "Featured Image"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:171
+#: includes/helper/post-function.php:22
+msgid "Set featured image"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:173
+msgid "Add to gallery"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:209
+msgid ""
+"Are you sure you wish to delete this note? This action cannot be undone."
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:210
+msgid "Please enter your note!"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:274
+msgid "Remove this attribute?"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:276
+msgid "Are you sure you want to delete all variations? This cannot be undone."
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:277
+msgid "Last warning, are you sure?"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:278
+msgid "%qty% variation"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:279
+msgid "%qty% variations"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:281
+msgid "Save changes before changing page?"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:282
+#, php-format
+msgid ""
+"Are you sure you want to link all variations? This will create a new "
+"variation for each and every possible combination of variation attributes "
+"(max %d per run)."
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:283
+msgid "variation added"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:284
+msgid "variations added"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:285
+msgid "No variations added"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:286
+msgid "This is first page"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:287
+msgid "This is last page"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:288
+msgid "Save attribute"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:290
+msgid "Are you sure you want to remove this variation?"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:413 includes/helper/menus.php:26
+msgid "Dashboard"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:415 includes/helper/menus.php:35
+msgid "Articles"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:417
+#, php-format
+msgid "Edit article %s"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:417
+msgid "Add new article"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:420
+#: includes/pages/product-categories.php:56
+#: includes/pages/product-categories.php:87 includes/pages/product-tags.php:52
+#: includes/woocommerce.php:13
+msgid "Products"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:422
+msgid "Edit product"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:422 templates/layout-header.php:85
+msgid "Add new product"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:427
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:430 includes/woocommerce.php:31
+msgid "Coupons"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:432
+#, php-format
+msgid "Edit coupon %s"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:432 templates/layout-header.php:93
+msgid "Add new coupon"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:435 includes/pages/customer.php:18
+#: includes/woocommerce.php:40
+msgid "Customers"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:437
+msgid "View Customer"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:440 includes/helper/menus.php:129
+#: includes/pages/article.php:29 includes/pages/comment.php:28
+#: includes/pages/comment.php:48 includes/pages/product.php:36
+msgid "Comments"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:441
+msgid "Edit Comment"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:443
+#: includes/modules/dokan-review/inc/frontend.php:58
+#: includes/pages/review.php:17 includes/woocommerce.php:97
+msgid "Reviews"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:444
+msgid "Edit Review"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:446
+msgid "My Profile"
+msgstr ""
+
+#: includes/classes/class-shortcodes.php:448 includes/helper/menus.php:62
+#: includes/modules/price-matrix/tpl/admin/settings.php:52 woopanel.php:249
+#: woopanel.php:284
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:37 includes/functions.php:403
+#: includes/pages/customer.php:31 includes/pages/customer.php:734
+#: includes/pages/product-attributes.php:35
+#: includes/pages/product-attributes.php:54 templates/comment/edit.php:39
+#: views/attribute-child.php:23 views/attribute-parent.php:18
+#: views/attribute-parent.php:69
+#: views/metaboxes/product/html-product-attribute.php:79
+#: views/metaboxes/product/html-product-data-general.php:113
+#: views/metaboxes/product/html-product-variation-admin.php:652
+#: views/taxonomy-add.php:17 views/taxonomy-edit.php:17
+msgid "Name"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:41
+#: includes/modules/dokan/settings/dokan-shipping.php:268
+#: includes/modules/dokan/settings/dokan-shipping.php:804
+#: includes/pages/coupon.php:31 includes/pages/product-attributes.php:43
+#: views/attribute-child.php:49
+#: views/metaboxes/product/html-product-variation-admin.php:342
+#: views/metaboxes/product/html-product-variation-admin.php:638
+#: views/taxonomy-add.php:41 views/taxonomy-edit.php:43
+msgid "Description"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:45
+#: includes/pages/product-attributes.php:39
+#: includes/pages/product-attributes.php:58 includes/pages/product.php:237
+#: views/attribute-child.php:36 views/attribute-parent.php:31
+#: views/taxonomy-add.php:29 views/taxonomy-edit.php:30
+msgid "Slug"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:49
+#: includes/pages/product-attributes.php:47
+msgid "Count"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:55
+#: includes/classes/class-taxonomy.php:130 includes/helper/post-function.php:76
+#: includes/helper/post-function.php:83
+#: includes/modules/dokan/settings/dokan-shipping.php:280
+#: includes/pages/product-attributes.php:111
+#: includes/pages/product-attributes.php:117 views/faqs/admin-repeater.php:15
+#: views/faqs/admin-repeater.php:61 views/faqs/admin-repeater.php:139
+#: views/faqs/admin-repeater.php:154
+#: views/metaboxes/product/html-product-download.php:14
+#: views/metaboxes/product/html-product-variation-download.php:13
+msgid "Delete"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:117
+#: includes/classes/class-taxonomy.php:119 includes/helper/list-table.php:370
+#: includes/helper/permalinks.php:106
+#: includes/modules/dokan/settings/dokan-shipping.php:280
+#: includes/pages/comment.php:282 includes/pages/order.php:460
+#: includes/pages/product-attributes.php:108
+#: includes/pages/product-attributes.php:110
+#: includes/pages/product-attributes.php:114
+#: includes/pages/product-attributes.php:116
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:135 includes/helper/list-table.php:417
+msgid "View"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:207
+#: includes/modules/dokan/settings/dokan-shipping.php:798
+#: templates/orders/edit.php:16
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:227
+msgid ""
+"Categories, unlike tags, can have a hierarchy. You might have a Jazz "
+"category, and under that have children categories for Bebop and Big Band. "
+"Totally optional."
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:229
+msgid ""
+"Assign a parent term to create a hierarchy. The term Jazz, for example, "
+"would be the parent of Bebop and Big Band."
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:301
+#: includes/pages/product-attributes.php:394
+msgid "Not found"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:443
+#: includes/pages/product-attributes.php:559
+msgid "Search Tags"
+msgstr ""
+
+#: includes/classes/class-taxonomy.php:443
+#: includes/pages/product-attributes.php:559
+msgid "Search Categories"
+msgstr ""
+
+#: includes/classes/class-template.php:33
+msgid "You have no permission to view this page"
+msgstr ""
+
+#: includes/classes/class-template.php:33
+msgid "No permission"
+msgstr ""
+
+#: includes/fields/form-fields.php:59
+msgid "required"
+msgstr ""
+
+#: includes/fields/form-fields.php:142
+#: includes/modules/price-matrix/inc/frontend.php:268
+msgid "Choose an option"
+msgstr ""
+
+#: includes/functions.php:113 woopanel.php:273
+msgid "You need a higher level of permission."
+msgstr ""
+
+#: includes/functions.php:351
+msgid "No items found."
+msgstr ""
+
+#: includes/functions.php:402 views/attribute-parent.php:68
+msgid "Custom ordering"
+msgstr ""
+
+#: includes/functions.php:404 views/attribute-parent.php:70
+msgid "Name (numeric)"
+msgstr ""
+
+#: includes/functions.php:405 views/attribute-parent.php:71
+msgid "Term ID"
+msgstr ""
+
+#: includes/functions.php:437
+msgid "Withdraw amount required "
+msgstr ""
+
+#: includes/functions.php:439
+msgid "You don't have enough balance for this request"
+msgstr ""
+
+#: includes/functions.php:441
+#, php-format
+msgid "Withdraw amount must be greater than %d"
+msgstr ""
+
+#: includes/functions.php:445
+msgid "withdraw method required"
+msgstr ""
+
+#: includes/functions.php:468
+msgid "Your request has been received successfully and being reviewed!"
+msgstr ""
+
+#: includes/functions.php:479
+msgid "You already have pending withdraw request(s)."
+msgstr ""
+
+#: includes/functions.php:479
+msgid ""
+"Please submit your request after approval or cancellation of your previous "
+"request."
+msgstr ""
+
+#: includes/functions.php:488 includes/functions.php:589
+#: includes/functions.php:630 templates/dashboard/recent-order.php:43
+msgid "Amount"
+msgstr ""
+
+#: includes/functions.php:489 includes/functions.php:590
+#: includes/functions.php:631
+msgid "Method"
+msgstr ""
+
+#: includes/functions.php:490 includes/functions.php:591
+#: includes/functions.php:632 includes/helper/filter.php:33
+#: includes/pages/article.php:30 includes/pages/customer.php:536
+#: includes/pages/faq.php:28 includes/pages/order.php:21
+#: includes/pages/product.php:37 templates/dashboard/recent-order.php:41
+msgid "Date"
+msgstr ""
+
+#: includes/functions.php:491 includes/functions.php:509
+#: includes/pages/product.php:351
+#: views/metaboxes/product/html-product-data-general.php:59
+msgid "Cancel"
+msgstr ""
+
+#: includes/functions.php:492
+#: includes/modules/dokan/settings/dokan-shipping.php:267
+#: includes/pages/comment.php:164 includes/pages/coupon.php:110
+#: includes/pages/customer.php:531 includes/pages/order.php:22
+#: includes/pages/order.php:373 includes/pages/product.php:311
+#: templates/comment/edit.php:105 templates/dashboard/recent-order.php:42
+#: views/edit.php:219
+msgid "Status"
+msgstr ""
+
+#: includes/functions.php:515 includes/pages/coupon.php:15
+msgid "Pending Review"
+msgstr ""
+
+#: includes/functions.php:517
+msgid "Accepted"
+msgstr ""
+
+#: includes/functions.php:531
+msgid "You don't have sufficient balance for a withdraw request!"
+msgstr ""
+
+#: includes/functions.php:543
+msgid "Withdraw Amount"
+msgstr ""
+
+#: includes/functions.php:563
+msgid "Payment Method"
+msgstr ""
+
+#: includes/functions.php:608 includes/functions.php:651
+msgid "Sorry, no transactions were found!"
+msgstr ""
+
+#: includes/functions.php:633 includes/pages/order.php:446
+msgid "Note"
+msgstr ""
+
+#: includes/helper/actions.php:83
+msgid "Seller Center Page"
+msgstr ""
+
+#: includes/helper/dashboard.php:154
+msgid "This Week"
+msgstr ""
+
+#: includes/helper/dashboard.php:155
+msgid "Last Week"
+msgstr ""
+
+#: includes/helper/dashboard.php:156
+msgid "This Month"
+msgstr ""
+
+#: includes/helper/dashboard.php:157
+msgid "Last Month"
+msgstr ""
+
+#: includes/helper/dashboard.php:158
+msgid "Custom Range"
+msgstr ""
+
+#: includes/helper/filter.php:36
+msgid "All dates"
+msgstr ""
+
+#: includes/helper/list-table.php:44
+#, php-format
+msgid "View all post in &#8220;%s&#8221; inline"
+msgstr ""
+
+#: includes/helper/list-table.php:103
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/helper/list-table.php:104
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/helper/list-table.php:105
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/helper/list-table.php:110 includes/helper/list-table.php:122
+#: includes/helper/list-table.php:135
+msgid "No comments"
+msgstr ""
+
+#: includes/helper/list-table.php:122
+msgid "No approved comments"
+msgstr ""
+
+#: includes/helper/list-table.php:135
+msgid "No pending comments"
+msgstr ""
+
+#: includes/helper/list-table.php:147
+msgid "Unpublished"
+msgstr ""
+
+#: includes/helper/list-table.php:157
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/helper/list-table.php:164 includes/pages/coupon.php:14
+msgid "Published"
+msgstr ""
+
+#: includes/helper/list-table.php:167
+msgid "Missed schedule"
+msgstr ""
+
+#: includes/helper/list-table.php:169
+msgid "Scheduled"
+msgstr ""
+
+#: includes/helper/list-table.php:172
+msgid "Last Modified"
+msgstr ""
+
+#: includes/helper/list-table.php:247
+msgid "First page"
+msgstr ""
+
+#: includes/helper/list-table.php:257
+msgid "Previous page"
+msgstr ""
+
+#: includes/helper/list-table.php:264 includes/helper/list-table.php:267
+msgid "Current Page"
+msgstr ""
+
+#: includes/helper/list-table.php:273
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: includes/helper/list-table.php:280
+msgid "Next page"
+msgstr ""
+
+#: includes/helper/list-table.php:290
+msgid "Last page"
+msgstr ""
+
+#: includes/helper/list-table.php:337
+msgid "Select bulk action"
+msgstr ""
+
+#: includes/helper/list-table.php:369
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/helper/list-table.php:380
+#, php-format
+msgid "Restore &#8220;%s&#8221; from the Trash"
+msgstr ""
+
+#: includes/helper/list-table.php:387
+#, php-format
+msgid "Move &#8220;%s&#8221; to the Trash"
+msgstr ""
+
+#: includes/helper/list-table.php:388 includes/pages/comment.php:278
+#: views/edit.php:237
+msgctxt "verb"
+msgid "Trash"
+msgstr ""
+
+#: includes/helper/list-table.php:395
+#, php-format
+msgid "Delete &#8220;%s&#8221; permanently"
+msgstr ""
+
+#: includes/helper/list-table.php:408
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/helper/list-table.php:409 includes/pages/order.php:176
+msgid "Preview"
+msgstr ""
+
+#: includes/helper/list-table.php:416
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/helper/menus.php:44
+msgid "Faqs"
+msgstr ""
+
+#: includes/helper/menus.php:53 views/withdraw.php:31
+msgid "Withdraw"
+msgstr ""
+
+#: includes/helper/menus.php:71 templates/layout-header.php:185
+msgid "Log Out"
+msgstr ""
+
+#: includes/helper/menus.php:91
+msgid "All Articles"
+msgstr ""
+
+#: includes/helper/menus.php:98 includes/woocommerce.php:59
+msgctxt "post status"
+msgid "Published"
+msgstr ""
+
+#: includes/helper/menus.php:105 includes/woocommerce.php:73
+msgctxt "post status"
+msgid "Draft"
+msgstr ""
+
+#: includes/helper/menus.php:112 includes/woocommerce.php:80
+msgctxt "post status"
+msgid "Trash"
+msgstr ""
+
+#: includes/helper/menus.php:122
+msgctxt "post"
+msgid "Add New"
+msgstr ""
+
+#: includes/helper/menus.php:138 includes/pages/faq-admin.php:37
+msgid "All FAQs"
+msgstr ""
+
+#: includes/helper/menus.php:145
+msgctxt "post status"
+msgid "Add New"
+msgstr ""
+
+#: includes/helper/notice.php:43
+#, php-format
+msgid ""
+"%s is inactive. The %sWooCommerce plugin%s must be active for the %s to "
+"work. Please %sinstall & activate WooCommerce%s"
+msgstr ""
+
+#: includes/helper/options.php:8
+msgid "Generals"
+msgstr ""
+
+#: includes/helper/options.php:9
+msgid "General Settings"
+msgstr ""
+
+#: includes/helper/options.php:19
+msgid "Live Chat"
+msgstr ""
+
+#: includes/helper/options.php:20
+msgid "Live Chat Settings"
+msgstr ""
+
+#: includes/helper/options.php:29
+msgid "Position"
+msgstr ""
+
+#: includes/helper/options.php:31
+msgid "Header (before \t&lt;/head&gt;)"
+msgstr ""
+
+#: includes/helper/options.php:32
+msgid "Footer (before \t&lt;/body&gt;)"
+msgstr ""
+
+#: includes/helper/options.php:39
+msgid "Embed Code"
+msgstr ""
+
+#: includes/helper/options.php:40
+msgid "Paste embed code here. Example: tawk.to Live Chat"
+msgstr ""
+
+#: includes/helper/options.php:58
+msgid "Shop Layout"
+msgstr ""
+
+#: includes/helper/options.php:60
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/helper/options.php:61
+msgid "Fixed"
+msgstr ""
+
+#: includes/helper/options.php:69 includes/modules/customize/customize.php:62
+msgid "Customize"
+msgstr ""
+
+#: includes/helper/options.php:70
+msgid "Shop Customizer"
+msgstr ""
+
+#: includes/helper/options.php:79
+msgid "Shop name"
+msgstr ""
+
+#: includes/helper/options.php:84
+msgid "Dashboard Header Logo"
+msgstr ""
+
+#: includes/helper/options.php:189 includes/pages/customer.php:456
+msgid "Settings saved."
+msgstr ""
+
+#: includes/helper/permalinks.php:75 includes/helper/permalinks.php:98
+msgid "Permalink:"
+msgstr ""
+
+#: includes/helper/permalinks.php:86
+msgid "Change Permalinks"
+msgstr ""
+
+#: includes/helper/permalinks.php:106
+msgid "Edit permalink"
+msgstr ""
+
+#: includes/helper/post-function.php:28
+msgid "Click the image to edit or update"
+msgstr ""
+
+#: includes/helper/post-function.php:31
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/helper/post-function.php:33
+msgid "Remove Image"
+msgstr ""
+
+#: includes/helper/post-function.php:76
+msgid "Delete image"
+msgstr ""
+
+#: includes/helper/post-function.php:81
+msgid "Drag and drop to reorder media files."
+msgstr ""
+
+#: includes/helper/post-function.php:83
+msgid "Add gallery images"
+msgstr ""
+
+#: includes/helper/post-function.php:124
+msgid "Sorry, you are not allowed to create pages on this site."
+msgstr ""
+
+#: includes/helper/post-function.php:126
+msgid "Sorry, you are not allowed to create posts or drafts on this site."
+msgstr ""
+
+#: includes/helper/post-function.php:227 includes/helper/post-function.php:432
+msgid "updated."
+msgstr ""
+
+#: includes/helper/post-function.php:462 includes/helper/post-function.php:503
+msgid "Sorry, you are not allowed to edit pages as this user."
+msgstr ""
+
+#: includes/helper/post-function.php:464 includes/helper/post-function.php:505
+msgid "Sorry, you are not allowed to edit posts as this user."
+msgstr ""
+
+#: includes/helper/post-function.php:467 includes/helper/post-function.php:508
+msgid "Sorry, you are not allowed to create pages as this user."
+msgstr ""
+
+#: includes/helper/post-function.php:469 includes/helper/post-function.php:510
+msgid "Sorry, you are not allowed to create posts as this user."
+msgstr ""
+
+#: includes/helper/post-function.php:593
+msgid "Invalid date."
+msgstr ""
+
+#: includes/helper/post.php:28
+msgid "New category name"
+msgstr ""
+
+#: includes/helper/post.php:82
+msgctxt "tag delimiter"
+msgid ","
+msgstr ""
+
+#: includes/helper/post.php:103
+#: views/metaboxes/product/html-product-data-attributes.php:27
+msgid "Add"
+msgstr ""
+
+#: includes/helper/post.php:118
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/modules/color-swatches/color-swatches.php:37
+msgid "Color"
+msgstr ""
+
+#: includes/modules/color-swatches/color-swatches.php:39
+msgid "Radio"
+msgstr ""
+
+#: includes/modules/color-swatches/color-swatches.php:40
+msgid "Label"
+msgstr ""
+
+#: includes/modules/color-swatches/color-swatches.php:71
+#: includes/modules/price-matrix/price-matrix.php:136
+#, php-format
+msgid ""
+"WooCommerce plugin is not activated. Please install and activate it to use "
+"for module %s."
+msgstr ""
+
+#: includes/modules/color-swatches/color-swatches.php:121
+msgid "Square"
+msgstr ""
+
+#: includes/modules/color-swatches/color-swatches.php:122
+msgid "Circle"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:111
+#: includes/modules/color-swatches/inc/admin.php:135
+#: includes/modules/color-swatches/tpl/admin/woopanel-panels.php:27
+msgid "Style"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:169
+#: includes/modules/color-swatches/inc/admin.php:229
+msgid "Color Swatches"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:230
+#: includes/modules/price-matrix/inc/admin.php:204
+msgid ""
+"Replace front-end dropdowns with a price matrix. This option limits \"Used "
+"for varations\" to 2."
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:301
+#: includes/modules/color-swatches/inc/admin.php:336
+#: includes/modules/price-matrix/inc/metabox.php:192
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:302
+#: includes/modules/color-swatches/inc/admin.php:337
+#: includes/modules/price-matrix/inc/metabox.php:193
+msgid "Remove image"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:382
+msgid "Select terms"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:393
+msgid "Select all"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:394
+msgid "Select none"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:395
+#: includes/woocommerce.php:90 includes/woocommerce.php:174
+msgid "Add new"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:483
+msgid "Choose an image"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/admin.php:484
+msgid "Use image"
+msgstr ""
+
+#: includes/modules/color-swatches/inc/settings.php:21
+#: views/metaboxes/product/html-product-data-shipping.php:40
+#: views/metaboxes/product/html-product-variation-admin.php:580
+msgid "Width"
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/panels.php:12
+#: includes/modules/color-swatches/tpl/admin/woopanel-panels.php:12
+#: includes/pages/product-attributes.php:62 includes/pages/product.php:33
+#: views/attribute-parent.php:46
+msgid "Type"
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/panels.php:15
+#: includes/modules/color-swatches/tpl/admin/woopanel-panels.php:15
+msgid "select a type"
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/panels.php:66
+#: includes/modules/color-swatches/tpl/admin/woopanel-panels.php:66
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:96
+msgid "Value"
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/panels.php:67
+#: includes/modules/color-swatches/tpl/admin/woopanel-panels.php:67
+msgid "Display"
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/tabs.php:8
+#: includes/modules/color-swatches/tpl/admin/woopanel-tabs.php:8
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:82
+#: includes/modules/price-matrix/tpl/admin/row-repeater-empty.php:15
+#: views/metaboxes/product/html-product-data-variations.php:17
+#, php-format
+msgid ""
+"Before you can add a variation you need to add some variation attributes on "
+"the %s tab."
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/tabs.php:9
+#: includes/modules/color-swatches/tpl/admin/woopanel-tabs.php:9
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:18
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:83
+#: includes/modules/price-matrix/tpl/admin/row-repeater-empty.php:16
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:14
+#: includes/pages/product-attributes.php:543 includes/pages/product.php:455
+#: includes/woocommerce.php:121
+#: views/metaboxes/product/html-product-data-variations.php:18
+msgid "Attributes"
+msgstr ""
+
+#: includes/modules/color-swatches/tpl/admin/tabs.php:13
+#: includes/modules/color-swatches/tpl/admin/woopanel-tabs.php:13
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:87
+#: includes/modules/price-matrix/tpl/admin/row-repeater-empty.php:20
+#: views/metaboxes/product/html-product-data-variations.php:22
+msgid "Learn more"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store-header.php:14
+msgid "Default sorting"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store-header.php:15
+msgid "Sort by popularity"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store-header.php:16
+msgid "Sort by average rating"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store-header.php:17
+msgid "Sort by latest"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store-header.php:18
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store-header.php:19
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:49
+#: includes/modules/dokan/settings/dokan-store.php:16
+msgid "Dokan Store"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:54
+#: includes/modules/customize/dokan-store/dokan-store.php:59
+msgid "Layout Store"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:66
+msgid "Left sidebar"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:71
+msgid "Right sidebar"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:76
+msgid "Full width"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:85
+msgid "Layout Sidebar Width"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:98
+msgid "Header Store"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:103
+msgid "Header Style"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:107
+#: includes/modules/online-desginer/online-desginer.php:116
+#: includes/modules/price-matrix/inc/functions.init.php:8
+#: includes/modules/price-matrix/inc/settings.php:45
+#: includes/pages/product-categories.php:55
+#: includes/pages/product-categories.php:86 includes/pages/product-tags.php:51
+msgid "Default"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:108
+msgid "Facebook"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:114
+msgid "Header Info Position"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:118
+msgid "Left"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:119
+msgid "Right"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:120
+msgid "Top"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:121
+msgid "Bottom"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:130
+msgid "WooCommerce Store"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:135
+msgid "Show Gird/List layout"
+msgstr ""
+
+#: includes/modules/customize/dokan-store/dokan-store.php:142
+msgid "Show Filter Product"
+msgstr ""
+
+#: includes/modules/dokan-review/dokan-review.php:59
+#: includes/modules/dokan/dokan.php:57
+#: includes/modules/geo-location/geo-location.php:59
+#, php-format
+msgid ""
+"Dokan plugin is not activated. Please install and activate it to use for "
+"module %s."
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:18
+#: includes/modules/dokan-review/inc/frontend.php:198
+msgid "Write a Review"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:107
+msgid "Security check"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:119
+msgid "Please rate for this prouduct"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:124
+msgid "Please select a product"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:129
+msgid "Please enter review title"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:134
+msgid "Please enter review content"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:167
+msgid "Your comment has been submitted successfully."
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:169
+msgid "Comment for this product already exists"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:206
+msgid "Product:"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:218
+#: includes/modules/geo-location/inc/widgets.php:46
+msgid "Title:"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:225
+msgid "Your Review:"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/frontend.php:232
+msgid "Submit"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/reviews.php:95
+msgid "&laquo;"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/reviews.php:96
+msgid "&raquo;"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/reviews.php:117
+msgid "No Reviews Found"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/reviews.php:159
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: includes/modules/dokan-review/inc/reviews.php:160
+msgid "out of 5"
+msgstr ""
+
+#: includes/modules/dokan-review/templates/store-reviews.php:31
+msgid "Store Category"
+msgstr ""
+
+#: includes/modules/dokan-review/templates/store-reviews.php:34
+msgid "Store Location"
+msgstr ""
+
+#: includes/modules/dokan-review/templates/store-reviews.php:38
+msgid "Store Time"
+msgstr ""
+
+#: includes/modules/dokan-review/templates/store-reviews.php:42
+msgid "Contact Vendor"
+msgstr ""
+
+#: includes/modules/dokan-review/templates/store-reviews.php:76
+msgid "Vendor Review"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:16
+#: includes/modules/dokan/inc/ajax.php:54
+#: includes/modules/dokan/inc/ajax.php:79
+#: includes/modules/dokan/inc/ajax.php:105
+msgid "Shipping zone not found"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:24
+#: includes/modules/dokan/settings/dokan-shipping.php:687
+#: includes/modules/dokan/settings/dokan-shipping.php:805
+msgid "Lets you charge a rate for shipping"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:58
+msgid "Please select a shipping method"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:72
+msgid "Shipping method added successfully"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:83
+msgid "Shipping method not found"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:97
+msgid "Shipping method deleted"
+msgstr ""
+
+#: includes/modules/dokan/inc/ajax.php:121
+msgid "Shipping title must be required"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:17
+msgid "Dokan Payment"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:18
+msgid "Dokan Payment Settings"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:64
+msgid "Paypal"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:82
+msgid "Skrill"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:96
+msgid "Your bank account name"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:100
+msgid "Your bank account number"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:104
+msgid "Name of bank"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:108
+msgid "Address of your bank"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:112
+msgid "Routing number"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:116
+msgid "IBAN"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-payment.php:120
+msgid "Swift code"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:15
+msgid "Dokan SEO"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:16
+msgid "Dokan SEO Settings"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:25
+msgid "SEO Title :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:26
+msgid "SEO Title is shown as the title of your store page"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:32
+msgid "Meta Description :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:33
+msgid ""
+"The meta description is often shown as the black text under the title in a "
+"search result. For this to work it has to contain the keyword that was "
+"searched for and should be less than 156 chars."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:39
+msgid "Meta Keywords :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:40
+msgid ""
+"Insert some comma separated keywords for better ranking of your store page."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:46
+msgid "Facebook Title :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:52
+msgid "Facebook Description :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:58
+msgid "Facebook Image :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:69
+msgid "Twitter Title :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:75
+msgid "Twitter Description :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-seo.php:81
+msgid "Twitter Image :"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:16
+msgid "Dokan Shipping"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:17
+msgid "Dokan Shipping Settings"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:125
+msgid ""
+"A shipping zone is a geographic region where a certain set of shipping "
+"methods are offered. We will match a customer to a single zone using their "
+"shipping address and present the shipping methods within that zone to them."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:126
+#: includes/modules/dokan/settings/dokan-shipping.php:133
+msgid "If you want to use the previous shipping system then"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:128
+#: includes/modules/dokan/settings/dokan-shipping.php:135
+msgid "Click Here"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:182
+#: includes/modules/dokan/settings/dokan-shipping.php:229
+msgid "Zone Name"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:183
+msgid "Region(s)"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:184
+#: includes/modules/dokan/settings/dokan-shipping.php:259
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:193
+#: includes/modules/dokan/settings/dokan-shipping.php:291
+msgid "No method found"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:194
+#: includes/modules/dokan/settings/dokan-shipping.php:297
+#: includes/modules/dokan/settings/dokan-shipping.php:306
+#: includes/modules/dokan/settings/dokan-shipping.php:329
+msgid "Add Shipping Method"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:209
+msgid ""
+"No shipping zone found for configuration. Please contact with admin for "
+"manage your store shipping"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:234
+msgid "Zone Location"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:239
+msgid "Limit your zone location"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:248
+msgid "Set your postcode"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:260
+msgid "Add your shipping method for appropiate zone"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:266
+msgid "Method Title"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:311
+msgid ""
+"Choose the shipping method you wish to add. Only shipping methods which "
+"support zones are listed."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:313
+msgid "Select a Method"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:363
+msgid "Enable Shipping"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:364
+msgid "Enable shipping functionality"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:376
+msgid "Default Shipping Price"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:379
+msgid ""
+"This is the base price and will be the starting shipping price for each "
+"product"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:389
+msgid "Per Product Additional Price"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:392
+msgid ""
+"If a customer buys more than one type product from your store, first product "
+"of the every second type will be charged with this price"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:402
+msgid "Per Qty Additional Price"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:405
+msgid "Every second product of same type will be charged with this price"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:415
+msgid "Processing Time"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:417
+msgid "The time required before sending the product for delivery"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:428
+msgid "Shipping Policy"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:429
+msgid "Write your terms, conditions and instructions about shipping"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:440
+msgid "Refund Policy"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:441
+msgid "Write your terms, conditions and instructions about refund"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:452
+msgid "Ships from:"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:454
+msgid ""
+"Location from where the products are shipped for delivery. Usually it is "
+"same as the store."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:462
+msgid ""
+"Add the countries you deliver your products to. You can specify states as "
+"well. If the shipping price is same except some countries/states, there is "
+"an option <strong>Everywhere Else</strong>, you can use that."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:471
+#: includes/modules/dokan/settings/dokan-shipping.php:564
+#: includes/modules/dokan/settings/dokan-shipping.php:633
+msgid "Ship to"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:472
+#: includes/modules/dokan/settings/dokan-shipping.php:521
+#: includes/modules/dokan/settings/dokan-shipping.php:546
+#: includes/modules/dokan/settings/dokan-shipping.php:566
+#: includes/modules/dokan/settings/dokan-shipping.php:623
+#: includes/modules/dokan/settings/dokan-shipping.php:635
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:56
+#: includes/modules/price-matrix/tpl/admin/row-repeater-line.php:28
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:51
+msgid "Remove row"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:508
+#: includes/modules/dokan/settings/dokan-shipping.php:533
+#: includes/modules/dokan/settings/dokan-shipping.php:610
+msgid "State name"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:520
+#: includes/modules/dokan/settings/dokan-shipping.php:545
+#: includes/modules/dokan/settings/dokan-shipping.php:622
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:55
+#: includes/modules/price-matrix/tpl/admin/row-repeater-line.php:27
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:50
+msgid "Add row"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:565
+#: includes/modules/dokan/settings/dokan-shipping.php:634
+#: includes/modules/dokan/settings/dokan-shipping.php:789
+#: templates/orders/edit.php:246 templates/orders/edit.php:626
+msgid "Cost"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:598
+msgid "Add Location"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:715
+msgid "Flat Rate"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:717
+msgid "Local Pickup"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:719
+msgid "Free Shipping"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:721
+msgid "Custom Shipping"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:778
+msgid "Edit Shipping Method"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:779
+msgid "Close (Esc)"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:784
+#: includes/pages/article.php:25 includes/pages/faq.php:26
+#: includes/pages/product.php:29 includes/pages/product.php:227
+#: views/faqs/admin-repeater.php:24 views/faqs/admin-repeater.php:32
+#: views/faqs/admin-repeater.php:109
+msgid "Title"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:785
+msgid "Enter method title"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:791
+#: includes/modules/dokan/settings/dokan-shipping.php:815
+msgid ""
+"Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>. Use "
+"<code>[qty]</code> for the number of items, <code>[cost]</code> for the "
+"total cost of items, and <code>[fee percent='10' min_fee='20' max_fee='']</"
+"code> for percentage based fees."
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:795
+msgid "Tax Status"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:799
+#: views/metaboxes/product/html-product-data-general.php:198
+msgid "Taxable"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:809
+msgid "Shipping Class Cost"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:810
+msgid "These costs can optionally be added based on the product shipping class"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:813
+msgid "No shipping class cost"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:819
+msgid "Calculation type"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:822
+msgid "Per class: Charge shipping for each shipping class individually"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:823
+msgid "Per order: Charge shipping for the most expensive shipping class"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-shipping.php:832
+msgid "Save Settings"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-social.php:14
+msgid "Dokan Social"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-social.php:15
+msgid "Dokan Social Settings"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:17
+msgid "Dokan Store Settings"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:26
+msgid "Shop Banner"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:37
+msgid "Profile Picture"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:48
+msgid "Store Name"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:54
+msgid "Store Product Per Page"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:60
+msgid "Address"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:64
+msgid "Street"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:65
+msgid "Street address"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:70
+msgid "Street 2"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:71
+msgid "Apartment, suite, unit etc. (optional)"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:76
+#: templates/orders/edit.php:42 templates/orders/edit.php:93
+#: templates/orders/edit.php:813 templates/orders/edit.php:1000
+msgid "City"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:77
+msgid "Town / City"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:82
+msgid "Post/ZIP Code"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:83
+msgid "Postcode / Zip"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:88
+#: templates/orders/edit.php:50 templates/orders/edit.php:101
+#: templates/orders/edit.php:839 templates/orders/edit.php:1026
+msgid "Country"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:93
+msgid "State"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:101
+msgid "Phone No"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:107
+#: includes/pages/customer.php:32 includes/pages/customer.php:781
+#: includes/pages/order.php:414 templates/comment/edit.php:48
+msgid "Email"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:109
+msgid "Show email address in store"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:115
+msgid "More products"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:117
+msgid "Enable tab on product single page view"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:123
+msgid "Map"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:129
+msgid "Store Opening Closing Time"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:130
+msgid "Show store opening closing time widget in store page"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:144
+msgid "Store Open Notice"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:145
+msgid "Store is open"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:151
+msgid "Store Close Notice"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:152
+msgid "Store is closed"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:219
+#: views/faqs/admin-repeater.php:16 views/faqs/admin-repeater.php:64
+#: views/faqs/admin-repeater.php:78 views/faqs/admin-repeater.php:140
+#: views/faqs/admin-repeater.php:155
+msgid "Close"
+msgstr ""
+
+#: includes/modules/dokan/settings/dokan-store.php:222
+msgid "Open"
+msgstr ""
+
+#: includes/modules/geo-location/inc/admin.php:39
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:17
+msgid "Please fill your product adress to show map."
+msgstr ""
+
+#: includes/modules/geo-location/inc/admin.php:41
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:19
+#, php-format
+msgid "You did not set up api key. Please %s to set up it."
+msgstr ""
+
+#: includes/modules/geo-location/inc/admin.php:41
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:19
+msgid "click here"
+msgstr ""
+
+#: includes/modules/geo-location/inc/admin.php:49
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:30
+msgid "Product Address"
+msgstr ""
+
+#: includes/modules/geo-location/inc/admin.php:50
+#: includes/modules/geo-location/inc/admin.php:63
+#: includes/modules/geo-location/inc/admin.php:75
+#: includes/modules/geo-location/inc/settings.php:54
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:31
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:44
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:56
+msgid "Enter your store address here."
+msgstr ""
+
+#: includes/modules/geo-location/inc/admin.php:62
+#: includes/modules/geo-location/inc/admin.php:74
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:43
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:55
+msgid "GEO Location"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:130 templates/orders/edit.php:891
+msgid "N/A"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:174
+msgid "Featured"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:184
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:185
+#: templates/dashboard/recent-review.php:23
+#, php-format
+msgid "%s out of 5"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:211
+#: templates/layout-header.php:129
+msgid "Visit Store"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:223
+msgid "No vendor found!"
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:352
+#: includes/modules/geo-location/inc/ajax.php:360
+msgid "Please enter a product name."
+msgstr ""
+
+#: includes/modules/geo-location/inc/ajax.php:356
+#: includes/modules/geo-location/inc/ajax.php:364
+msgid "Please enter a location address."
+msgstr ""
+
+#: includes/modules/geo-location/inc/frontend.php:188
+msgid "Search Products"
+msgstr ""
+
+#: includes/modules/geo-location/inc/frontend.php:192
+msgid "Location"
+msgstr ""
+
+#: includes/modules/geo-location/inc/frontend.php:197
+msgid "Search Vendors"
+msgstr ""
+
+#: includes/modules/geo-location/inc/frontend.php:294
+#: includes/modules/geo-location/inc/widgets.php:43
+msgid "Product Location"
+msgstr ""
+
+#: includes/modules/geo-location/inc/frontend.php:320
+msgid ""
+"Map isn't available. If you are vendor of this product, please set address "
+"your store at Seller Center."
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:25
+#: includes/modules/geo-location/tpl/admin-metabox-product.php:5
+msgid "Geo Location"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:26
+msgid "Geo Location Settings"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:35
+msgid "Application ID"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:36
+msgid "Enter your Application ID of Here.com"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:39
+#: includes/modules/geo-location/inc/settings.php:48
+#, php-format
+msgid "%s to get Application ID of HereMaps."
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:39
+#: includes/modules/geo-location/inc/settings.php:48
+msgid "Click here"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:44
+msgid "Application Code"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:45
+msgid "Enter your Application Code of Here.com"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:53
+msgid "Store Address"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:60
+msgid "Lat"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:66
+msgid "Lng"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:70
+msgid "Product Location Tab"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:85
+msgid "Show Location in Shop page"
+msgstr ""
+
+#: includes/modules/geo-location/inc/settings.php:94
+msgid "Show Location in Store List page"
+msgstr ""
+
+#: includes/modules/loading-effect/loading-effect.php:108
+msgid "Close Loading"
+msgstr ""
+
+#: includes/modules/loading-effect/loading-effect.php:149
+msgid "Show Loading Close"
+msgstr ""
+
+#: includes/modules/modules.php:50
+msgid "Allow customers easy enter price for variation product."
+msgstr ""
+
+#: includes/modules/modules.php:56 includes/modules/modules.php:68
+#: includes/modules/modules.php:74
+msgid ""
+"Change default select box of attributes to something more intuitive: Radio "
+"images, Radio buttons, Color, etc."
+msgstr ""
+
+#: includes/modules/modules.php:62
+msgid "Module for Dokan"
+msgstr ""
+
+#: includes/modules/modules.php:80
+msgid "Module for Customize"
+msgstr ""
+
+#: includes/modules/modules.php:86
+msgid "Module for Printcart Apps"
+msgstr ""
+
+#: includes/modules/modules.php:92
+msgid "Module for loading-effect"
+msgstr ""
+
+#: includes/modules/online-desginer/online-desginer.php:115
+msgid "Clear"
+msgstr ""
+
+#: includes/modules/online-desginer/online-desginer.php:117
+msgid "Select Color"
+msgstr ""
+
+#: includes/modules/online-desginer/online-desginer.php:118
+msgid "Current Color"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/admin.php:87
+#: includes/modules/price-matrix/inc/admin.php:88
+#: includes/modules/price-matrix/inc/admin.php:203
+#: includes/modules/price-matrix/inc/admin.php:442
+#: includes/modules/price-matrix/tpl/admin/admin.php:2
+msgid "Price Matrix"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/admin.php:155
+#, php-format
+msgid "Not found hook %s, please contact author of theme to get support."
+msgstr ""
+
+#: includes/modules/price-matrix/inc/admin.php:415
+#: includes/modules/price-matrix/inc/admin.php:420
+msgid "Note:"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/admin.php:415
+msgid ""
+"When you finish enter the price for this attribute, please press the Save "
+"Price Matrix button before choosing another attribute. Double click to input "
+"the price!</p><p>To input the sale price, please use the \"-\" characters "
+"between prices. Eg: original price is $5, sale price is $2, the convention "
+"is 5-2"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/admin.php:420
+msgid ""
+"Double click to input the price!</p><p>To input the sale price, please use "
+"the \"-\" characters between prices. Eg: original price is $5, sale price is "
+"$2, the convention is 5-2"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/admin.php:424
+msgid "Sorry, this options not available for enter price"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/frontend.php:70
+#: includes/modules/price-matrix/tpl/frontend/price-matrix-4.php:94
+#: includes/modules/price-matrix/tpl/frontend/price-matrix-horizontal-3.php:83
+#: includes/modules/price-matrix/tpl/frontend/price-matrix-vertical-3.php:73
+#: includes/modules/price-matrix/tpl/frontend/price-matrix.php:61
+#: includes/pages/order.php:23 templates/orders/edit.php:248
+#: templates/orders/edit.php:366 templates/orders/edit.php:628
+msgid "Total"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/functions.init.php:9
+#: includes/modules/price-matrix/inc/settings.php:46
+msgid "Before Tab"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:41
+msgid "Price matrix table position"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:51
+msgid "Hide Additional information"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:55
+msgid "Hide Additional information tab in Product Details"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:58
+msgid "Show calculator text"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:62
+msgid "Show calculator text after Add to cart button"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:65
+msgid "Enable heading"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:69
+msgid "Turn on heading before Price Matrix table"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:72
+msgid "Heading title"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:78
+msgid "Scroll when select price"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:82
+msgid "Scroll the screen to the Price Matrix table when user choose attributes"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:85
+msgid "Display regular & sale price"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:89
+msgid "Display the sale price in the Price Matrix table"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:95
+msgid "Background color of price matrix table"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:101
+msgid "Table Text color"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:107
+msgid "Table Border color"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:116
+msgid "Tooltips background color"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:122
+msgid "Tooltips text color"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:128
+msgid "Tooltips border color"
+msgstr ""
+
+#: includes/modules/price-matrix/inc/settings.php:134
+msgid "Font Size"
+msgstr ""
+
+#: includes/modules/price-matrix/price-matrix.php:168
+msgid ""
+"You are use version FREE will limit 03 products can enable Price Matrix, "
+"please upgrade PRO version"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:19
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:15
+msgid "Direction"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:38
+msgid "Select an Attributes"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:48
+msgid "Vertical"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:49
+msgid "Horizontal"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:66
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:60
+#: includes/modules/price-matrix/tpl/admin/table-matrix-4.php:79
+#: includes/modules/price-matrix/tpl/admin/table-matrix-horizontal-3.php:68
+#: includes/modules/price-matrix/tpl/admin/table-matrix-vertical-3.php:55
+#: includes/modules/price-matrix/tpl/admin/table-matrix.php:47
+msgid "Save"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:67
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:61
+msgid "Input Price"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/price-matrix-product.php:68
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:62
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:68
+msgid "Order Attributes"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:6
+msgid ""
+"Currently, Price Matrix only support display maximum is 4 attributes to "
+"price matrix table"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:7
+msgid ""
+"By default, attribute at the bottom will not be displayed to the table, it "
+"will just show in selection mode. You can choose which attribute to be shown "
+"in the table by click Show/hide next to it"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/row-repeater.php:70
+msgid "Select a attribute"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/settings.php:22
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/settings.php:46
+msgid "Authentication"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/settings/_auth.php:2
+msgid ""
+"Please buy PRO version, if you purchased this product on CodeCanyhon, press "
+"button!"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/settings/_auth.php:3
+msgid "Connect Envato"
+msgstr ""
+
+#: includes/modules/price-matrix/tpl/admin/settings/general.php:11
+msgid "Save Changes"
+msgstr ""
+
+#: includes/modules/printcart-app/printcart-app.php:60
+msgid "PrintCart Apps"
+msgstr ""
+
+#: includes/modules/printcart-app/printcart-app.php:69
+msgid "Pricing"
+msgstr ""
+
+#: includes/modules/printcart-app/printcart-app.php:84
+msgid "Shopify App"
+msgstr ""
+
+#: includes/modules/printcart-app/printcart-app.php:91
+msgid "PrintFull App"
+msgstr ""
+
+#: includes/modules/printcart-app/printcart-app.php:98
+msgid "WooCommerce App"
+msgstr ""
+
+#: includes/pages/article.php:26 includes/pages/comment.php:47
+#: includes/pages/product.php:271
+msgid "Author"
+msgstr ""
+
+#: includes/pages/article.php:27 includes/pages/product.php:34
+#: includes/woocommerce.php:107 views/edit.php:203
+msgid "Categories"
+msgstr ""
+
+#: includes/pages/article.php:28 includes/pages/product.php:35
+#: includes/woocommerce.php:114 views/edit.php:210
+msgid "Tags"
+msgstr ""
+
+#: includes/pages/article.php:74
+msgid "Allow Comments"
+msgstr ""
+
+#: includes/pages/comment-ajax.php:38 includes/pages/comment.php:257
+msgid "Approve"
+msgstr ""
+
+#: includes/pages/comment-ajax.php:43 includes/pages/comment.php:258
+msgid "Unapprove"
+msgstr ""
+
+#: includes/pages/comment-ajax.php:54 includes/pages/comment.php:553
+#, php-format
+msgid "Comment by %s marked as spam."
+msgstr ""
+
+#: includes/pages/comment-ajax.php:54 includes/pages/comment-ajax.php:68
+#: includes/pages/comment.php:553 includes/pages/comment.php:554
+msgid "Undo"
+msgstr ""
+
+#: includes/pages/comment-ajax.php:68 includes/pages/comment.php:554
+#, php-format
+msgid "Comment by %s moved to the trash."
+msgstr ""
+
+#: includes/pages/comment.php:29
+msgid "Comment"
+msgstr ""
+
+#: includes/pages/comment.php:36
+msgid "Pending"
+msgstr ""
+
+#: includes/pages/comment.php:37
+msgid "Approved"
+msgstr ""
+
+#: includes/pages/comment.php:38
+msgid "Spam"
+msgstr ""
+
+#: includes/pages/comment.php:39
+msgid "Trash"
+msgstr ""
+
+#: includes/pages/comment.php:49
+msgid "In Response To"
+msgstr ""
+
+#: includes/pages/comment.php:50
+msgid "Submitted On"
+msgstr ""
+
+#: includes/pages/comment.php:97
+msgid "Comments updated."
+msgstr ""
+
+#: includes/pages/comment.php:167 includes/pages/coupon.php:113
+#: includes/pages/order.php:376 templates/dashboard/chart-amount.php:38
+#: templates/dashboard/chart-order.php:33
+msgid "All status"
+msgstr ""
+
+#: includes/pages/comment.php:257
+msgid "Approve this comment"
+msgstr ""
+
+#: includes/pages/comment.php:258
+msgid "Unapprove this comment"
+msgstr ""
+
+#: includes/pages/comment.php:261
+msgid "Mark this comment as spam"
+msgstr ""
+
+#: includes/pages/comment.php:261
+msgctxt "verb"
+msgid "Spam"
+msgstr ""
+
+#: includes/pages/comment.php:263
+msgid "Restore this comment from the spam"
+msgstr ""
+
+#: includes/pages/comment.php:263
+msgid "Not Spam"
+msgstr ""
+
+#: includes/pages/comment.php:272
+msgid "Restore this comment from the Trash"
+msgstr ""
+
+#: includes/pages/comment.php:276
+msgid "Delete this comment permanently"
+msgstr ""
+
+#: includes/pages/comment.php:278
+msgid "Move this comment to the Trash"
+msgstr ""
+
+#: includes/pages/comment.php:282
+msgid "Edit this comment"
+msgstr ""
+
+#: includes/pages/comment.php:345
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/pages/comment.php:638
+msgid "Search comment"
+msgstr ""
+
+#: includes/pages/coupon.php:16
+msgid "Draft"
+msgstr ""
+
+#: includes/pages/coupon.php:28
+msgid "Code"
+msgstr ""
+
+#: includes/pages/coupon.php:29
+msgid "Coupon type"
+msgstr ""
+
+#: includes/pages/coupon.php:30 includes/pages/coupon.php:168
+msgid "Coupon amount"
+msgstr ""
+
+#: includes/pages/coupon.php:32
+msgid "Usage / Limit"
+msgstr ""
+
+#: includes/pages/coupon.php:33
+msgid "Expiry date"
+msgstr ""
+
+#: includes/pages/coupon.php:102
+msgid "Edit coupon"
+msgstr ""
+
+#: includes/pages/coupon.php:140 includes/pages/product.php:431
+#: templates/orders/edit.php:514
+msgid "General"
+msgstr ""
+
+#: includes/pages/coupon.php:156
+msgid "Discount type"
+msgstr ""
+
+#: includes/pages/coupon.php:170
+msgid "Value of the coupon."
+msgstr ""
+
+#: includes/pages/coupon.php:182
+msgid "Allow free shipping"
+msgstr ""
+
+#: includes/pages/coupon.php:183
+#, php-format
+msgid ""
+"Check this box if the coupon grants free shipping. A %s must be enabled in "
+"your shipping zone and be set to require \"a valid free shipping coupon"
+"\" (see the \"Free Shipping Requires\" setting)."
+msgstr ""
+
+#: includes/pages/coupon.php:183
+msgid "free shipping method"
+msgstr ""
+
+#: includes/pages/coupon.php:205
+msgid "Coupon expiry date"
+msgstr ""
+
+#: includes/pages/customer.php:30 includes/pages/customer.php:742
+msgid "Username"
+msgstr ""
+
+#: includes/pages/customer.php:34
+msgid "Money Spent"
+msgstr ""
+
+#: includes/pages/customer.php:35
+msgid "Last Order"
+msgstr ""
+
+#: includes/pages/customer.php:36 includes/pages/customer.php:537
+#: includes/pages/order.php:24
+msgid "Actions"
+msgstr ""
+
+#: includes/pages/customer.php:75
+msgid "My Store"
+msgstr ""
+
+#: includes/pages/customer.php:83
+msgid "Edit My Profile"
+msgstr ""
+
+#: includes/pages/customer.php:89
+msgid "Personal Options"
+msgstr ""
+
+#: includes/pages/customer.php:106
+msgid "Total Money Spent"
+msgstr ""
+
+#: includes/pages/customer.php:111
+msgid "Total Order Placed"
+msgstr ""
+
+#: includes/pages/customer.php:112
+#, php-format
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pages/customer.php:118
+msgid "List Orders"
+msgstr ""
+
+#: includes/pages/customer.php:193
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: includes/pages/customer.php:200
+msgid "Manage Customer"
+msgstr ""
+
+#: includes/pages/customer.php:359
+msgid "Search customer"
+msgstr ""
+
+#: includes/pages/customer.php:430
+msgid "Please fill out all password fields."
+msgstr ""
+
+#: includes/pages/customer.php:433
+msgid "Please enter your current password."
+msgstr ""
+
+#: includes/pages/customer.php:436
+msgid "Please re-enter your password."
+msgstr ""
+
+#: includes/pages/customer.php:439
+msgid "New passwords do not match."
+msgstr ""
+
+#: includes/pages/customer.php:442
+msgid "Your current password is incorrect."
+msgstr ""
+
+#: includes/pages/customer.php:534
+msgid "Purchased"
+msgstr ""
+
+#: includes/pages/customer.php:535
+msgid "Gross Sales"
+msgstr ""
+
+#: includes/pages/customer.php:549 includes/pages/customer.php:572
+#: templates/dashboard/recent-order.php:63 templates/orders/edit.php:577
+msgid "Guest"
+msgstr ""
+
+#: includes/pages/customer.php:561 includes/pages/customer.php:568
+#: includes/pages/order.php:165
+#, php-format
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/pages/customer.php:576
+msgid "by"
+msgstr ""
+
+#: includes/pages/customer.php:598
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pages/customer.php:611
+msgid "Via"
+msgstr ""
+
+#: includes/pages/customer.php:629 includes/pages/order.php:269
+msgid "Processing"
+msgstr ""
+
+#: includes/pages/customer.php:637 includes/pages/order.php:277
+msgid "Complete"
+msgstr ""
+
+#: includes/pages/customer.php:654
+msgid "View order"
+msgstr ""
+
+#: includes/pages/customer.php:695
+msgid "Your Orders List Is Empty"
+msgstr ""
+
+#: includes/pages/customer.php:744
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: includes/pages/customer.php:751
+msgid "First Name"
+msgstr ""
+
+#: includes/pages/customer.php:758
+msgid "Last Name"
+msgstr ""
+
+#: includes/pages/customer.php:765
+msgid "Display name publicly as"
+msgstr ""
+
+#: includes/pages/customer.php:773
+msgid "Contact Info"
+msgstr ""
+
+#: includes/pages/customer.php:788
+msgid "Website"
+msgstr ""
+
+#: includes/pages/customer.php:795
+msgid "Password change"
+msgstr ""
+
+#: includes/pages/customer.php:796
+msgid "Leave blank to leave unchanged"
+msgstr ""
+
+#: includes/pages/customer.php:803
+msgid "Current password"
+msgstr ""
+
+#: includes/pages/customer.php:810
+msgid "New password"
+msgstr ""
+
+#: includes/pages/customer.php:817
+msgid "Confirm new password"
+msgstr ""
+
+#: includes/pages/customer.php:882
+msgid "Report Options"
+msgstr ""
+
+#: includes/pages/customer.php:890
+msgid "Report From"
+msgstr ""
+
+#: includes/pages/customer.php:891
+#: views/metaboxes/product/html-product-data-general.php:75
+#: views/metaboxes/product/html-product-variation-admin.php:175
+#: views/metaboxes/product/html-product-variation-admin.php:501
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr ""
+
+#: includes/pages/customer.php:898
+msgid "Report To"
+msgstr ""
+
+#: includes/pages/customer.php:899
+#: views/metaboxes/product/html-product-data-general.php:91
+#: views/metaboxes/product/html-product-variation-admin.php:193
+#: views/metaboxes/product/html-product-variation-admin.php:505
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr ""
+
+#: includes/pages/dashboard.php:45 templates/dashboard/chart-order.php:10
+msgid "Chart Orders"
+msgstr ""
+
+#: includes/pages/dashboard.php:51
+msgid "Best Sellers"
+msgstr ""
+
+#: includes/pages/dashboard.php:57 templates/dashboard/chart-amount.php:10
+msgid "Chart Amount"
+msgstr ""
+
+#: includes/pages/dashboard.php:63 templates/dashboard/new-customer.php:7
+msgid "New Customers"
+msgstr ""
+
+#: includes/pages/dashboard.php:69 templates/dashboard/best-product.php:7
+msgid "Best Products"
+msgstr ""
+
+#: includes/pages/dashboard.php:75 templates/dashboard/recent-order.php:7
+msgid "Recent Orders"
+msgstr ""
+
+#: includes/pages/dashboard.php:81 templates/dashboard/recent-review.php:7
+msgid "Recent Reviews"
+msgstr ""
+
+#: includes/pages/faq-admin.php:28
+msgctxt "post type general name"
+msgid "FAQs"
+msgstr ""
+
+#: includes/pages/faq-admin.php:29
+msgctxt "post type singular name"
+msgid "FAQs"
+msgstr ""
+
+#: includes/pages/faq-admin.php:30
+msgctxt "admin menu"
+msgid "FAQs"
+msgstr ""
+
+#: includes/pages/faq-admin.php:31
+msgctxt "add new on admin bar"
+msgid "FAQ"
+msgstr ""
+
+#: includes/pages/faq-admin.php:32
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: includes/pages/faq-admin.php:33
+msgid "Add New FAQ"
+msgstr ""
+
+#: includes/pages/faq-admin.php:34
+msgid "New FAQ"
+msgstr ""
+
+#: includes/pages/faq-admin.php:35
+msgid "Edit FAQ"
+msgstr ""
+
+#: includes/pages/faq-admin.php:36
+msgid "View FAQ"
+msgstr ""
+
+#: includes/pages/faq-admin.php:38
+msgid "Search FAQs"
+msgstr ""
+
+#: includes/pages/faq-admin.php:39
+msgid "Parent FAQs:"
+msgstr ""
+
+#: includes/pages/faq-admin.php:40
+msgid "No FAQs found."
+msgstr ""
+
+#: includes/pages/faq-admin.php:41
+msgid "No FAQs found in Trash."
+msgstr ""
+
+#: includes/pages/faq-admin.php:57
+msgid "Lists FAQs"
+msgstr ""
+
+#: includes/pages/faq-admin.php:58 includes/pages/faq-frontend.php:46
+msgid "Product FAQs"
+msgstr ""
+
+#: includes/pages/faq.php:27
+msgid "Shortcode"
+msgstr ""
+
+#: includes/pages/faq.php:81 includes/pages/product.php:100
+msgid "Allow Reviews"
+msgstr ""
+
+#: includes/pages/faq.php:111 includes/pages/product.php:375
+msgid "Product name"
+msgstr ""
+
+#: includes/pages/order.php:95
+msgid "Order updated."
+msgstr ""
+
+#: includes/pages/order.php:174 includes/pages/order.php:177
+#: templates/dashboard/recent-order.php:68 templates/orders/edit.php:421
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/pages/order.php:193
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: includes/pages/order.php:228
+#, php-format
+msgid "Plus %d other note"
+msgid_plural "Plus %d other notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pages/order.php:231
+#, php-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pages/order.php:257
+#, php-format
+msgid "via %s"
+msgstr ""
+
+#: includes/pages/order.php:286
+msgid "Change status to processing"
+msgstr ""
+
+#: includes/pages/order.php:287
+msgid "Change status to on-hold"
+msgstr ""
+
+#: includes/pages/order.php:288
+msgid "Change status to completed"
+msgstr ""
+
+#: includes/pages/order.php:289
+msgid "Remove personal data"
+msgstr ""
+
+#: includes/pages/order.php:320
+msgid "Order status changed by bulk edit:"
+msgstr ""
+
+#: includes/pages/order.php:400
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: includes/pages/order.php:410
+msgid "Billing details"
+msgstr ""
+
+#: includes/pages/order.php:419 templates/orders/edit.php:65
+msgid "Phone"
+msgstr ""
+
+#: includes/pages/order.php:424
+msgid "Payment via"
+msgstr ""
+
+#: includes/pages/order.php:430
+msgid "Shipping details"
+msgstr ""
+
+#: includes/pages/order.php:438
+msgid "Shipping method"
+msgstr ""
+
+#: includes/pages/order.php:460
+msgid "Edit this order"
+msgstr ""
+
+#: includes/pages/product-ajax.php:124
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/pages/product-ajax.php:303
+msgid "Not found for attribute, please add attribute!"
+msgstr ""
+
+#: includes/pages/product-attributes.php:66
+msgid "Order by"
+msgstr ""
+
+#: includes/pages/product-attributes.php:70
+msgid "Terms"
+msgstr ""
+
+#: includes/pages/product-attributes.php:149
+msgid "Configure terms"
+msgstr ""
+
+#: includes/pages/product-attributes.php:194
+msgid "Term deleted successfully"
+msgstr ""
+
+#: includes/pages/product-attributes.php:243
+msgid "Term updated successfully"
+msgstr ""
+
+#: includes/pages/product-attributes.php:273
+msgid "Attribute deleted successfully"
+msgstr ""
+
+#: includes/pages/product-attributes.php:326
+msgid "Attribute updated successfully"
+msgstr ""
+
+#: includes/pages/product-categories.php:52
+#: includes/pages/product-categories.php:83 includes/pages/product-tags.php:48
+msgid "Display type"
+msgstr ""
+
+#: includes/pages/product-categories.php:57
+#: includes/pages/product-categories.php:88 includes/pages/product-tags.php:53
+msgid "Subcategories"
+msgstr ""
+
+#: includes/pages/product-categories.php:58
+#: includes/pages/product-categories.php:89 includes/pages/product-tags.php:54
+msgid "Both"
+msgstr ""
+
+#: includes/pages/product-categories.php:67
+#: includes/pages/product-categories.php:99
+#: includes/pages/product-categories.php:118 includes/pages/product-tags.php:64
+#: includes/pages/product-tags.php:83 includes/pages/product.php:28
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/pages/product-categories.php:134 includes/pages/product-tags.php:99
+msgid ""
+"This is the default category and it cannot be deleted. It will be "
+"automatically assigned to products with no category."
+msgstr ""
+
+#: includes/pages/product.php:30 includes/pages/product.php:251
+#: views/metaboxes/product/html-product-data-inventory.php:22
+#: views/metaboxes/product/html-product-variation-admin.php:214
+#: views/metaboxes/product/html-product-variation-admin.php:426
+msgid "SKU"
+msgstr ""
+
+#: includes/pages/product.php:31
+msgid "Stock"
+msgstr ""
+
+#: includes/pages/product.php:32
+msgid "Price"
+msgstr ""
+
+#: includes/pages/product.php:128 includes/pages/product.php:132
+msgid "In stock"
+msgstr ""
+
+#: includes/pages/product.php:128
+msgid "Out of stock"
+msgstr ""
+
+#: includes/pages/product.php:128
+msgid "On backorder"
+msgstr ""
+
+#: includes/pages/product.php:150
+msgid "Grouped"
+msgstr ""
+
+#: includes/pages/product.php:152
+msgid "Group By"
+msgstr ""
+
+#: includes/pages/product.php:154
+msgid "External/Affiliate"
+msgstr ""
+
+#: includes/pages/product.php:158 includes/pages/product.php:487
+#: views/metaboxes/product/html-product-variation-admin.php:120
+#: views/metaboxes/product/html-product-variation-admin.php:444
+msgid "Virtual"
+msgstr ""
+
+#: includes/pages/product.php:160
+#: views/metaboxes/product/html-product-variation-admin.php:88
+#: views/metaboxes/product/html-product-variation-admin.php:440
+msgid "Downloadable"
+msgstr ""
+
+#: includes/pages/product.php:162
+msgid "Simple"
+msgstr ""
+
+#: includes/pages/product.php:166
+msgid "Variable"
+msgstr ""
+
+#: includes/pages/product.php:168
+msgid "Subscription"
+msgstr ""
+
+#: includes/pages/product.php:170
+msgid "Variable Subscription"
+msgstr ""
+
+#: includes/pages/product.php:172
+msgid "Listings Package"
+msgstr ""
+
+#: includes/pages/product.php:174
+msgid "Resume Package"
+msgstr ""
+
+#: includes/pages/product.php:176
+msgid "Auction"
+msgstr ""
+
+#: includes/pages/product.php:178
+msgid "Rental"
+msgstr ""
+
+#: includes/pages/product.php:180
+msgid "Accommodation"
+msgstr ""
+
+#: includes/pages/product.php:182
+msgid "Appointment"
+msgstr ""
+
+#: includes/pages/product.php:184
+msgid "Bundle"
+msgstr ""
+
+#: includes/pages/product.php:186
+msgid "Composite"
+msgstr ""
+
+#: includes/pages/product.php:188
+msgid "Lottery"
+msgstr ""
+
+#: includes/pages/product.php:215 includes/pages/product.php:363
+msgid "Quick Edit"
+msgstr ""
+
+#: includes/pages/product.php:243 views/metaboxes/product/panel.php:6
+msgid "Product data"
+msgstr ""
+
+#: includes/pages/product.php:263
+msgid "In stock?"
+msgstr ""
+
+#: includes/pages/product.php:290
+msgid "Product tags"
+msgstr ""
+
+#: includes/pages/product.php:300
+msgid "Enable reviews"
+msgstr ""
+
+#: includes/pages/product.php:328
+msgid "Product categories"
+msgstr ""
+
+#: includes/pages/product.php:437
+msgid "Inventory"
+msgstr ""
+
+#: includes/pages/product.php:443 templates/orders/edit.php:183
+#: templates/orders/edit.php:926
+msgid "Shipping"
+msgstr ""
+
+#: includes/pages/product.php:449
+msgid "Linked Products"
+msgstr ""
+
+#: includes/pages/product.php:461
+msgid "Variations"
+msgstr ""
+
+#: includes/pages/product.php:488
+msgid "Virtual products are intangible and are not shipped."
+msgstr ""
+
+#: includes/pages/product.php:575
+#, php-format
+msgid ""
+"The stock has not been updated because the value has changed since editing. "
+"Product %1$d has %2$d units in stock."
+msgstr ""
+
+#: includes/pages/review.php:18
+msgid "Review"
+msgstr ""
+
+#: includes/pages/review.php:58
+msgid "Rating"
+msgstr ""
+
+#: includes/pages/review.php:68
+msgid "Reviews updated."
+msgstr ""
+
+#: includes/woocommerce.php:52 templates/dashboard/statistic.php:28
+msgid "All Products"
+msgstr ""
+
+#: includes/woocommerce.php:66
+msgctxt "post status"
+msgid "Pending Preview"
+msgstr ""
+
+#: includes/woocommerce.php:130
+msgid "All Orders"
+msgstr ""
+
+#: includes/woocommerce.php:137
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: includes/woocommerce.php:144
+msgctxt "Order status"
+msgid "On hold"
+msgstr ""
+
+#: includes/woocommerce.php:151
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: includes/woocommerce.php:158
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/woocommerce.php:167
+msgid "All coupons"
+msgstr ""
+
+#: templates/comment/edit.php:57
+msgid "URL"
+msgstr ""
+
+#: templates/dashboard/best-product.php:44
+#, php-format
+msgid "%s %ssale%s"
+msgid_plural "%s %ssales%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/dashboard/best-product.php:55
+msgid "Your Products List Is Empty"
+msgstr ""
+
+#: templates/dashboard/best-product.php:56
+msgid "No products matching your search criteria."
+msgstr ""
+
+#: templates/dashboard/best-seller.php:9
+msgid "Best Customers"
+msgstr ""
+
+#: templates/dashboard/best-seller.php:39
+#: templates/dashboard/new-customer.php:37
+msgid "Your Customer List Is Empty"
+msgstr ""
+
+#: templates/dashboard/best-seller.php:40
+#: templates/dashboard/new-customer.php:38
+msgid "No customers matching your search criteria."
+msgstr ""
+
+#: templates/dashboard/chart-amount.php:28
+#: templates/dashboard/chart-order.php:23
+msgid "Order Status"
+msgstr ""
+
+#: templates/dashboard/chart-amount.php:57
+#: templates/dashboard/chart-order.php:52
+msgid "Filter Range"
+msgstr ""
+
+#: templates/dashboard/recent-order.php:16
+msgid "View all"
+msgstr ""
+
+#: templates/dashboard/recent-order.php:90
+msgid "Your Order List Is Empty"
+msgstr ""
+
+#: templates/dashboard/recent-order.php:91
+msgid "No orders matching your search criteria."
+msgstr ""
+
+#: templates/dashboard/recent-review.php:34
+#, php-format
+msgid "reviewed by %s"
+msgstr ""
+
+#: templates/dashboard/recent-review.php:64
+msgid "Your Reviews List Is Empty"
+msgstr ""
+
+#: templates/dashboard/recent-review.php:65
+msgid "There are no product reviews yet."
+msgstr ""
+
+#: templates/dashboard/statistic.php:9
+msgid ""
+"This is the sum of the order totals after any refunds and excluding shipping "
+"and taxes."
+msgstr ""
+
+#: templates/dashboard/statistic.php:10
+msgid "Total Revenue"
+msgstr ""
+
+#: templates/dashboard/statistic.php:13
+msgid "Net sales in this period"
+msgstr ""
+
+#: templates/dashboard/statistic.php:31
+msgid "All Product Publish"
+msgstr ""
+
+#: templates/dashboard/statistic.php:46
+msgid "Total Orders"
+msgstr ""
+
+#: templates/dashboard/statistic.php:49
+msgid "All Order Completed"
+msgstr ""
+
+#: templates/dashboard/statistic.php:64
+msgid "Total Users"
+msgstr ""
+
+#: templates/dashboard/statistic.php:67
+msgid "Joined New User"
+msgstr ""
+
+#: templates/dokan-store/store-header-facebook.php:14
+#: templates/dokan-store/store-header.php:17
+msgid "Store Open"
+msgstr ""
+
+#: templates/dokan-store/store-header-facebook.php:15
+#: templates/dokan-store/store-header.php:18
+msgid "Store Closed"
+msgstr ""
+
+#: templates/global/form-login.php:64
+msgid "Get more things done with Loggin platform."
+msgstr ""
+
+#: templates/global/form-login.php:69
+msgid ""
+"Access to the most powerfull tool in the entire design and web industry."
+msgstr ""
+
+#: templates/global/form-login.php:76
+msgid "E-mail Address"
+msgstr ""
+
+#: templates/global/form-login.php:79
+msgid "Password"
+msgstr ""
+
+#: templates/global/form-login.php:85
+msgid "Remember me"
+msgstr ""
+
+#: templates/global/form-login.php:91
+msgid "Lost your password?"
+msgstr ""
+
+#: templates/layout-header.php:66
+msgctxt "admin bar menu group label"
+msgid "New"
+msgstr ""
+
+#: templates/layout-header.php:76
+msgid "Add New Post"
+msgstr ""
+
+#: templates/layout-header.php:113
+msgid "Collapse"
+msgstr ""
+
+#: templates/layout-header.php:117
+msgid "Expand"
+msgstr ""
+
+#: templates/layout-header.php:135
+msgid "Go to the homepage"
+msgstr ""
+
+#: templates/layout-header.php:142
+msgid "The URL to the admin area"
+msgstr ""
+
+#: templates/layout-header.php:165
+#, php-format
+msgid "Howdy, %s"
+msgstr ""
+
+#: templates/layout-header.php:178
+msgid "My Profiles"
+msgstr ""
+
+#: templates/orders/edit.php:22 templates/orders/edit.php:73
+#: templates/orders/edit.php:749 templates/orders/edit.php:936
+msgid "First name"
+msgstr ""
+
+#: templates/orders/edit.php:26 templates/orders/edit.php:77
+#: templates/orders/edit.php:760 templates/orders/edit.php:947
+msgid "Last name"
+msgstr ""
+
+#: templates/orders/edit.php:30 templates/orders/edit.php:81
+#: templates/orders/edit.php:774 templates/orders/edit.php:961
+msgid "Company"
+msgstr ""
+
+#: templates/orders/edit.php:34 templates/orders/edit.php:85
+#: templates/orders/edit.php:787 templates/orders/edit.php:974
+msgid "Address line 1"
+msgstr ""
+
+#: templates/orders/edit.php:38 templates/orders/edit.php:89
+#: templates/orders/edit.php:798 templates/orders/edit.php:985
+msgid "Address line 2"
+msgstr ""
+
+#: templates/orders/edit.php:46 templates/orders/edit.php:97
+#: templates/orders/edit.php:824 templates/orders/edit.php:1011
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: templates/orders/edit.php:54 templates/orders/edit.php:105
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: templates/orders/edit.php:57 templates/orders/edit.php:108
+#: templates/orders/edit.php:852 templates/orders/edit.php:1039
+msgid "State / County"
+msgstr ""
+
+#: templates/orders/edit.php:62
+msgid "Email address"
+msgstr ""
+
+#: templates/orders/edit.php:131 templates/orders/edit.php:619
+#, php-format
+msgid "Invoice #%d"
+msgstr ""
+
+#: templates/orders/edit.php:141 templates/orders/edit.php:739
+msgid "Billing"
+msgstr ""
+
+#: templates/orders/edit.php:141
+msgid "Edit Billing"
+msgstr ""
+
+#: templates/orders/edit.php:150
+msgid "No billing address set."
+msgstr ""
+
+#: templates/orders/edit.php:183
+msgid "Edit Shipping"
+msgstr ""
+
+#: templates/orders/edit.php:191
+msgid "Address:"
+msgstr ""
+
+#: templates/orders/edit.php:191
+msgid "No shipping address set."
+msgstr ""
+
+#: templates/orders/edit.php:215
+msgid "Customer provided note:"
+msgstr ""
+
+#: templates/orders/edit.php:224 templates/orders/edit.php:521
+msgid "Date created:"
+msgstr ""
+
+#: templates/orders/edit.php:228
+msgid "Invoice Number:"
+msgstr ""
+
+#: templates/orders/edit.php:232 templates/orders/edit.php:889
+msgid "Payment method:"
+msgstr ""
+
+#: templates/orders/edit.php:240
+msgid "List Items"
+msgstr ""
+
+#: templates/orders/edit.php:240
+msgid "Edit Item"
+msgstr ""
+
+#: templates/orders/edit.php:245 templates/orders/edit.php:625
+msgid "Item"
+msgstr ""
+
+#: templates/orders/edit.php:247 templates/orders/edit.php:627
+msgid "Qty"
+msgstr ""
+
+#: templates/orders/edit.php:261 templates/orders/edit.php:649
+msgid "SKU:"
+msgstr ""
+
+#: templates/orders/edit.php:265 templates/orders/edit.php:653
+msgid "Variation ID:"
+msgstr ""
+
+#: templates/orders/edit.php:270 templates/orders/edit.php:658
+#, php-format
+msgid "%s (No longer exists)"
+msgstr ""
+
+#: templates/orders/edit.php:314
+msgid "Discount:"
+msgstr ""
+
+#: templates/orders/edit.php:324
+msgid "Shipping:"
+msgstr ""
+
+#: templates/orders/edit.php:339
+msgid "Tax"
+msgstr ""
+
+#: templates/orders/edit.php:391
+msgid "Order notes"
+msgstr ""
+
+#: templates/orders/edit.php:422 templates/orders/edit.php:457
+#, php-format
+msgid "%1$s @ %2$s"
+msgstr ""
+
+#: templates/orders/edit.php:423 templates/orders/edit.php:458
+msgid "Delete note"
+msgstr ""
+
+#: templates/orders/edit.php:456
+msgid "By System"
+msgstr ""
+
+#: templates/orders/edit.php:478
+msgid "There are no notes yet."
+msgstr ""
+
+#: templates/orders/edit.php:489
+msgid "Private note"
+msgstr ""
+
+#: templates/orders/edit.php:490
+msgid "Note to customer"
+msgstr ""
+
+#: templates/orders/edit.php:498
+msgid "Add note"
+msgstr ""
+
+#: templates/orders/edit.php:530 vendors/moment/min/locales.min.js:1
+msgid "h"
+msgstr ""
+
+#: templates/orders/edit.php:532 vendors/moment/min/locales.min.js:1
+msgid "m"
+msgstr ""
+
+#: templates/orders/edit.php:550
+#: views/metaboxes/product/html-product-data-linked-products.php:28
+#: views/metaboxes/product/html-product-data-linked-products.php:62
+#: views/metaboxes/product/html-product-data-linked-products.php:93
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: templates/orders/edit.php:551
+msgid "Status:"
+msgstr ""
+
+#: templates/orders/edit.php:566
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: templates/orders/edit.php:578
+msgid "Customer:"
+msgstr ""
+
+#: templates/orders/edit.php:880 templates/orders/edit.php:882
+msgid "Other"
+msgstr ""
+
+#: templates/orders/edit.php:903
+msgid "Transaction ID"
+msgstr ""
+
+#: vendors/daterangepicker/moment.min.js:1 vendors/moment/min/moment.min.js:1
+msgid ": "
+msgstr ""
+
+#: vendors/moment/min/locales.min.js:1
+msgid "s"
+msgstr ""
+
+#: vendors/moment/min/locales.min.js:1
+msgid "d"
+msgstr ""
+
+#: vendors/moment/min/locales.min.js:1
+msgid "M"
+msgstr ""
+
+#: vendors/moment/min/locales.min.js:1
+msgid "y"
+msgstr ""
+
+#: views/attribute-child.php:13
+msgid ""
+"Attribute terms can be assigned to products and variations.<br/><br/"
+"><strong>Note</strong>: Deleting a term will remove it from all products and "
+"variations to which it has been assigned. Recreating a term will not "
+"automatically assign it back to products."
+msgstr ""
+
+#: views/attribute-child.php:26 views/taxonomy-add.php:20
+#: views/taxonomy-edit.php:20
+msgid "The name is how it appears on your site."
+msgstr ""
+
+#: views/attribute-child.php:39 views/taxonomy-add.php:32
+#: views/taxonomy-edit.php:33
+msgid ""
+"The &#8220;slug&#8221; is the URL-friendly version of the name. It is "
+"usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: views/attribute-child.php:52 views/taxonomy-add.php:44
+#: views/taxonomy-edit.php:46
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+
+#: views/attribute-child.php:70 views/attribute-parent.php:83
+msgid "Add attribute"
+msgstr ""
+
+#: views/attribute-parent.php:11
+msgid ""
+"Attributes let you define extra product data, such as size or color. You can "
+"use these attributes in the shop sidebar using the \"layered nav\" widgets."
+msgstr ""
+
+#: views/attribute-parent.php:21
+msgid "Name for the attribute (shown on the front-end)."
+msgstr ""
+
+#: views/attribute-parent.php:34
+msgid ""
+"Unique slug/reference for the attribute; must be no more than 28 characters."
+msgstr ""
+
+#: views/attribute-parent.php:48
+msgid "Determines how this attribute's values are displayed."
+msgstr ""
+
+#: views/attribute-parent.php:66
+msgid "Default sort order"
+msgstr ""
+
+#: views/attribute-parent.php:73
+msgid ""
+"Determines the sort order of the terms on the frontend shop product pages. "
+"If using custom ordering, you can drag and drop the terms in this attribute."
+msgstr ""
+
+#: views/attribute.php:9
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: views/attribute.php:11
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: views/attribute.php:17
+msgid "Edit attribute"
+msgstr ""
+
+#: views/attribute.php:19
+msgid "Add new attribute"
+msgstr ""
+
+#: views/customize.php:13
+msgid "Customize for Dokan"
+msgstr ""
+
+#: views/edit.php:85
+msgid "Enter title here"
+msgstr ""
+
+#: views/edit.php:104
+msgid "Excerpt"
+msgstr ""
+
+#: views/edit.php:105
+msgid ""
+"Excerpts are optional hand-crafted summaries of your content that good for "
+"SEO."
+msgstr ""
+
+#: views/edit.php:196
+msgid "Gallery Images"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:11 views/faqs/admin-repeater.php:150
+msgid "Heading"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:38 views/faqs/admin-repeater.php:113
+msgid "Content"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:76
+msgid "Please add the heading before!"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:90
+msgid "Add Heading"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:91
+msgid "Add FAQ"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:120
+msgid "Add Media"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:123
+msgid "Visual"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:131
+msgid "Drop files to upload"
+msgstr ""
+
+#: views/faqs/admin-repeater.php:151
+msgid "Enter heading title"
+msgstr ""
+
+#: views/metaboxes/product/html-product-attribute.php:58
+#: views/metaboxes/product/html-product-attribute.php:91
+msgid "Value(s)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-attribute.php:78
+msgid "Enter name attribute&hellip;"
+msgstr ""
+
+#: views/metaboxes/product/html-product-attribute.php:92
+#, php-format
+msgid "Enter some text, or some attributes by \"%s\" separating values."
+msgstr ""
+
+#: views/metaboxes/product/html-product-attribute.php:105
+msgid "Visible on the product page"
+msgstr ""
+
+#: views/metaboxes/product/html-product-attribute.php:125
+msgid "Used for variations"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-attributes.php:12
+msgid "Custom product attribute"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-attributes.php:69
+msgid "Save attributes"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-attributes.php:72
+msgid "Save attributes & Publish"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:16
+msgid "Product URL"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:18
+msgid "Enter the external URL to the product."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:28
+msgid "Button text"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:29
+msgctxt "placeholder"
+msgid "Buy product"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:30
+msgid "This text will be shown on the button linking to the external product."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:45
+msgid "Regular price"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:58
+msgid "Sale price"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:59
+#: views/metaboxes/product/html-product-variation-admin.php:151
+#: views/metaboxes/product/html-product-variation-admin.php:490
+msgid "Schedule"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:74
+msgid "Sale price dates"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:108
+#: views/metaboxes/product/html-product-variation-admin.php:648
+msgid "Downloadable files"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:113
+#: views/metaboxes/product/html-product-variation-admin.php:652
+msgid "This is the name of the download shown to the customer."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:114
+#: views/metaboxes/product/html-product-variation-admin.php:653
+msgid "File URL"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:114
+#: views/metaboxes/product/html-product-variation-admin.php:653
+msgid ""
+"This is the URL or absolute path to the file which customers will get access "
+"to. URLs entered here should already be encoded."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:142
+msgid "Add File"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:155
+#: views/metaboxes/product/html-product-variation-admin.php:358
+msgid "Download limit"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:156
+#: views/metaboxes/product/html-product-variation-admin.php:359
+msgid "Unlimited"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:157
+msgid "Leave blank for unlimited re-downloads."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:172
+#: views/metaboxes/product/html-product-variation-admin.php:378
+msgid "Download expiry"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:173
+#: views/metaboxes/product/html-product-variation-admin.php:379
+msgid "Never"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:174
+msgid ""
+"Enter the number of days before a download link expires, or leave blank."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:196
+msgid "Tax status"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:199
+msgid "Shipping only"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:200
+msgctxt "Tax status"
+msgid "None"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:203
+msgid ""
+"Define whether or not the entire product is taxable, or just the cost of "
+"shipping it."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:213
+#: views/metaboxes/product/html-product-variation-admin.php:610
+msgid "Tax class"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-general.php:216
+#: views/metaboxes/product/html-product-variation-admin.php:613
+msgid ""
+"Choose a tax class for this product. Tax classes are used to apply different "
+"tax rates specific to certain types of product."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:22
+#: views/metaboxes/product/html-product-variation-admin.php:426
+msgid "Stock Keeping Unit"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:24
+#: views/metaboxes/product/html-product-variation-admin.php:428
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:46
+#: views/metaboxes/product/html-product-variation-admin.php:135
+#: views/metaboxes/product/html-product-variation-admin.php:450
+msgid "Manage stock?"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:47
+msgid "Enable stock management at product level"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:63
+#: views/metaboxes/product/html-product-variation-admin.php:248
+msgid "Stock quantity"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:66
+msgid ""
+"Stock quantity. If this is a variable product this value will be used to "
+"control stock for all variations, unless you define stock at variation level."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:83
+#: views/metaboxes/product/html-product-variation-admin.php:268
+msgid "Allow backorders?"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:86
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed. If "
+"enabled, stock quantity can go below 0."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:98
+msgid "Low stock threshold"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:101
+msgid "When product stock reaches this amount you will be notified by email"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:121
+#: views/metaboxes/product/html-product-variation-admin.php:229
+#: views/metaboxes/product/html-product-variation-admin.php:530
+msgid "Stock status"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:124
+#: views/metaboxes/product/html-product-variation-admin.php:533
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:142
+msgid "Sold individually"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-inventory.php:143
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-linked-products.php:29
+msgid "Grouped products"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-linked-products.php:31
+msgid "This lets you choose which products are part of this group."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-linked-products.php:63
+msgid "Upsells"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-linked-products.php:65
+msgid ""
+"Upsells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-linked-products.php:94
+msgid "Cross-sells"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-linked-products.php:96
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:15
+msgid "Weight"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:18
+#: views/metaboxes/product/html-product-variation-admin.php:553
+msgid "Weight in decimal form"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:31
+#, php-format
+msgid "Dimensions (%s)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:36
+#: views/metaboxes/product/html-product-variation-admin.php:579
+msgid "Length"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:44
+#: views/metaboxes/product/html-product-variation-admin.php:581
+msgid "Height"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:47
+msgid "LxWxH in decimal form"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:59
+#: views/metaboxes/product/html-product-variation-admin.php:324
+msgid "Shipping class"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:65
+msgid "No shipping class"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-shipping.php:71
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:31
+msgid "Default Form Values"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:31
+msgid "These are the attributes that will be pre-selected on the frontend."
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:41
+#, php-format
+msgid "No default %s&hellip;"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:65
+msgid "Add variation"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:66
+msgid "Create variations from all attributes"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:67
+msgid "Delete all variations"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:69
+msgid "Go"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:85
+msgid "Go to the previous page"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:87
+msgid "Select Page"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:88
+msgid "Current page"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:93
+msgctxt "number of pages"
+msgid "of"
+msgstr ""
+
+#: views/metaboxes/product/html-product-data-variations.php:95
+msgid "Go to the next page"
+msgstr ""
+
+#: views/metaboxes/product/html-product-download.php:9
+#: views/metaboxes/product/html-product-variation-download.php:8
+msgid "File name"
+msgstr ""
+
+#: views/metaboxes/product/html-product-download.php:12
+#: views/metaboxes/product/html-product-variation-download.php:11
+msgid "http://"
+msgstr ""
+
+#: views/metaboxes/product/html-product-download.php:13
+#: views/metaboxes/product/html-product-variation-download.php:12
+msgid "Choose file"
+msgstr ""
+
+#: views/metaboxes/product/html-product-download.php:13
+#: views/metaboxes/product/html-product-variation-download.php:12
+msgid "Insert file URL"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:33
+#, php-format
+msgid "Any %s&hellip;"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:55
+msgid "Remove"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:74
+#: views/metaboxes/product/html-product-variation-admin.php:436
+msgid "Enabled"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:103
+#: views/metaboxes/product/html-product-variation-admin.php:474
+msgid "Variation price (required)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:105
+#: views/metaboxes/product/html-product-variation-admin.php:462
+#, php-format
+msgid "Regular price (%s)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:151
+#: views/metaboxes/product/html-product-variation-admin.php:480
+#, php-format
+msgid "Sale price (%s)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:151
+#: views/metaboxes/product/html-product-variation-admin.php:490
+msgid "Cancel schedule"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:174
+#: views/metaboxes/product/html-product-variation-admin.php:500
+msgid "Sale start date"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:192
+#: views/metaboxes/product/html-product-variation-admin.php:504
+msgid "Sale end date"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:295
+#: views/metaboxes/product/html-product-variation-admin.php:611
+msgid "Same as parent"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:414
+msgid "Remove this image"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:414
+msgid "Upload an image"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:439
+msgid ""
+"Enable this option if access is given to a downloadable file upon purchase "
+"of a product"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:443
+msgid ""
+"Enable this option if a product is not shipped or there is no shipping cost"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:449
+msgid "Enable this option to enable stock management at variation level"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:541
+#, php-format
+msgid "Weight (%s)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:572
+#, php-format
+msgid "Dimensions (L&times;W&times;H) (%s)"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:577
+msgid "Length x width x height in decimal form"
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:640
+msgid "Enter an optional description for this variation."
+msgstr ""
+
+#: views/metaboxes/product/html-product-variation-admin.php:680
+msgid "Add file"
+msgstr ""
+
+#: views/metaboxes/product/panel.php:18
+msgid "Product Type"
+msgstr ""
+
+#: views/withdraw.php:7
+msgid "Withdraw Request"
+msgstr ""
+
+#: views/withdraw.php:11
+msgid "Approved Requests"
+msgstr ""
+
+#: views/withdraw.php:15
+msgid "Cancelled Requests"
+msgstr ""
+
+#: views/withdraw.php:46
+#, php-format
+msgid "Current Balance: %s "
+msgstr ""
+
+#: views/withdraw.php:49
+#, php-format
+msgid "Minimum Withdraw amount: %s "
+msgstr ""
+
+#: woopanel.php:232
+msgid "WooPanel"
+msgstr ""
+
+#: woopanel.php:242
+msgid "Seller Center"
+msgstr ""
+
+#: woopanel.php:258
+msgid "Visit Seller Center"
+msgstr ""
+
+#: woopanel.php:284
+msgid "View settings"
+msgstr ""

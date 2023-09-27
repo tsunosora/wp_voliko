@@ -1,0 +1,148 @@
+# Translation of Themes - Royal Elementor Kit in Indonesian
+# This file is distributed under the same license as the Themes - Royal Elementor Kit package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-18 19:46:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Royal Elementor Kit\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Truly all in one Solution For Elementor Lovers. 30+ Elementor Templates KIT, 50+ Professional Elementor Widgets, Elementor theme builder, Elementor Popup Builder, Elementor Premade blocks and many other cool features like Sticky Header, Particle effects, parallax backgrounds and many other elementor addons. Simple Install the theme, click on - Get Started with Templates Kit button and that's it. Very easy to use even for WordPress beginners or professionals. All In one Elementor Solution which outranks all other Elementor themes and Elementor addons. ########### TEMPLATES INCLUDED: Elementor Blog Template, Elementor Magazine Blog Template, Elementor Food Blog Template, Elementor Travel Blog Template, Elementor Portfolio Template, Elementor NFT Template, Elementor Pizza Restaurant Template, Elementor Travel Blogger & Influencer Template, Elementor Cybersecurity Template, Elementor Photographer Portfolio Template, Elementor Crypto Currency Template, Elementor Skin Care Template, Elementor Lawyer Template, Elementor Medical Template, Elementor Digital Agency Template, Elementor Drone Template, Elementro Architecture Template, Elementor Food Delivery Template, Elementor Construction Template, Elementor IT Technology Template, Elementor Real Estate Template, Elementor Restaurant Template, Elementor Wine Bar & Restaurant Template, Elementor Wedding Template & other beautiful elementor business templates. All these templates are created with elementor page builder. Theme Demo Page: https://royal-elementor-addons.com/royal-elementor-kit/"
+msgstr "Benar-benar semua dalam satu Solusi Untuk Pecinta Elementor. 30+ Elementor Templates KIT, 50+ Professional Elementor Widgets, Elementor theme builder, Elementor Popup Builder, Elementor Premade blocks dan banyak fitur keren lainnya seperti Sticky Header, Particle effects, background parallax dan banyak addon elementor lainnya. Sederhana Instal tema, klik - Mulai dengan Template Kit tombol dan hanya itu. Sangat mudah digunakan bahkan untuk pemula atau profesional WordPress. All In one Elementor Solution yang mengungguli semua tema Elementor lainnya dan addon Elementor. ########### TEMPLAT TERMASUK: Template Blog Elementor, Template Blog Majalah Elementor, Template Blog Makanan Elementor, Template Blog Perjalanan Elementor, Template Portofolio Elementor, Template NFT Elementor, Template Pizza Restoran Elementor, Template Elementor Travel Blogger & Influencer, Template Keamanan Siber Elementor, Template Portofolio Fotografer Elementor, Template Mata Uang Kripto Elementor, Template Perawatan Kulit Elementor, Template Pengacara Elementor, Template Medis Elementor, Elementor  Template Agensi Digital, Template Drone Elementor, Template Arsitektur Elementro, Template Pengiriman Makanan Elementor, Template Konstruksi Elementor, Template Teknologi Ti Elementor, Template Elementor Real Estate, Template Elementor Restaurant, Template Elementor Bar & Restoran Anggur, Template Elementor Pernikahan & template bisnis elementor indah lainnya. Semua templat ini dibuat dengan pembuat halaman elementor. Halaman Demo Tema: https://royal-elementor-addons.com/royal-elementor-kit/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Royal Elementor Kit"
+msgstr "Royal Elementor Kit"
+
+#: inc/activation/class-welcome-notice.php:410
+msgid "Something went wrong, contact support."
+msgstr "Ada yang tidak beres, hubungi dukungan."
+
+#: inc/activation/class-welcome-notice.php:342
+msgid "Get Started with Templates Kit %s"
+msgstr "Mulai dengan Templates Kit %s"
+
+#: inc/activation/class-welcome-notice.php:334
+msgid "Royal Elementor Kit comes with %s with various designs to pick from."
+msgstr "Royal Elementor Kit hadir dengan %s dengan berbagai desain untuk dipilih."
+
+#: inc/activation/class-welcome-notice.php:332
+msgid "Welcome to Royal Elementor Kit"
+msgstr "Selamat Datang di Royal Elementor Kit"
+
+#: inc/activation/class-welcome-notice.php:236
+#: inc/activation/class-welcome-notice.php:271
+msgid "Failed to initialize or activate importer plugin."
+msgstr "Gagal menginisialisasi atau mengaktifkan plugin importir."
+
+#: inc/activation/class-welcome-notice.php:204
+#: inc/activation/class-welcome-notice.php:248
+msgid "Insufficient permissions to install the plugin."
+msgstr "Izin yang tidak mencukupi untuk menginstal plugin."
+
+#: single.php:65
+msgid "By"
+msgstr "Oleh"
+
+#: page.php:32 single.php:43
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: index.php:41 single.php:28
+msgid "Comments"
+msgstr "Komentar"
+
+#: index.php:41 single.php:28
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: header.php:39
+msgid "Home"
+msgstr "Beranda"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Lewati ke konten"
+
+#: functions.php:35
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: comments.php:44
+msgid "Post Comment"
+msgstr "Kirim Komentar"
+
+#: comments.php:43
+msgid "Comment"
+msgstr "Komentar"
+
+#: comments.php:42
+msgid "Leave a Reply"
+msgstr "Tinggalkan Balasan"
+
+#: comments.php:12
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: comments.php:12
+msgid "One Comment"
+msgstr "Satu Komentar"
+
+#: comments.php:12 index.php:41 single.php:28
+msgid "0 Comments"
+msgstr "0 Komentar"
+
+#: 404.php:5
+msgid "Page not found!"
+msgstr "Halaman tidak ditemukan!"
+
+#: index.php:63
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, tetapi tidak ada yang cocok dengan istilah pencarian Anda. Mohon silakan coba lagi dengan beberapa kata kunci yang berbeda."
+
+#: index.php:46
+msgid "read more"
+msgstr "Baca Lebih Lanjut"
+
+#: comments.php:30
+msgid "Newer Comments"
+msgstr "Komentar Lebih Baru"
+
+#: comments.php:26
+msgid "Older Comments"
+msgstr "Komentar Sebelumnya"
+
+#: 404.php:8
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Tampaknya kami tak bisa menemukan apa yang Anda inginkan. Mungkin pencarian bisa membantu."
+
+#: index.php:62
+msgid "Nothing Found!"
+msgstr "Tidak Ada yang Ditemukan! "
+
+#. translators: %1$s: theme name, %2$s link, %3$s theme author
+#: footer.php:10
+msgid "%1$s Theme by <a href=\"%2$s\">%3$s.</a>"
+msgstr "Tema %1$s dibuat oleh <a href=\"%2$s\">%3$s.</a>"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "WP Royal"
+msgstr "WP Royal"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://royal-elementor-addons.com/royal-elementor-kit"
+msgstr "https://royal-elementor-addons.com/royal-elementor-kit"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://royal-elementor-addons.com/"
+msgstr "https://royal-elementor-addons.com/"

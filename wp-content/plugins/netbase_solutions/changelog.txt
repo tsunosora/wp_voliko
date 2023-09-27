@@ -1,0 +1,14 @@
+= 1.8.0 - 2019-09-20 =
+- Rewrite clear cache for Price Matrix
+- Fix wrong symbol display calculator text for Price Matrix
+- Fix order upload not attachment file.
+- Fix FAQs not display
+
+= 1.7.0 - 2019-09-06 =
+- Support chinese-characters for PDF Creator
+- Rewrite module PDF Creator
+- Add PHP Exception Handling for DomPDF Library (PDF Creator)
+- Update file multi-language: languages/nbt-solution.pot
+
+= 1.5.5 - 2019-06-19 =
+- Add .eps exceptions

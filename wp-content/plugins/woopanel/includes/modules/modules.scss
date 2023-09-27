@@ -1,0 +1,67 @@
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+.add-shipping-method {
+	background-color: red;
+	
+	.row {
+		margin-bottom: 20px;
+	}
+}
+
+.spinner {
+  background: url("../images/spinner.gif") no-repeat;
+  -webkit-background-size: 20px 20px;
+  background-size: 20px 20px;
+  display: inline-block;
+  visibility: hidden;
+  vertical-align: middle;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px 0;
+}
+
+.spinner .is-active {
+  visibility: visible;
+}
+
+.wpl-notice {
+  background-color: #f7f7f7;
+  border-left: 4px solid #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin: 5px 0px 0px;
+  padding: 10px 12px;
+}
+
+.wpl-notice.woopanel-error-msg {
+  border-left-color: #ffb900;
+}
+
+.wpl-notice.woopanel-success-msg {
+  border-left-color: #46b450;
+}
+
+.wpl-notice ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wpl-notice ul li {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@import "price-matrix/style";
+@import "color-swatches/style";
+@import "dokan-review/style";
+@import "geo-location/style";
+@import "customize/style";

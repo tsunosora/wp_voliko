@@ -1,0 +1,290 @@
+2023-09-13T23:01:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:01:03+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"65023f2f02020_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646063,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.192","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:01:03+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2023091323010359C3B87D876D90AFED42
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c59109a43663b292ad04faa20ce5ab0b706908a83b5a272fdff1bf0c35fefe69af5b2e588cfad5d2c6e89c01a0b0245045abd139a8d3d59521ab63e7f16532fa61f8de00e73046de04961f547dc7fae0a1f122a0ccdbe70939d08d781a2aa1cf0c64ce
+X-Origin-Response-Time: 37,23.207.199.45
+X-Akamai-Request-ID: 1a17784e.2b6a1128
+Expires: Wed, 13 Sep 2023 23:01:03 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:01:03 GMT
+X-Cache: TCP_MISS from a23-59-80-222.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-45.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=37
+Server-Timing: inner; dur=34
+X-Parent-Response-Time: 257,23.59.80.222
+
+{"code": 0, "message": "OK", "request_id": "2023091323010359C3B87D876D90AFED42", "data": {}}
+
+2023-09-13T23:02:08+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:02:08+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"65023f708a053_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646128,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.206","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:02:08+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20230913230208B7E849E30C63BBA9E2BA
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c591093ba79740c4f8f9c97311ee7fe51a9f89f6c69e651c32e3bdc2db6cc10e79c5fd8561b9d5c53a271d8dd5c4820afca47dc0eb4f1aec0bd4377c7a433ce1d4ab37627af4c3b1d2dbbe08de7503c7f686096305349c0a5896daad60bc9728f9a2a5
+X-Origin-Response-Time: 27,23.32.17.38
+X-Akamai-Request-ID: 4f702bc5.48241645
+Expires: Wed, 13 Sep 2023 23:02:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:02:08 GMT
+X-Cache: TCP_MISS from a23-47-190-159.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-38.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=222, origin; dur=26
+Server-Timing: inner; dur=22
+X-Parent-Response-Time: 243,23.47.190.159
+
+{"code": 0, "message": "OK", "request_id": "20230913230208B7E849E30C63BBA9E2BA", "data": {}}
+
+2023-09-13T23:03:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:03:25+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"65023fbdc7d89_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646205,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.206","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:03:26+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20230913230326024B089233E6B8ED7CBF
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c5910983035d98d66fcdb5d39841abc11b7d69fddf09dcc136e0eb2b3785fc8f0085d1a7bccf1a365621a1d00c11828c210ccb1203bd5de28d78a5701e04d6632bbfb3d3f8824a5a059e2f9d39bb9ed3d774705cc970df98afeb041b77a87bf1666b7f
+X-Origin-Response-Time: 29,23.58.124.20
+X-Akamai-Request-ID: 3fd17a18.27e6677f
+Expires: Wed, 13 Sep 2023 23:03:26 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:03:26 GMT
+X-Cache: TCP_MISS from a23-47-190-124.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-58-124-20.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=226, origin; dur=29
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 248,23.47.190.124
+
+{"code": 0, "message": "OK", "request_id": "20230913230326024B089233E6B8ED7CBF", "data": {}}
+
+2023-09-13T23:08:09+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2023-09-13T23:08:09+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"AddToCart","event_id":"650240d9da896_tt4b_woocommerce_6427e1a933b06","event_time":1694646489,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.207","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":17500,"quantity":1,"content_id":"","content_name":"Ganci Akrilik"}],"content_type":"product","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/wp-admin\/admin-ajax.php"}}]}
+ ajax: yes
+2023-09-13T23:08:10+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20230913230810AC417A93A04D5639EB57
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c59109ef02ebcdfce9547cfc84c0632a123cc430cd909492574a50999b65158a88bc0a2f495f0dc27c953df83112ae6db9ac86ea41f5526ef130c9e977211325506fe2d6c592577511dca9e0e3b00e4bb31ec25ba58fc753f262791652d6e51ffe62a5
+X-Origin-Response-Time: 33,23.58.124.4
+X-Akamai-Request-ID: 4004e8b2.e514dc6
+Expires: Wed, 13 Sep 2023 23:08:10 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:08:10 GMT
+X-Cache: TCP_MISS from a23-47-190-94.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-58-124-4.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=217, origin; dur=33
+Server-Timing: inner; dur=26
+X-Parent-Response-Time: 246,23.47.190.94
+
+{"code": 0, "message": "OK", "request_id": "20230913230810AC417A93A04D5639EB57", "data": {}}
+
+2023-09-13T23:08:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:08:29+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"650240ed363b1_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646509,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.192","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:08:29+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202309132308297FB46151BCB75CAB76D1
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c59109ef02ebcdfce9547cfc84c0632a123cc45306d919ba7d1ccdd84f7ff8c4f7b741eaba76e1023ef6e0751dc9537ad158dbbc04def50221d379dae631a6d3f07ef351e00908c902c12e97e189388443a917960baf772f6b833c1e53d46c647a6612
+X-Origin-Response-Time: 28,23.32.17.27
+X-Akamai-Request-ID: 76873d2.e517998
+Expires: Wed, 13 Sep 2023 23:08:29 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:08:29 GMT
+X-Cache: TCP_MISS from a23-47-190-94.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-27.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=225, origin; dur=27
+Server-Timing: inner; dur=22
+X-Parent-Response-Time: 248,23.47.190.94
+
+{"code": 0, "message": "OK", "request_id": "202309132308297FB46151BCB75CAB76D1", "data": {}}
+
+2023-09-13T23:09:12+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:09:12+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"650241187b4de_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646552,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.206","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:09:13+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202309132309131C402B6F7EAFFE447B40
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c591097a059a920b4f6356e4fd05cefe393fa059084dabba9e4a25c8b063c5b8cef4334f46e3e919793058eb0415f8dc94114ca86e0be571cfda75f75b65f78d5019aceaa70d77512d5e5e60c7753a0f34bb0578e39e8a31799ba63fa2d79b1fa129d3
+X-Origin-Response-Time: 27,23.58.124.14
+X-Akamai-Request-ID: 2762075a.10b380e0
+Expires: Wed, 13 Sep 2023 23:09:13 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:09:13 GMT
+X-Cache: TCP_MISS from a23-47-190-125.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-58-124-14.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=222, origin; dur=27
+Server-Timing: inner; dur=25
+X-Parent-Response-Time: 244,23.47.190.125
+
+{"code": 0, "message": "OK", "request_id": "202309132309131C402B6F7EAFFE447B40", "data": {}}
+
+2023-09-13T23:09:53+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:09:53+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"6502414150ca8_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646593,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.206","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:09:53+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 202309132309530AAED356AE6BC2A39652
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c591093b0f7d6f4f9f0093c4e611e6d8c47ed521cfba49611ee739d57e2e4bfbd99c49f11d03cb74e45d26204a4eab7b606633142f41c3d1978538f20893e338321d9843312216ac67f48b9fc571d8f8f002687c4c6be87eea99f0cc6dcd86c66f602f
+X-Origin-Response-Time: 26,23.32.17.23
+X-Akamai-Request-ID: 4eebd46f.1f80208f
+Expires: Wed, 13 Sep 2023 23:09:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:09:53 GMT
+X-Cache: TCP_MISS from a23-47-190-108.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-23.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=229, origin; dur=26
+Server-Timing: inner; dur=23
+X-Parent-Response-Time: 250,23.47.190.108
+
+{"code": 0, "message": "OK", "request_id": "202309132309530AAED356AE6BC2A39652", "data": {}}
+
+2023-09-13T23:10:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:10:37+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"6502416dc22b6_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646637,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.207","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:10:38+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 2023091323103829677DE74DD5F4AD3ED0
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c59109bfbe1507c28d1061c175d9da660844d799901e1409091c7a3d570c491b4bc9c06f258b9549759ab057f834205a14cbf7444510a48fa09304204c78bc14fe6ae0bada726b39a236437085f7370f9ba1d95035420f22d396588457d9e4ef6ad495
+X-Origin-Response-Time: 41,23.32.17.39
+X-Akamai-Request-ID: 73ada37.24d40f30
+Expires: Wed, 13 Sep 2023 23:10:38 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:10:38 GMT
+X-Cache: TCP_MISS from a23-210-250-151.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-32-17-39.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=224, origin; dur=41
+Server-Timing: inner; dur=38
+X-Parent-Response-Time: 260,23.210.250.151
+
+{"code": 0, "message": "OK", "request_id": "2023091323103829677DE74DD5F4AD3ED0", "data": {}}
+
+2023-09-13T23:11:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:11:11+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"6502418f8b9a9_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646671,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.192","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:11:12+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20230913231112A8EABB2B13699540A5A3
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c591098f765053104a601c17689c8296bd42a2e5a0b2703d714228e16a492bee1784102a2ce5e9162e8c161d6c79000162b6be900d4774f8fa9929988f770886bc2cc17d6239a3360151b38fdf5fc6cb8adcd7ff18031f1261e0b5f721248467f32f1f
+X-Origin-Response-Time: 31,23.207.199.35
+X-Akamai-Request-ID: 33773abf.f2e851
+Expires: Wed, 13 Sep 2023 23:11:12 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:11:12 GMT
+X-Cache: TCP_MISS from a23-59-80-70.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-35.deploy.akamaitechnologies.com (AkamaiGHost/11.2.3-50497662) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=228, origin; dur=31
+Server-Timing: inner; dur=28
+X-Parent-Response-Time: 254,23.59.80.70
+
+{"code": 0, "message": "OK", "request_id": "20230913231112A8EABB2B13699540A5A3", "data": {}}
+
+2023-09-13T23:11:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2023-09-13T23:11:37+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.3/event/track/
+
+{"partner_name":"WooCommerce","event_source":"web","event_source_id":"CGJU4EBC77UF1DTA0HDG","data":[{"event":"ViewContent","event_id":"650241a931a1d_tt4b_woocommerce_6427e1a933b06_4778","event_time":1694646697,"user":{"phone":"","email":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","ip":"64.233.172.207","user_agent":"Mozilla\/5.0 (X11; Linux x86_64; Storebot-Google\/1.0) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/79.0.3945.88 Safari\/537.36","locale":"id"},"properties":{"contents":[{"price":10000,"quantity":1,"content_id":"4778","content_name":"Ganci Akrilik"}],"content_type":"product_group","currency":"IDR","value":10000},"page":{"url":"http:\/\/volikoprint.com\/product\/gantungan-kunci\/?attribute_bahan=GANCI+AKRILIK+3MM+(25CM)+2+SISI"}}]}
+ ajax: no
+2023-09-13T23:11:38+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 92
+X-Tt-Logid: 20230913231137B0F29E45B85E8EF27934
+x-tt-trace-host: 0191a8fc5af075e1f8fa1e6bcd70c59109de51dd53bc3f4b8a6c7d65cc4fe73b73c6d7b96d3170d0f0fa267f2cdb58468e015c84cd7cb0e404e51ea5dc0b3429f7ca14e525ce2734110ac2d0a639c12300cd1ea64e5bb21c98a4102294b56aca8c3cfc227a569f92fa2e00492387503b9f
+X-Origin-Response-Time: 30,23.207.199.29
+X-Akamai-Request-ID: 1d2fc77e.29f10e8c
+Expires: Wed, 13 Sep 2023 23:11:37 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 13 Sep 2023 23:11:37 GMT
+X-Cache: TCP_MISS from a23-59-80-84.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-207-199-29.deploy.akamaitechnologies.com (AkamaiGHost/11.2.4-50766152) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=221, origin; dur=30
+Server-Timing: inner; dur=27
+X-Parent-Response-Time: 246,23.59.80.84
+
+{"code": 0, "message": "OK", "request_id": "20230913231137B0F29E45B85E8EF27934", "data": {}}
+

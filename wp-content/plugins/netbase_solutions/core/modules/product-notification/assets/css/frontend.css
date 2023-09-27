@@ -1,0 +1,45 @@
+.alert_wrapper {
+	float: left;
+	width: 100%;
+	position: relative;
+	display: block;
+	padding-right: 0px;
+	margin: 15px 0;
+}
+
+.alert_wrapper.active {
+	bottom: 0px;
+}
+
+.alert_wrapper input[type='email'] {
+	line-height: 30px;
+	height: 30px;
+	padding: 0 10px;
+	margin-bottom: 15px;
+	outline: none;
+	border: 1px solid #E5E5E5;
+}
+
+.alert_wrapper input[type='submit'] {
+	line-height: 30px;
+	height: 30px;
+	padding: 0 10px;
+	font-size: 14px;		
+	font-weight: bold;	
+}
+.instock_message {
+	
+	width: 100%;
+	float: left;
+	margin: 0 0 15px;
+	border: 1px solid #69be28;
+	font-size: 14px;
+	color: #000000;
+	padding: 10px;
+}
+
+.instock_message.error {
+	border-color: red;
+}
+.nbt-alert-msg{clear: both;}
+.product-noti-desc{padding-top: 15px;}

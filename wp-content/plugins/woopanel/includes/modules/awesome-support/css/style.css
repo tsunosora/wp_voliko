@@ -1,0 +1,128 @@
+.wpas-table-replies {
+  width: 100%; }
+  .wpas-table-replies .wpas-table-row.wpas-read {
+    border-top: 1px solid #f1f1f1; }
+    .wpas-table-replies .wpas-table-row.wpas-read td {
+      vertical-align: top;
+      padding: 15px 10px;
+      position: relative; }
+      .wpas-table-replies .wpas-table-row.wpas-read td.col1 {
+        padding-left: 0; }
+      .wpas-table-replies .wpas-table-row.wpas-read td .avatar-64 {
+        border-radius: 3px; }
+      .wpas-table-replies .wpas-table-row.wpas-read td .wpas-reply-meta {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px; }
+        .wpas-table-replies .wpas-table-row.wpas-read td .wpas-reply-meta .wpas-reply-time {
+          margin-left: auto; }
+        .wpas-table-replies .wpas-table-row.wpas-read td .wpas-reply-meta .wpas-human-date,
+        .wpas-table-replies .wpas-table-row.wpas-read td .wpas-reply-meta .wpas-profilerole,
+        .wpas-table-replies .wpas-table-row.wpas-read td .wpas-reply-meta .wpas-ticket-controls {
+          opacity: 0;
+          transition: opacity .25s ease; }
+      .wpas-table-replies .wpas-table-row.wpas-read td .wpas-content p {
+        margin-bottom: 5px; }
+        .wpas-table-replies .wpas-table-row.wpas-read td .wpas-content p:last-child {
+          margin-bottom: 0; }
+    .wpas-table-replies .wpas-table-row.wpas-read:hover .wpas-human-date,
+    .wpas-table-replies .wpas-table-row.wpas-read:hover .wpas-profilerole,
+    .wpas-table-replies .wpas-table-row.wpas-read:hover .wpas-ticket-controls {
+      opacity: 1 !important; }
+    .wpas-table-replies .wpas-table-row.wpas-read:last-child {
+      border-bottom: 0; }
+  .wpas-table-replies tr.wpas-ticket-history > td {
+    padding-top: .75em;
+    padding-bottom: .75em;
+    text-align: center;
+    border: 1px solid #dedede;
+    color: #555;
+    background-color: #f5f5f5; }
+    .wpas-table-replies tr.wpas-ticket-history > td .wpas-content p {
+      margin-bottom: 0; }
+
+.ticket-main {
+  padding-top: 0 !important; }
+  .ticket-main .ticket-title {
+    font-size: 21px;
+    margin-top: 10px; }
+  .ticket-main .ticket-content p {
+    font-size: 13px;
+    line-height: 23px;
+    margin: 1em 0; }
+    .ticket-main .ticket-content p:last-child {
+      margin-bottom: 0; }
+
+.wpas-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed; }
+  .wpas-row .wpas-col {
+    display: table-cell; }
+    .wpas-row .wpas-col strong {
+      display: block;
+      margin-bottom: 5px; }
+
+.wpas-label {
+  display: inline-block;
+  padding: 2px 8px;
+  font-weight: 700;
+  color: #fff;
+  vertical-align: baseline;
+  background-color: #999;
+  border-radius: 3px; }
+
+#wpas-statusdate {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px; }
+  #wpas-statusdate .wpas-col {
+    padding: 20px 10px;
+    text-align: center; }
+    #wpas-statusdate .wpas-col:last-child {
+      border-left: 1px solid #eee; }
+  #wpas-statusdate.no-border {
+    border-bottom: 0;
+    margin-bottom: 0; }
+
+.m-portlet-ticket .m-portlet__body {
+  padding: 15px 0; }
+
+#wpas-up .wpas-up-contact-details .wpas-up-contact-img {
+  float: left;
+  margin: 0 1.5em 0 0;
+  border-radius: 80px; }
+#wpas-up .wpas-up-contact-details .wpas-detail-right .wpas-up-contact-name {
+  font-size: 18px;
+  font-weight: 600; }
+#wpas-up .wpas-up-contact-details .wpas-detail-right .wpas-up-contact-role {
+  margin: .5em 0; }
+#wpas-up .wpas-up-stats {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center; }
+  #wpas-up .wpas-up-stats strong {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 0; }
+#wpas-up .wpas-up-tickets ul {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none; }
+  #wpas-up .wpas-up-tickets ul li {
+    margin-bottom: 3px; }
+    #wpas-up .wpas-up-tickets ul li:last-child {
+      margin-bottom: 0; }
+  #wpas-up .wpas-up-tickets ul:last-child {
+    margin-bottom: 0; }
+
+.wpas-cf:after, .wpas-cf:before {
+  content: " ";
+  display: table; }
+
+.wpas-cf:after, .wpas-reply-meta:after {
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

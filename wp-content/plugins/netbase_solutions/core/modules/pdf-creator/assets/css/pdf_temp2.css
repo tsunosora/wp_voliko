@@ -1,0 +1,224 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.preview{
+  margin: 20px auto;
+  width: 720px;
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: ' ';
+}
+
+.clearfix:after {
+  clear: both;
+}
+.col-left{
+  float: left;
+  width: 60%;
+}
+.col-right{
+  float: right;
+  width: 40%;
+}
+.right-brands{
+    border-left: 3px solid #d7d7d7;
+    padding-left: 15px;
+}
+.right-brands p{
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+  line-height: 22px;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.col-left h2, .col-left h3{
+  margin: 0;
+  padding: 0;
+}
+.left-bill-to{
+    margin-left: 30px;
+    margin-top: 10px;
+        margin-right: 10px;
+}
+.left-bill-to p{
+    margin: 0;
+    line-height: 21px;
+
+}
+.invoice, .date{
+  margin: 0;
+  padding: 0;
+}
+.date{
+  margin: 5px 0 0 0;
+}
+.heading-invoice{
+  margin: 20px 0 5px 0;
+}
+.table{
+  width: 100%;
+}
+.table thead{
+    background: #cd3334;
+    color: #fff;
+    text-transform: uppercase;
+}
+.table th{
+  padding: 6px 10px 7px;
+  text-align: center;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+    font-weight: 300;
+}
+
+table{
+  border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.table>tbody>tr>td{
+  padding-left: 10px;
+      padding-bottom: 5px;
+}
+.table .qty{
+  width: 50px;
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg)
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+.blockUI.blockOverlay::before {
+    height: 1em;
+    width: 1em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    content: '';
+    -webkit-animation: spin 1s ease-in-out infinite;
+    -moz-animation: spin 1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
+    background: url(../img/loader.svg) center center;
+    background-size: cover;
+    line-height: 1;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0,0,0,.75);
+}
+.table th.text-left, .table td.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.padding_r10{
+  padding-right: 10px;
+}
+.float-right{
+  text-align: right;
+  float: right;
+  padding-right: 10px;
+}
+.group-table{
+  border: 1px solid #ddd;
+    margin-top: 25px;
+}
+.first-child{
+  border-left: 0 !important;
+}
+.last-child{
+  border-right: 0 !important;
+}
+.total-full{
+  background: #363a45;
+  color: #fff;
+      padding: 5px 0;
+}
+.total-full .total-label, .total-col1{
+  float: left;
+}
+.total-col1{
+  width: 60%;
+}
+.total-price{
+    float: right;
+    padding-right: 10px;
+    text-align: right;
+}
+.total-label{
+  text-align: right;
+      width: 20%;
+      padding-right: 10px;
+}
+.total-label label{
+    display: block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.subtotal-table{
+  width: 100%;
+}
+.subtotal-empty{
+  width: 60%;
+}
+.subtotal-table .label, .subtotal-table .span{
+  width: 20%;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+.cart_subtotal td{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.order_total td{
+  padding-bottom: 15px;
+}
+.note-temp {
+	font-size: 14px;
+    line-height: 22px;
+	color: #666666;
+}
+.btn-print-pdf{
+	float: right;
+	border: 0;
+	color: #fff;
+	background: #25bce9;
+	padding: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	outline: none !important;
+	font-weight: 700;
+	clear: both;
+	margin-bottom: 30px;
+}
