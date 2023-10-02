@@ -15,20 +15,32 @@ class EmailEditor {
   /** @var AssetsCleaner */
   private $assetsCleaner;
 
+  /** @var StylesController */
+  private $stylesController;
+
+  /** @var EmailApiController */
+  private $emailApiController;
+
   /**
    * @param AssetsCleaner $assetsCleaner
    */
   public function __construct(
-    AssetsCleaner $assetsCleaner
+    AssetsCleaner $assetsCleaner,
+    StylesController $stylesController,
+    EmailApiController $emailApiController
   ) {
     $this->assetsCleaner = $assetsCleaner;
+    $this->stylesController = $stylesController;
+    $this->emailApiController = $emailApiController;
   }
 
   public function initialize(): void {
-    $this->registerEmailPostTypes();
     add_filter('allowed_block_types_all', [$this, 'setAllowedBlocksInEmails'], 100, 2);
     add_filter('enqueue_block_editor_assets', [$this, 'cleanupBlockEditorAssets'], ~PHP_INT_MAX);
     add_filter('block_editor_settings_all', [$this, 'updateBlockEditorSettings'], 100, 2);
+    do_action('mailpoet_email_editor_initialized');
+    $this->registerEmailPostTypes();
+    $this->extendEmailPostApi();
   }
 
   /**
@@ -86,6 +98,15 @@ class EmailEditor {
     $this->assetsCleaner->cleanupBlockEditorAssets();
   }
 
+  public function extendEmailPostApi() {
+    $emailPostTypes = array_column($this->getPostTypes(), 'name');
+    register_rest_field($emailPostTypes, 'email_data', [
+      'get_callback' => [$this->emailApiController, 'getEmailData'],
+      'update_callback' => [$this->emailApiController, 'saveEmailData'],
+      'schema' => $this->emailApiController->getEmailDataSchema(),
+    ]);
+  }
+
   public function updateBlockEditorSettings(array $settings, \WP_Block_Editor_Context $blockEditorContext): array {
     $emailPostTypes = array_column($this->getPostTypes(), 'name');
     if (!$blockEditorContext->post || !in_array($blockEditorContext->post->post_type, $emailPostTypes, true)) {
@@ -94,6 +115,10 @@ class EmailEditor {
     $settings['enableCustomUnits'] = ['px', '%']; // Allow only units we can support in email renderer
     $settings['__experimentalAdditionalBlockPatterns'] = [];
     $settings['__experimentalAdditionalBlockPatternCategories'] = [];
-    return array_merge($settings, apply_filters('mailpoet_email_editor_settings_all', []));
+
+    // Reset editor styles f
+    $settings['defaultEditorStyles'] = [[ 'css' => $this->stylesController->getEmailContentStyles() ]];
+
+    return apply_filters('mailpoet_email_editor_settings_all', $settings);
   }
 }

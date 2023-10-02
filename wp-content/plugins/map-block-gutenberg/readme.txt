@@ -3,8 +3,8 @@ Contributors: WebFactory
 Tags: map block, google maps, block, gutenberg block, google maps for gutenberg, maps for gutenberg, map
 Requires at least: 4.9
 Requires PHP: 5.2
-Tested up to: 6.2
-Stable tag: 1.32
+Tested up to: 6.3
+Stable tag: 1.33
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -49,6 +49,9 @@ Yes, yes, it's frustrating. See <a href="https://www.gmapswidget.com/documentati
 
 
 == Changelog ==
+= 1.33 =
+* 2023-10-01
+* added title for map iframe
 
 = 1.32 =
 * 2021-02-08

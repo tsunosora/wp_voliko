@@ -33,7 +33,7 @@ use PixelYourSite\Facebook\Helpers;
         <div  class="row">
             <div class="col">
                 <?php renderDummySwitcher( false ); ?>
-                <h4 class="switcher-label">Track refunds on Goolge Analytics</h4><?php renderProBadge(); ?>
+                <h4 class="switcher-label">Track refunds on Google Analytics</h4><?php renderProBadge(); ?>
             </div>
         </div>
         <p class="small">
@@ -1541,7 +1541,13 @@ e&utm_campaign=pro-feature' ); ?>
                 <hr>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col">
+                <?php PYS()->render_switcher_input( 'enable_woo_fees_param' ); ?>
+                <h4 class="switcher-label">fees</h4>
+                <hr>
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 <?php renderDummySwitcher(); ?>

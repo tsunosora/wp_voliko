@@ -6,7 +6,6 @@ if (!defined('ABSPATH')) exit;
 
 
 use MailPoet\Config\Env;
-use MailPoet\EmailEditor\Engine\EmailEditor as CoreEmailEditor;
 use MailPoet\Entities\NewsletterEntity;
 use MailPoet\Features\FeaturesController;
 use MailPoet\Newsletter\NewslettersRepository;
@@ -14,9 +13,6 @@ use MailPoet\WP\Functions as WPFunctions;
 
 class EmailEditor {
   const MAILPOET_EMAIL_POST_TYPE = 'mailpoet_email';
-
-  /** @var \MailPoet\EmailEditor\Engine\EmailEditor */
-  private $coreEmailEditor;
 
   /** @var WPFunctions */
   private $wp;
@@ -31,13 +27,11 @@ class EmailEditor {
   private $emailApiController;
 
   public function __construct(
-    CoreEmailEditor $coreEmailEditor,
     WPFunctions $wp,
     FeaturesController $featuresController,
     NewslettersRepository $newsletterRepository,
     EmailApiController $emailApiController
   ) {
-    $this->coreEmailEditor = $coreEmailEditor;
     $this->wp = $wp;
     $this->featuresController = $featuresController;
     $this->newsletterRepository = $newsletterRepository;
@@ -50,10 +44,10 @@ class EmailEditor {
     }
     $this->wp->addFilter('mailpoet_email_editor_post_types', [$this, 'addEmailPostType']);
     $this->wp->addFilter('mailpoet_email_editor_allowed_editor_assets_actions', [$this, 'addAllowedAssetsActions']);
+    $this->wp->addFilter('mailpoet_email_editor_settings_all', [$this, 'configureEmailEditorSettings']);
     $this->wp->addFilter('save_post', [$this, 'onEmailSave'], 10, 2);
     $this->wp->addAction('enqueue_block_editor_assets', [$this, 'enqueueAssets']);
     $this->extendEmailPostApi();
-    $this->coreEmailEditor->initialize();
   }
 
   public function addEmailPostType(array $postTypes): array {
@@ -127,5 +121,37 @@ class EmailEditor {
       'update_callback' => [$this->emailApiController, 'saveEmailData'],
       'schema' => $this->emailApiController->getEmailDataSchema(),
     ]);
+  }
+
+  /**
+   * Alter Email Editor settings
+   * We can't support all styles a theme might provide. We need to reset styling options and provide our own.
+   *
+   * @see https://developer.wordpress.org/block-editor/reference-guides/filters/editor-filters/#block_editor_settings_all
+   * @param array<string, mixed> $settings
+   */
+  public function configureEmailEditorSettings(array $settings) {
+    // Reset font sizes and font families
+    if (
+      is_array($settings['__experimentalFeatures']) &&
+      is_array($settings['__experimentalFeatures']['typography']) &&
+      is_array($settings['__experimentalFeatures']['typography']['fontSizes'] ?? null)
+    ) {
+      $settings['__experimentalFeatures']['typography']['fontSizes']['theme'] = null;
+    }
+    if (
+      is_array($settings['__experimentalFeatures']) &&
+      is_array($settings['__experimentalFeatures']['typography']) &&
+      is_array($settings['__experimentalFeatures']['typography']['fontFamilies'] ?? null)
+    ) {
+      $settings['__experimentalFeatures']['typography']['fontFamilies']['theme'] = null;
+    }
+    // Remove theme styles from editor
+    if (is_array($settings['styles'])) {
+      $settings['styles'] = array_values(array_filter($settings['styles'] ?? [], function ($style) {
+        return ($style['__unstableType'] ?? '') !== 'theme';
+      }));
+    }
+    return $settings;
   }
 }

@@ -941,6 +941,8 @@ class GA extends Settings implements Pixel {
 			'non_interaction' => $this->getOption( 'woo_purchase_non_interactive' ),
 		);
 
+        $params['fees'] = get_fees($order);
+
 		return array(
 			'name' => 'purchase',
 			'data' => $params

@@ -132,7 +132,7 @@ class EventsWoo extends EventsFactory {
 
 
             case 'woo_purchase' : {
-                if(PYS()->getOption( 'woo_purchase_enabled' ) && (is_order_received_page() || is_wc_endpoint_url('order-received')) &&
+                if(PYS()->getOption( 'woo_purchase_enabled' ) && is_order_received_page() &&
                     isset( $_REQUEST['key'] )  && $_REQUEST['key'] != ""
                     && empty($_REQUEST['wc-api']) // if is not api request
                 ) {

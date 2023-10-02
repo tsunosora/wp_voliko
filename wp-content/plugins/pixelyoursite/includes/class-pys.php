@@ -93,6 +93,8 @@ final class PYS extends Settings implements Plugin {
          * */
         add_action( 'deactivate_pixel-cost-of-goods/pixel-cost-of-goods.php',array($this,"restoreSettingsAfterCog"));
         add_action( 'woocommerce_checkout_create_order', array( $this,'add_order_external_meta_data'), 10, 2 );
+
+        add_filter("woocommerce_is_order_received_page",array($this,'woo_is_order_received_page'));
         $this->logger = new PYS_Logger();
 
     }
@@ -369,13 +371,18 @@ final class PYS extends Settings implements Plugin {
     }
 
     function get_user_ip(){
-        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        $ip = $_SERVER['REMOTE_ADDR'];
+
+        // Check if HTTP_X_FORWARDED_FOR is set and not empty
+        if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            // Split the list of IPs using a comma and take the first IP
+            $forwarded_ips = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+            $ip = trim($forwarded_ips[0]);
+        } elseif (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+            // Use HTTP_CLIENT_IP if available
             $ip = $_SERVER['HTTP_CLIENT_IP'];
-        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-            $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        } else {
-            $ip = $_SERVER['REMOTE_ADDR'];
         }
+
         return $ip;
     }
 
@@ -400,7 +407,7 @@ final class PYS extends Settings implements Plugin {
                 'oBot', 'C-T bot', 'Updownerbot', 'Snoopy', 'heritrix', 'Yeti',
                 'DomainVader', 'DCPbot', 'PaperLiBot', 'APIs-Google', 'AdsBot-Google-Mobile',
                 'AdsBot-Google-Mobile', 'AdsBot-Google-Mobile-Apps', 'FeedFetcher-Google',
-                'Google-Read-Aloud', 'DuplexWeb-Google', 'Storebot-Google'
+                'Google-Read-Aloud', 'DuplexWeb-Google', 'Storebot-Google', 'lscache_runner'
             );
 
             foreach($options as $row) {
@@ -834,6 +841,31 @@ final class PYS extends Settings implements Plugin {
 
     public function getLog() {
         return $this->logger;
+    }
+
+    function woo_is_order_received_page($flag) {
+        if(!$flag && !function_exists('woocommerce_gateway_stripe') && !function_exists( 'KCO_WC' )) {
+            global $post;
+            if ($post) {
+                if ( did_action( 'elementor/loaded' )) {
+                    $elementor_page_id = get_option('elementor_woocommerce_purchase_summary_page_id');
+                    if ($elementor_page_id == $post->ID) return true;
+                }
+                if(is_wc_endpoint_url( 'order-received')){
+                    return true;
+                }
+            }
+
+            $ids = PYS()->getOption("woo_checkout_page_ids");
+            if(!empty($ids)) {
+
+                if($post && in_array($post->ID,$ids)) {
+                    return true;
+                }
+            }
+        }
+
+        return $flag;
     }
 }
 

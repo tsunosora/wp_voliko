@@ -106,6 +106,7 @@
   "enable_woo_category_name_param": true,
   "enable_woo_num_items_param": true,
   "enable_woo_tags_param":true,
+  "enable_woo_fees_param": true,
 
   "enable_edd_category_name_param": true,
   "enable_edd_num_items_param": true,

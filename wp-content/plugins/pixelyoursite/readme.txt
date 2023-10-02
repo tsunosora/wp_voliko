@@ -4,7 +4,7 @@ Tags: Meta Pixel, Facebook Pixel, Facebook Conversion API, CAPI, Facebook Pixel 
 Requires at least: 3.0.1
 Requires PHP: 5.4
 Tested up to: 6.3
-Stable tag: 9.4.5.1
+Stable tag: 9.4.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -467,6 +467,19 @@ NO, absolutely not! We don't track any type of data about your website. We simpl
 
 
 == Changelog ==
+
+= PixelYourSite 9.4.6 =
+
+* Support for WooCommerce custom fees for the Purchase event value. Now the fees will be included in the value. 
+
+* Fix for a possible issue with external IDs when coaches are used. 
+
+* Improvements related to how we handle excluded IPs. 
+
+* Improvements related to how we handle Elementor custom thank you pages for WooCommerce.
+
+* Declaring compatibility with WooCommerce 8.1.
+
 
 = PixelYourSite 9.4.5.1 =
 

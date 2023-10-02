@@ -275,7 +275,11 @@ class FacebookServer {
             $event->setEventId($event->getEventId());
 
             $api = Api::init(null, null, $this->access_token[$pixel_Id],false);
-
+            $opts = $api->getHttpClient()->getAdapter()->getOpts();
+            if ($opts instanceof \ArrayObject && $opts->offsetExists(CURLOPT_CONNECTTIMEOUT)) {
+                $opts->offsetSet(CURLOPT_CONNECTTIMEOUT, 30);
+                $api->getHttpClient()->getAdapter()->setOpts($opts);
+            }
             /**
              * filter pys_before_send_fb_server_event
              * Help add custom options or get data from event before send

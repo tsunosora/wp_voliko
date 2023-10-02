@@ -36,6 +36,7 @@ return array(
     'WeDevs\\Dokan\\Admin\\SetupWizardNoWC' => $baseDir . '/includes/Admin/SetupWizardNoWC.php',
     'WeDevs\\Dokan\\Admin\\SetupWizardWCAdmin' => $baseDir . '/includes/Admin/SetupWizardWCAdmin.php',
     'WeDevs\\Dokan\\Admin\\UserProfile' => $baseDir . '/includes/Admin/UserProfile.php',
+    'WeDevs\\Dokan\\Admin\\WithdrawLogExporter' => $baseDir . '/includes/Admin/WithdrawLogExporter.php',
     'WeDevs\\Dokan\\Ajax' => $baseDir . '/includes/Ajax.php',
     'WeDevs\\Dokan\\Assets' => $baseDir . '/includes/Assets.php',
     'WeDevs\\Dokan\\BackgroundProcess\\Manager' => $baseDir . '/includes/BackgroundProcess/Manager.php',

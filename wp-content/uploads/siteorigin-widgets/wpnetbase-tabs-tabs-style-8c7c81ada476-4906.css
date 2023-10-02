@@ -1,4 +1,4 @@
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tab {
   position: relative;
   overflow: hidden;
   background: #eee;
@@ -9,7 +9,7 @@
   -webkit-font-smoothing: antialiased;
   padding: 3px;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tabs {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tabs {
   display: table;
   position: relative;
   overflow: hidden;
@@ -17,7 +17,7 @@
   width: 100%;
   padding: 0;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tabs li {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tabs li {
   float: left;
   line-height: 38px;
   overflow: hidden;
@@ -26,7 +26,7 @@
   margin: 0 !important;
   list-style-type: none !important;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tabs a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tabs a {
   color: #888;
   font-weight: 500;
   display: block;
@@ -38,20 +38,20 @@
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .tab_content {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .tab_content {
   background: #ffffff;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .tabs_item {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .tabs_item {
   display: none;
   padding: 15px;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .tabs_item:first-child {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .tabs_item:first-child {
   display: block;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .current a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .current a {
   background: #ffffff;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical {
   position: relative;
   overflow: hidden;
   background: #eee;
@@ -62,7 +62,7 @@
   -webkit-font-smoothing: antialiased;
   padding: 3px;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .soua-tabs {
   display: table-cell;
   vertical-align: top;
   position: relative;
@@ -72,7 +72,7 @@
   padding: 0;
   width: 25%;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs li {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .soua-tabs li {
   float: none;
   line-height: 38px;
   overflow: hidden;
@@ -81,7 +81,7 @@
   margin: 0 !important;
   list-style-type: none !important;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .soua-tabs a {
   color: #888;
   font-weight: 500;
   display: block;
@@ -93,53 +93,53 @@
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tab_content {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .tab_content {
   display: table-cell;
   vertical-align: top;
   width: 75%;
   background: #ffffff;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .tabs_item {
   display: none;
   padding: 15px;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item h4 {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .tabs_item h4 {
   font-weight: bold;
   color: #87D3B7;
   font-size: 20px;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item img {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .tabs_item img {
   width: 200px;
   float: left;
   margin-right: 30px;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tabs_item:first-child {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .tabs_item:first-child {
   display: block;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .current a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .current a {
   background: #ffffff;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tab {
   background-color: #eeeeee;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab .soua-tabs a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tab .soua-tabs a {
   color: #888888;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab .current a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tab .current a {
   color: #888888;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .soua-tab .tab_content .tabs_item {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .soua-tab .tab_content .tabs_item {
   color: #888888;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical {
   background-color: #eeeeee;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .soua-tabs a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .soua-tabs a {
   color: #888888;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .current a {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .current a {
   color: #888888;
 }
-.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-3484 .vertical .tab_content .tabs_item {
+.so-widget-wpnetbase-tabs-tabs-style-8c7c81ada476-4906 .vertical .tab_content .tabs_item {
   color: #888888;
 }

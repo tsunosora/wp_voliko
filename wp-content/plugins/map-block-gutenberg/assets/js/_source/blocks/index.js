@@ -29,7 +29,7 @@ function getSettings( attributes ) {
 }
 
 function buildMapIframe( attributes ) {
-    return <div class="wp-block-webfactory-map"><iframe width='100%' height={parseInt(attributes.height, 10) + 'px'} src={'https://www.google.com/maps/embed/v1/place?q=' + encodeURIComponent(attributes.address) + '&maptype=roadmap&zoom=' + parseInt(attributes.zoom, 10) + '&key=' + attributes.api_key} frameBorder='0'></iframe></div>
+    return <div class="wp-block-webfactory-map"><iframe title="Map" width='100%' height={parseInt(attributes.height, 10) + 'px'} src={'https://www.google.com/maps/embed/v1/place?q=' + encodeURIComponent(attributes.address) + '&maptype=roadmap&zoom=' + parseInt(attributes.zoom, 10) + '&key=' + attributes.api_key} frameBorder='0'></iframe></div>
 } // buildMapIframe
 
 /**

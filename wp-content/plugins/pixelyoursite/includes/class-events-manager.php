@@ -340,6 +340,9 @@ class EventsManager {
                 unset($data['params']['tags']);
             }
 
+            if(!PYS()->getOption("enable_woo_fees_param")) {
+                unset($data['params']['fees']);
+            }
         }
 
         if($slug == EventsEdd::getSlug()) {

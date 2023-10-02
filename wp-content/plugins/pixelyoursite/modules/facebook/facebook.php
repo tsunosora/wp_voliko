@@ -87,7 +87,8 @@ class Facebook extends Settings implements Pixel {
 		return array(
 			'pixelIds'            => $this->getPixelIDs(),
 			'advancedMatching'    => $this->getOption( 'advanced_matching_enabled' ) ? Helpers\getAdvancedMatchingParams() : array(),
-			'removeMetadata'      => $this->getOption( 'remove_metadata' ),
+            'advancedMatchingEnabled'   => $this->getOption( 'advanced_matching_enabled' ),
+            'removeMetadata'      => $this->getOption( 'remove_metadata' ),
 			'contentParams'       => getTheContentParams(),
 			'commentEventEnabled' => $this->getOption( 'comment_event_enabled' ),
 			'wooVariableAsSimple' => $this->getOption( 'woo_variable_as_simple' ),
@@ -888,6 +889,10 @@ class Facebook extends Settings implements Pixel {
         $params['value'] = getWooEventValueOrder( $value_option, $order, $global_value );
         $params['currency'] = get_woocommerce_currency();
         $params['order_id'] = $order_id;
+
+        $params['fees'] = get_fees($order);
+
+
 
 		return array(
 			'name' => 'Purchase',

@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, lottie, featur
 Requires at least: 4.2
 Tested up to: 6.3
 Requires PHP: 5.6.20
-Stable tag: 1.55.0
-Build time: 2023-09-16T21:27:17-07:00
+Stable tag: 1.55.1
+Build time: 2023-09-23T11:02:56-07:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -105,6 +105,11 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.55.1 - 23 September 2023 =
+* Resolved right positioned icon overflow and slight vertical misalignment in the Button widget.
+* Prevented icon right aligned overlap in the Button widget.
+* Restored icon vertical alignment in the Button widget.
 
 = 1.55.0 - 16 September 2023 =
 * Blog: Updated the Portfolio template to improve term display for selected post type.

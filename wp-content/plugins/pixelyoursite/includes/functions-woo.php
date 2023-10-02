@@ -197,6 +197,19 @@ function getWooEventValueOrder( $valueOption, $order, $global, $percent = 100 ) 
 
 }
 
+function get_fees($order){
+    $fees = $order->get_fees();
+    $fee_amount = 0;
+
+    foreach ($fees as $fee) {
+        $fee_amount += $fee->get_total();
+    }
+    if($fee_amount > 0){
+        return $fee_amount;
+    }
+
+    return 0;
+}
 function getWooEventValueCart( $valueOption, $global, $percent = 100 ) {
 
     if($valueOption == 'cog' && isPixelCogActive()) {

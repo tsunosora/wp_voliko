@@ -6,6 +6,7 @@ if (!defined('ABSPATH')) exit;
 
 
 use MailPoet\AutomaticEmails\WooCommerce\Events\AbandonedCart;
+use MailPoet\Automation\Engine\Control\StepRunController;
 use MailPoet\Automation\Engine\Data\Automation;
 use MailPoet\Automation\Engine\Data\NextStep;
 use MailPoet\Automation\Engine\Data\Step;
@@ -134,7 +135,7 @@ class SendEmailAction implements Action {
     }
   }
 
-  public function run(StepRunArgs $args): void {
+  public function run(StepRunArgs $args, StepRunController $controller): void {
     $newsletter = $this->getEmailForStep($args->getStep());
     $segmentId = $args->getSinglePayloadByClass(SegmentPayload::class)->getId();
     $subscriberId = $args->getSinglePayloadByClass(SubscriberPayload::class)->getId();
