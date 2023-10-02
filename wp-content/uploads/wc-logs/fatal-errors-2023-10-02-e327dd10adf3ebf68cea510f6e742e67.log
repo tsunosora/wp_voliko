@@ -1,0 +1,14 @@
+2023-10-02T08:49:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Freemius" not found in C:\xampp\htdocs\wp_voliko\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\wp_voliko\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wp_voliko\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wp_voliko\wp-admin\includes\plugin.php(1269): do_action('uninstall_git-u...')
+#3 C:\xampp\htdocs\wp_voliko\wp-admin\includes\plugin.php(960): uninstall_plugin('git-updater/git...')
+#4 C:\xampp\htdocs\wp_voliko\wp-admin\includes\ajax-actions.php(4732): delete_plugins(Array)
+#5 C:\xampp\htdocs\wp_voliko\wp-includes\class-wp-hook.php(310): wp_ajax_delete_plugin('')
+#6 C:\xampp\htdocs\wp_voliko\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wp_voliko\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wp_voliko\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown di C:\xampp\htdocs\wp_voliko\wp-includes\class-wp-hook.php pada baris 310
+
