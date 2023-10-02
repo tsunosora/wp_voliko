@@ -106,7 +106,7 @@ $printshop_option = printshop_get_redux_options();
 					</div>
 					<div class="header-right-cart-search col-xs-5 col-sm-2 col-md-1 padding-right-0">
 						<span id="netbase-responsive-toggle"><i class="fa fa-bars"></i></span>
-						<
+						
 						<div class="header-search">
 							<?php echo do_shortcode( '[nbt_search]' ); ?>
 						</div>
