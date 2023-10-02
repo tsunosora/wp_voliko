@@ -96,21 +96,7 @@ $printshop_option = printshop_get_redux_options();
 					</div>
 					<div class="header-right-cart-search col-xs-5 col-sm-2 col-md-1 padding-right-0">
 						<span id="netbase-responsive-toggle"><i class="fa fa-bars"></i></span>
-						<div class="header-cart-search">
-						<?php if ( is_active_sidebar( 'cart-header' ) ){
-							
-							dynamic_sidebar('cart-header');
-							}
-							else{							
-							?>
-								<?php if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { ?>
-								<?php $count = WC()->cart->cart_contents_count;?>
-								<a class="cart-contents" href="<?php echo esc_url(wc_get_cart_url()); ?>" title="<?php esc_html_e( 'View your shopping cart', 'printshop' ); ?>"><span><?php if ( $count > 0 ) echo intval($count) ; ?></span></a>
-								<?php } ?>
-								<div class="widget_shopping_cart_content"></div>
-
-							<?php } ?>
-						</div>
+						
 						<div class="header-search">
 							<?php echo do_shortcode( '[nbt_search]' ); ?>
 						</div>
